@@ -26,6 +26,7 @@ None of the 491 strict sites is reported as a steric-clash outlier in its wwPDB 
 ```
 unrecorded-covalent/
   strict-cut-491/            the 491-site table (28 columns: geometry, density, clash, UniProt) + README
+  sars-cov-2/                73 SARS-CoV-2 sites / 46 entries; Mpro Cys145 66 of 66 density-supported
   lp-pdbbind-crosscheck/     20 LP-PDBBind entries that are covalent and labelled covalent=False; the mechanism
   benchmark-overlap/         PoseBusters (0 of 308), Runs N' Poses (7 entries / 23 sites)
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
@@ -40,14 +41,14 @@ Every table carries its source URL, snapshot or commit, and SHA-256 where a file
 
 | Date | What | Where |
 |---|---|---|
-| Oct 2026 | These audit tables, v1.0.0 (dataset) | [Zenodo 10.5281/zenodo.23441847](https://doi.org/10.5281/zenodo.23441847) |
+| Oct 2026 | These audit tables (dataset; v1.1.0 adds the SARS-CoV-2 table) | [Zenodo 10.5281/zenodo.23441847](https://doi.org/10.5281/zenodo.23441847) |
 | Oct 2026 | Identical ligand on the same protein labelled both covalent and non-covalent, 11 entries | [THGLab/LP-PDBBind #8](https://github.com/THGLab/LP-PDBBind/issues/8) |
 | Oct 2026 | Mutation status defaults to wildtype when the mutated residue isn't modeled (38 chains, mostly KRAS Q61H) | [mitch-parker/rascore #2](https://github.com/mitch-parker/rascore/issues/2) |
 | Oct 2026 | *Silent Mutation Misclassification and Unrecorded Covalent Bonds in the Protein Data Bank* (preprint) | [Zenodo 10.5281/zenodo.23380304](https://doi.org/10.5281/zenodo.23380304) |
 
 ## Cite
 
-Dataset: [10.5281/zenodo.23441847](https://doi.org/10.5281/zenodo.23441847) (all versions; resolves to the latest). v1.0.0: [10.5281/zenodo.23441848](https://doi.org/10.5281/zenodo.23441848). Machine-readable citation in `CITATION.cff`.
+Dataset: [10.5281/zenodo.23441847](https://doi.org/10.5281/zenodo.23441847) (all versions; resolves to the latest). Each release also has its own version DOI, listed on the Zenodo record; v1.0.0 is [10.5281/zenodo.23441848](https://doi.org/10.5281/zenodo.23441848). Machine-readable citation in `CITATION.cff`.
 
 ## License
 
