@@ -1,5 +1,7 @@
 # PDB data audits
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441847.svg)](https://doi.org/10.5281/zenodo.23441847)
+
 Audits of public protein-structure data for errors that carry into the models trained on it: protein–ligand covalent bonds present in the coordinates but absent from the connectivity records, benchmark labels that contradict the deposited structure, and mutations recorded as wildtype because the mutated residue was not modeled. Where the error is in a maintained dataset, it is reported to the maintainers with a reproducer.
 
 Michael Varman · independent · Wasilla, Alaska · [ORCID 0009-0001-9453-0226](https://orcid.org/0009-0001-9453-0226) · [Morphogenesis Analytics](https://biio.replit.app)
@@ -38,13 +40,14 @@ Every table carries its source URL, snapshot or commit, and SHA-256 where a file
 
 | Date | What | Where |
 |---|---|---|
+| Oct 2026 | These audit tables, v1.0.0 (dataset) | [Zenodo 10.5281/zenodo.23441847](https://doi.org/10.5281/zenodo.23441847) |
 | Oct 2026 | Identical ligand on the same protein labelled both covalent and non-covalent, 11 entries | [THGLab/LP-PDBBind #8](https://github.com/THGLab/LP-PDBBind/issues/8) |
 | Oct 2026 | Mutation status defaults to wildtype when the mutated residue isn't modeled (38 chains, mostly KRAS Q61H) | [mitch-parker/rascore #2](https://github.com/mitch-parker/rascore/issues/2) |
 | Oct 2026 | *Silent Mutation Misclassification and Unrecorded Covalent Bonds in the Protein Data Bank* (preprint) | [Zenodo 10.5281/zenodo.23380304](https://doi.org/10.5281/zenodo.23380304) |
 
 ## Cite
 
-See `CITATION.cff`. A dataset DOI is minted on each tagged release through the Zenodo–GitHub integration and listed here once available.
+Dataset: [10.5281/zenodo.23441847](https://doi.org/10.5281/zenodo.23441847) (all versions; resolves to the latest). v1.0.0: [10.5281/zenodo.23441848](https://doi.org/10.5281/zenodo.23441848). Machine-readable citation in `CITATION.cff`.
 
 ## License
 

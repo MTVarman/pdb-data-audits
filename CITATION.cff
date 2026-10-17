@@ -1,6 +1,9 @@
 cff-version: 1.2.0
 message: "If you use these tables, cite the dataset DOI for the release you used, and the preprint."
 type: dataset
+doi: 10.5281/zenodo.23441847
+version: 1.0.0
+date-released: 2026-10-17
 title: "PDB data audits: unrecorded covalent bonds, benchmark label conflicts, and silent mutation misclassification"
 authors:
   - family-names: Varman
