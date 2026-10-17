@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these tables, cite the dataset DOI for the release you used, and the preprint."
+type: dataset
+title: "PDB data audits: unrecorded covalent bonds, benchmark label conflicts, and silent mutation misclassification"
+authors:
+  - family-names: Varman
+    given-names: Michael Theodore
+    orcid: "https://orcid.org/0009-0001-9453-0226"
+    affiliation: "Independent; Morphogenesis Analytics"
+repository-code: "https://github.com/MTVarman/pdb-data-audits"
+license: CC-BY-4.0
+keywords:
+  - Protein Data Bank
+  - covalent inhibitors
+  - struct_conn
+  - data curation
+  - LP-PDBBind
+  - PoseBusters
+  - KRAS
+  - Rascore
+  - wwPDB validation
+references:
+  - type: article
+    title: "Silent Mutation Misclassification and Unrecorded Covalent Bonds in the Protein Data Bank"
+    authors:
+      - family-names: Varman
+        given-names: Michael Theodore
+    doi: 10.5281/zenodo.23380304
+    year: 2026

@@ -1,0 +1,44 @@
+{
+  "title": "PDB data audits: unrecorded covalent bonds, benchmark label conflicts, and silent mutation misclassification",
+  "upload_type": "dataset",
+  "description": "<p>Audit tables for the Protein Data Bank and datasets derived from it. Includes: the 491-site / 289-entry strict cut of protein–ligand contacts at covalent bond length with no <code>_struct_conn</code> record (X-ray, ≤2.5 Å, class 2), with wwPDB real-space fit and clash values per site; a cross-reference against LP-PDBBind identifying 20 covalent complexes labelled <code>covalent=False</code> and the curation mechanism behind it; overlap with the PoseBusters and Runs N' Poses benchmarks; the LP-PDBBind identical-ligand label conflicts filed as THGLab/LP-PDBBind#8; and the KRAS Rascore within-class comparison after correcting silent wildtype mislabels (mitch-parker/rascore#2).</p><p>Scan: RCSB PDB snapshot 20261013T233952Z, 199,603 entries. Validation values: wwPDB validation report XML as served by PDBe, retrieved 2026-10-17. Every downloaded source carries a URL and SHA-256 in the accompanying README.</p>",
+  "creators": [
+    {
+      "name": "Varman, Michael Theodore",
+      "orcid": "0009-0001-9453-0226",
+      "affiliation": "Independent; Morphogenesis Analytics"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Protein Data Bank",
+    "covalent inhibitors",
+    "struct_conn",
+    "data curation",
+    "LP-PDBBind",
+    "PoseBusters",
+    "KRAS",
+    "Rascore",
+    "wwPDB validation",
+    "structural bioinformatics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23380304",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/THGLab/LP-PDBBind/issues/8",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/mitch-parker/rascore/issues/2",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ]
+}

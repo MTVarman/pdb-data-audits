@@ -1,0 +1,28 @@
+{
+  "benchmark_source": "https://raw.githubusercontent.com/degrado-lab/posebusters-benchmark/main/posebuster_benchmark.txt",
+  "benchmark_sha256": "19d8b77b9f0ab9edf1703c6544bb88ca22c216a0c31c8b2cd015e574f6e26f16",
+  "benchmark_pairs": 308,
+  "benchmark_entries": 308,
+  "scan_sites_table": "analysis/unrecorded_covalent/triage/triage_sites.csv (headline sites of verified_sites.csv)",
+  "headline_sites": 16827,
+  "verified_sites_rows": 78665,
+  "exact_pair_hits": 0,
+  "exact_pair_hits_by_class": {"known cofactor or PTM": 0, "bond-length consistent adduct": 0, "likely artefact": 0},
+  "exact_pair_entries": [],
+  "exact_pair_hit_list": [],
+  "same_entry_different_ligand_hits": 2,
+  "same_entry_different_ligand_by_class": {"known cofactor or PTM": 0, "bond-length consistent adduct": 0, "likely artefact": 2},
+  "same_entry_different_ligand_entries": ["6M73", "7C0U"],
+  "same_entry_different_ligand_hit_list": [
+    {"entry": "6M73", "chain": "A", "residue_name": "TYR", "residue_number": "211", "protein_atom": "OH",
+     "ligand_chain": "A", "ligand_comp": "LAC", "ligand_number": "402", "ligand_atom": "CA",
+     "distance_A": "1.389", "method": "X-ray", "resolution_A": "1.7", "release_year": "2021",
+     "triage_class": "3", "triage_rule": "3B: crystallisation additive/buffer LAC",
+     "triage_class_name": "likely artefact", "benchmark_ligands_for_entry": ["FNR"]},
+    {"entry": "7C0U", "chain": "B", "residue_name": "ASP", "residue_number": "336", "protein_atom": "OD1",
+     "ligand_chain": "B", "ligand_comp": "EDO", "ligand_number": "502", "ligand_atom": "O1",
+     "distance_A": "1.857", "method": "X-ray", "resolution_A": "1.8", "release_year": "2021",
+     "triage_class": "3", "triage_rule": "3B: crystallisation additive/buffer EDO",
+     "triage_class_name": "likely artefact", "benchmark_ligands_for_entry": ["FGO"]}
+  ]
+}

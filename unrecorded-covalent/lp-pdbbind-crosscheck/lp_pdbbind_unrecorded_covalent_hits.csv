@@ -1,0 +1,39 @@
+pdb_id,chain,residue,residue_number,protein_atom,ligand_ccd,ligand_atom,distance_A,resolution_A,release_year,lp_split,lp_header,bond_type,lp_covalent_label,reagent_not_drug
+3AAV,B,SER,177,OG,A2C,CAW,1.55,1.7,2010,test,hydrolase,C-O,False,no
+3BMO,A,CYS,168,SG,DTT,S1,1.953,1.6,2008,test,oxidoreductase,S-S,False,yes
+3BMO,C,CYS,168,SG,DTT,S1,1.967,1.6,2008,test,oxidoreductase,S-S,False,yes
+3BMO,D,CYS,168,SG,DTT,S1,1.974,1.6,2008,test,oxidoreductase,S-S,False,yes
+3JQF,D,CYS,168,SG,DTT,S1,1.987,1.6,2009,test,oxidoreductase,S-S,False,yes
+3KIG,A,CYS,64,SG,DA9,S9,1.998,1.39,2010,test,lyase,S-S,False,no
+3O0U,A,CYS,25,SG,O47,C25,1.95,1.8,2011,test,hydrolase/inhibitor,C-S,False,no
+5Z1D,A,CYS,218,SG,95U,C20,1.878,2.28,2019,test,transferase,C-S,False,no
+1NXY,A,SER,70,OG,SM2,B,1.525,1.6,2003,train,hydrolase,B-O,False,no
+1NYM,A,SER,70,OG,CXB,B,1.52,1.2,2003,train,hydrolase,B-O,False,no
+2A4R,A,SER,139,OG,BNH,C33,1.434,2.4,2006,train,viral protein,C-O,False,no
+2VJ1,B,CYS,145,SG,XP1,CAC,1.836,2.25,2008,train,hydrolase,C-S,False,no
+3FV7,A,SER,81,OG,MXS,C9,1.435,2.0,2010,train,hydrolase,C-O,False,no
+3FYZ,A,SER,81,OG,MXC,C10,1.405,2.1,2010,train,hydrolase,C-O,False,no
+3FZC,A,SER,81,OG,MXF,C10,1.432,2.0,2010,train,hydrolase,C-O,False,no
+4KB7,A,MET,414,SD,690,C21,1.728,1.85,2013,train,replication/inhibitor,C-S,False,no
+4QLQ,H,THR,1,OG1,38N,C31,1.413,2.4,2014,train,hydrolase/inhibitor,C-O,False,no
+4QLQ,K,THR,1,OG1,38N,C31,1.413,2.4,2014,train,hydrolase/inhibitor,C-O,False,no
+4QLQ,V,THR,1,OG1,38N,C31,1.414,2.4,2014,train,hydrolase/inhibitor,C-O,False,no
+4QLQ,Y,THR,1,OG1,38N,C31,1.414,2.4,2014,train,hydrolase/inhibitor,C-O,False,no
+4QLQ,Y,THR,1,N,38N,C37,1.538,2.4,2014,train,hydrolase/inhibitor,C-N,False,no
+4QLQ,K,THR,1,N,38N,C37,1.539,2.4,2014,train,hydrolase/inhibitor,C-N,False,no
+4QLQ,H,THR,1,N,38N,C37,1.547,2.4,2014,train,hydrolase/inhibitor,C-N,False,no
+4QLQ,V,THR,1,N,38N,C37,1.547,2.4,2014,train,hydrolase/inhibitor,C-N,False,no
+4R1E,B,GLY,802,N,3EC,CAL,1.316,1.98,2014,train,protein binding/inhibitor,C-N,False,no
+4U6W,A,MET,309,SD,Q08,C6,1.749,1.83,2015,train,hydrolase,C-S,False,no
+4YV2,B,CYS,239,SG,4K3,S4,1.991,2.17,2015,train,transferase,S-S,False,no
+5YJO,A,CYS,186,SG,8W0,CAJ,1.766,2.135,2018,train,transferase/inhibitor,C-S,False,no
+5YKP,A,HIS,212,NE2,OVA,C11,1.529,1.68,2018,train,metal binding protein,C-N,False,no
+5YR4,A,HIS,212,NE2,TN4,C11,1.544,1.82,2018,train,hydrolase,C-N,False,no
+5YR5,A,HIS,212,NE2,OVA,C11,1.535,1.6,2018,train,hydrolase,C-N,False,no
+5YR6,A,HIS,212,NE2,TN4,C11,1.523,1.75,2018,train,hydrolase,C-N,False,no
+6IJL,A,CYS,186,SG,A8U,CAR,1.758,2.351,2019,train,transferase/inhibitor,C-S,False,no
+6NZG,A,GLU,526,OE2,L9D,C08,1.425,2.43,2019,train,hydrolase/inhibitor,C-O,False,no
+6NZG,B,GLU,526,OE2,L9D,C08,1.436,2.43,2019,train,hydrolase/inhibitor,C-O,False,no
+2R9M,B,CYS,25,SG,Y11,C27,1.878,1.97,2007,val,hydrolase,C-S,False,no
+2R9M,A,CYS,25,SG,Y11,C27,1.892,1.97,2007,val,hydrolase,C-S,False,no
+3N3G,B,CYS,25,SG,935,C18,1.721,1.6,2010,val,hydrolase,C-S,False,no

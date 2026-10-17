@@ -1,0 +1,38 @@
+entry,covalent_label,split,CL1,CL2,CL3,resolution,date,header,twin_entry,twin_label,twin_split,seq_similarity,substitutions,indel_residues,shared_smiles,tier
+3w07,False,train,True,True,True,1.03,2013-02-20,lyase,2zz6,True,train,1.0,0,0,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,no_substitution
+3fyz,False,train,False,False,False,2.1,2010-02-09,hydrolase,3mbz,True,train,1.0,0,0,C[C@](COC(N)=O)([C@@H](Nc1c(CO)cc2cc(C(N)=O)ccn12)C(=O)[O-])[S@@H+](=O)[O-],no_substitution
+4ob1,False,train,True,True,False,1.63,2014-11-26,hydrolase,4ob2,True,train,1.0,0,0,CCCCB([OH2+])[OH2+],no_substitution
+3ixg,False,train,True,True,False,2.14,2010-02-16,hydrolase,1c3b,True,train,0.9972,1,0,OB(O)c1cc2ccccc2s1,few_substitutions
+2qcf,False,train,True,False,False,1.22,2007-11-06,lyase,3g3m,True,train,0.9922,2,0,O=c1[nH]c(=O)n(C2OC(COP(=O)(O)O)C(O)C2O)cc1F,few_substitutions
+6gcx,False,train,False,False,False,1.55,2019-05-01,cell adhesion,6gcr,True,train,0.9922,0,4,CCC(=O)NCCNc1c(NCc2ccc(Nc3ncc(Cl)c(Nc4ccccc4C(=O)NC)n3)cc2)c(=O)c1=O,no_substitution
+6mzq,False,test,True,False,False,2.0,2019-01-16,transferase/transferase inhibitor,6mzw,True,test,0.9911,0,5,C=CC(=O)N1CC[C@H](n2nc(C#Cc3cc(OC)cc(OC)c3)c3c(N)ncnc32)C1,no_substitution
+2za3,False,train,True,True,False,2.65,2007-12-04,lyase,3bar,True,train,0.989,0,14,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,no_substitution
+3sv9,False,train,True,False,False,1.6,2012-09-05,"viral protein, hydrolase/inhibitor",3sv6,True,train,0.9875,1,3,CCC[C@H](NC(=O)[C@@H]1[C@H]2CCC[C@H]2CN1C(=O)[C@@H](NC(=O)[C@@H](NC(=O)c1cnccn1)C1CCCCC1)C(C)(C)C)[C@@H](O)C(=O)NC1CC1,few_substitutions
+1loq,False,train,True,True,True,1.5,2002-08-07,lyase,2zz6,True,train,0.9811,1,6,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,few_substitutions
+3qzq,False,train,True,False,False,1.7,2011-08-10,hydrolase/hydrolase inhibitor,4ght,True,train,0.9692,3,5,CCOC(=O)CC[C@H](C[C@@H]1CCNC1=O)NC(=O)[C@@H](CC(=O)[C@@H](NC(=O)c1cc(C)on1)C(C)C)Cc1ccc(F)cc1,few_substitutions
+3mg0,False,train,True,True,False,2.68,2011-05-18,hydrolase,4qvm,True,train,0.7493,0,435,CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)c1cnccn1)B(O)O,same_ligand_other_protein
+2qcd,False,train,True,False,False,2.03,2007-11-06,lyase,2qcn,True,train,0.6649,0,259,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,same_ligand_other_protein
+3g1d,False,train,True,True,True,1.5,2009-06-23,lyase,2zz6,True,train,0.6605,0,221,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,same_ligand_other_protein
+6gxg,False,train,True,True,True,1.6,2019-01-16,oxidoreductase,6gxy,True,train,0.656,0,150,Cc1nc2scc(-c3ccc(F)cc3)c2c(=O)[nH]1,same_ligand_other_protein
+3bcn,False,val,False,False,False,2.85,2007-11-27,hydrolase,3c9e,True,test,0.5012,83,71,CC(C)C[C@H](NC(=O)[C@@H](O)CC(=O)[O-])C(=O)NCCCCNC(N)=[NH2+],same_ligand_other_protein
+2pre,False,test,False,False,False,2.7,2008-01-22,hydrolase,3c9e,True,test,0.4823,110,64,CC(C)C[C@H](NC(=O)[C@@H](O)CC(=O)[O-])C(=O)NCCCCNC(N)=[NH2+],same_ligand_other_protein
+3ibc,False,train,False,False,False,2.75,2009-09-01,"hydrolase, apoptosis",3gjs,True,train,0.3858,79,316,CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@H](C(=O)N[C@@H](C)C(=O)N[C@H](CO)CC(=O)[O-])C(C)C,same_ligand_other_protein
+1nxy,False,train,True,True,False,1.6,2003-08-26,hydrolase,1ym1,True,train,0.3764,81,197,O=C(Cc1cccs1)N[C@H](B(O)O)c1cccc(C(=O)[O-])c1,same_ligand_other_protein
+3mke,False,train,False,False,False,1.75,2010-11-24,hydrolase/hydrolase inhibitor,1yly,True,train,0.3333,67,260,CC(C)(O/N=C(\C(=O)NCB(O)O)c1csc(N)n1)C(=O)[O-],same_ligand_other_protein
+3g1v,False,train,True,True,True,1.3,2009-06-23,lyase,3g3m,True,train,0.2644,91,222,O=c1[nH]c(=O)n(C2OC(COP(=O)(O)O)C(O)C2O)cc1F,same_ligand_other_protein
+2reg,False,train,True,True,True,1.9,2008-09-16,transport protein,6nd3,True,train,0.1751,153,710,C[N+](C)(C)CCO,same_ligand_other_protein
+1oba,False,train,True,True,True,2.45,2003-10-17,hydrolase,6nd3,True,train,0.1695,91,818,C[N+](C)(C)CCO,same_ligand_other_protein
+3ppq,False,train,True,True,True,1.91,2011-05-11,transport protein,6nd3,True,train,0.1595,116,751,C[N+](C)(C)CCO,same_ligand_other_protein
+3r6u,False,train,True,True,True,1.61,2011-06-15,transport protein,6nd3,True,train,0.1575,137,727,C[N+](C)(C)CCO,same_ligand_other_protein
+5km3,False,train,True,True,False,1.2,2017-06-28,hydrolase,2qcn,True,train,0.1526,61,334,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,same_ligand_other_protein
+1xz8,False,train,True,True,False,2.8,2005-03-01,"transcription, transferase",2zz6,True,train,0.1447,126,319,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,same_ligand_other_protein
+3dxg,False,train,True,True,True,1.39,2009-06-16,hydrolase,3bar,True,train,0.1377,121,522,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,same_ligand_other_protein
+6b22,False,train,False,False,False,1.93,2018-08-01,hydrolase/hydrolase inhibitor,6b1h,True,train,0.1211,47,393,N#C[C@@H]1CC[C@@H]([NH2+]OS(=O)(=O)[O-])CN1C=O,same_ligand_other_protein
+3gjt,False,train,False,False,False,2.2,2009-03-24,apoptosis,1iau,True,train,0.1133,13,390,CC[C@H](C)[C@H](NC(C)=O)C(=O)N[C@@H](CCC(=O)[O-])C(=O)N1CCC[C@H]1C(=O)N[C@H](CO)CC(=O)[O-],same_ligand_other_protein
+5zbz,False,val,True,True,False,1.31,2019-02-20,hydrolase,3lle,True,,0.0909,40,233,CN1Cc2c(ccc3c2OCO3)-c2ccc3cc4c(cc3c21)OCO4,same_ligand_other_protein
+3as0,False,val,True,True,False,2.0,2011-04-20,hydrolase/hydrolase inhibitor,3lle,True,,0.0818,44,546,CN1Cc2c(ccc3c2OCO3)-c2ccc3cc4c(cc3c21)OCO4,same_ligand_other_protein
+2j4k,False,train,True,True,False,2.2,2007-02-27,transferase,3bar,True,train,0.0817,95,1648,O=c1ccn(C2OC(COP(=O)(O)O)C(O)C2O)c(=O)[nH]1,same_ligand_other_protein
+3arv,False,val,True,True,True,1.5,2011-04-20,hydrolase/hydrolase inhibitor,3lle,True,,0.0812,44,551,CN1Cc2c(ccc3c2OCO3)-c2ccc3cc4c(cc3c21)OCO4,same_ligand_other_protein
+2clk,False,train,True,True,True,1.5,2007-06-12,lyase,1uod,True,train,0.0799,223,1275,O=CC(O)COP(=O)(O)O,same_ligand_other_protein
+2ha3,False,train,True,True,True,2.25,2006-07-18,hydrolase,6nd3,True,train,0.0739,129,1572,C[N+](C)(C)CCO,same_ligand_other_protein
+2prj,False,test,True,True,False,2.3,1998-12-16,transferase,5d9p,True,,0.0578,62,1036,CC(=O)N[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,same_ligand_other_protein
