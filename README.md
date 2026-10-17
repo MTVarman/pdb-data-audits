@@ -4,7 +4,7 @@
 
 Audits of public protein-structure data for errors that carry into the models trained on it: protein–ligand covalent bonds present in the coordinates but absent from the connectivity records, benchmark labels that contradict the deposited structure, and mutations recorded as wildtype because the mutated residue was not modeled. Where the error is in a maintained dataset, it is reported to the maintainers with a reproducer.
 
-Michael Varman · independent · Wasilla, Alaska · [ORCID 0009-0001-9453-0226](https://orcid.org/0009-0001-9453-0226) · [Morphogenesis Analytics](https://biio.replit.app)
+Michael Varman · independent · Wasilla, Alaska · [ORCID 0009-0001-9453-0226](https://orcid.org/0009-0001-9453-0226) · [Morphogenesis Analytics](https://morphalytica.com)
 
 ## The three numbers
 
