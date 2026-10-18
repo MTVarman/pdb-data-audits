@@ -1,0 +1,7 @@
+partner_type,kept,removed,total,removed_of_which_flagged_bond,removed_but_present_as_other_conn_type
+glycan-glycan,3,0,3,0,0
+ligand-ligand,3,3,6,0,0
+protein-glycan,6,0,6,0,0
+protein-protein non-standard linkage,47,6,53,0,0
+protein-small-molecule ligand,10,166,176,141,0
+ALL,69,175,244,141,0

@@ -1,0 +1,222 @@
+entry,conn_type_id,ptnr1,ptnr2,ptnr1_auth,ptnr2_auth,pdbx_dist_value,first_seen,last_seen,last_seen_source,last_seen_max_ordinal,absent_from,absent_from_max_ordinal,struct_conn_touching_revisions_in_window,window_has_major_release_x0,match_level_strict,matched_site_id,involves_flagged_v1_loose
+1A65,covale,B:NAG:.:C1,A:ASN:343:ND2,A:NAG:800,A:ASN:343,1.457,snapshot 20200722,snapshot 20200722,snapshot,3,v1-5,6,rev 4 2020-07-29 v1-3 minor; rev 6 2024-12-25 v1-5 minor,no,none,,false
+1A65,covale,C:PYE:.:C1,A:SER:499:OG,A:PYE:900,A:SER:499,1.475,snapshot 20200722,snapshot 20200722,snapshot,3,v1-5,6,rev 4 2020-07-29 v1-3 minor; rev 6 2024-12-25 v1-5 minor,no,exact,1A65|A|SER499|OG|A|PYE900|C1,true
+1JCN,covale,A:CYS:331:SG,C:CPR:.:C6,A:CYS:331,A:CPR:631,2.002,snapshot 20240101,snapshot 20240101,snapshot,4,v1-5,6,rev 5 2024-04-03 v1-4 minor; rev 6 2024-12-25 v1-5 minor,no,sister,1JCN|B|CYS331|SG|B|CPR631|C6,true
+1JCN,covale,B:CYS:331:SG,D:CPR:.:C6,B:CYS:331,B:CPR:631,1.907,snapshot 20240101,snapshot 20240101,snapshot,4,v1-5,6,rev 5 2024-04-03 v1-4 minor; rev 6 2024-12-25 v1-5 minor,no,exact,1JCN|B|CYS331|SG|B|CPR631|C6,true
+1K2I,covale,A:SER:195:OG,C:SN1:.:C2,1:SER:195,1:SN1:400,1.322,snapshot 20230102,snapshot 20230102,snapshot,3,v1-4,5,rev 4 2023-08-16 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,exact,1K2I|1|SER195|OG|1|SN1400|C2,true
+1LPO,covale,A:ASN:329:ND2,B:NAG:.:C1,A:ASN:314,A:NAG:991,1.482,snapshot 20200722,v1-2,versioned,3,v2-1,5,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1LPO,covale,A:ASN:366:ND2,C:NAG:.:C1,A:ASN:351,A:NAG:992,1.463,snapshot 20200722,v1-2,versioned,3,v2-1,5,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1LPO,covale,C:NAG:.:O4,D:NAG:.:C1,A:NAG:992,A:NAG:994,1.406,snapshot 20200722,v1-2,versioned,3,v2-1,5,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1LPP,covale,A:ASN:329:ND2,B:NAG:.:C1,A:ASN:314,A:NAG:991,1.449,snapshot 20200722,v1-2,versioned,3,v2-1,5,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1LPP,covale,A:ASN:366:ND2,C:NAG:.:C1,A:ASN:351,A:NAG:992,1.458,snapshot 20200722,v1-2,versioned,3,v2-1,5,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1LPP,covale,C:NAG:.:O4,D:NAG:.:C1,A:NAG:992,A:NAG:994,1.404,snapshot 20200722,v1-2,versioned,3,v2-1,5,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1M6D,covale,A:CYS:25:SG,C:MYP:.:CT,A:CYS:25,A:MYP:1280,1.824,snapshot 20210105,snapshot 20210105,snapshot,5,v1-6,7,rev 6 2021-10-27 v1-5 minor; rev 7 2024-12-25 v1-6 minor,no,exact,1M6D|A|CYS25|SG|A|MYP1280|CT,true
+1M6D,covale,B:CYS:25:SG,D:MYP:.:CT,B:CYS:25,B:MYP:2280,1.808,snapshot 20210105,snapshot 20210105,snapshot,5,v1-6,7,rev 6 2021-10-27 v1-5 minor; rev 7 2024-12-25 v1-6 minor,no,exact,1M6D|B|CYS25|SG|B|MYP2280|CT,true
+1NU7,covale,B:HIS:43:NE2,G:0ZJ:.:CM,B:HIS:57,B:0ZJ:299,1.441,snapshot 20240101,snapshot 20240101,snapshot,4,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,1NU7|B|HIS57|NE2|B|0ZJ299|CM,true
+1NU7,covale,E:HIS:43:NE2,M:0ZJ:.:CM,F:HIS:57,F:0ZJ:299,1.453,snapshot 20240101,snapshot 20240101,snapshot,4,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,1NU7|F|HIS57|NE2|F|0ZJ299|CM,true
+1NU9,covale,A:HIS:75:NE2,E:0ZJ:.:CM,A:HIS:57,A:0ZJ:299,1.454,snapshot 20240101,snapshot 20240101,snapshot,4,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,1NU9|A|HIS57|NE2|A|0ZJ299|CM,true
+1NU9,covale,C:HIS:75:NE2,K:0ZJ:.:CM,D:HIS:57,D:0ZJ:299,1.461,snapshot 20240101,snapshot 20240101,snapshot,4,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,1NU9|D|HIS57|NE2|D|0ZJ299|CM,true
+1OHL,covale,A:LYS:263:NZ,D:PBG:.:C3A,A:LYS:263,A:PBG:1263,1.434,snapshot 20190101,snapshot 20190101,snapshot,3,v1-5,6,rev 4 2019-05-22 v1-3 minor; rev 5 2023-12-13 v1-4 minor; rev 6 2025-10-01 v1-5 minor,no,exact,1OHL|A|LYS263|NZ|A|PBG1263|C3A,true
+1P0P,covale,A:ASN:57:ND2,I:NAG:.:C1,A:ASN:57,A:NAG:537,1.433,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0P,covale,A:ASN:106:ND2,H:NAG:.:C1,A:ASN:106,A:NAG:536,1.447,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0P,covale,A:ASN:341:ND2,E:NAG:.:C1,A:ASN:341,A:NAG:533,1.450,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0P,covale,A:ASN:485:ND2,J:NAG:.:C1,A:ASN:485,A:NAG:538,1.429,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0P,covale,B:NAG:.:O4,C:NAG:.:C1,A:NAG:530,A:NAG:531,1.384,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0P,covale,B:NAG:.:O6,D:FUC:.:C1,A:NAG:530,A:FUC:532,1.400,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0P,covale,E:NAG:.:O4,F:NAG:.:C1,A:NAG:533,A:NAG:534,1.381,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0P,covale,E:NAG:.:O6,G:FUC:.:C1,A:NAG:533,A:FUC:535,1.404,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0Q,covale,A:ASN:57:ND2,I:NAG:.:C1,A:ASN:57,A:NAG:537,1.455,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0Q,covale,A:ASN:106:ND2,H:NAG:.:C1,A:ASN:106,A:NAG:536,1.452,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0Q,covale,A:ASN:341:ND2,E:NAG:.:C1,A:ASN:341,A:NAG:533,1.447,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0Q,covale,B:NAG:.:O4,C:NAG:.:C1,A:NAG:530,A:NAG:531,1.383,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0Q,covale,B:NAG:.:O6,D:FUC:.:C1,A:NAG:530,A:FUC:532,1.402,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0Q,covale,E:NAG:.:O4,F:NAG:.:C1,A:NAG:533,A:NAG:534,1.381,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1P0Q,covale,E:NAG:.:O6,G:FUC:.:C1,A:NAG:533,A:FUC:535,1.401,snapshot 20200722,v1-2,versioned,3,v2-3,7,rev 4 2020-07-29 v2-0 MAJOR(x-0),yes,none,,false
+1PV8,covale,A:LYS:252:NZ,D:PB1:.:C3,A:LYS:252,A:PB1:350,1.449,snapshot 20210105,snapshot 20210105,snapshot,3,v1-5,6,rev 4 2021-10-27 v1-3 minor; rev 6 2024-12-25 v1-5 minor,no,exact,1PV8|A|LYS252|NZ|A|PB1350|C3,true
+1PV8,covale,A:LYS:199:NZ,D:PB1:.:C5,A:LYS:199,A:PB1:350,1.288,snapshot 20210105,snapshot 20210105,snapshot,3,v1-5,6,rev 4 2021-10-27 v1-3 minor; rev 6 2024-12-25 v1-5 minor,no,exact,1PV8|A|LYS199|NZ|A|PB1350|C5,true
+1QGX,covale,A:CYS:349:SG,G:BME:.:C2,A:CYS:349,A:BME:407,1.781,snapshot 20230102,snapshot 20230102,snapshot,3,v1-4,5,rev 4 2023-12-27 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,exact,1QGX|A|CYS349|SG|A|BME407|C2,true
+1QGX,covale,A:CYS:349:CB,G:BME:.:S2,A:CYS:349,A:BME:407,2.009,snapshot 20230102,snapshot 20230102,snapshot,3,v1-4,5,rev 4 2023-12-27 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,none,,true
+1X83,covale,A:CYS:67:CB,E:SBH:.:C5,A:CYS:67,A:SBH:301,2.046,snapshot 20210105,snapshot 20210105,snapshot,3,v1-4,5,rev 4 2021-10-20 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,none,,true
+1X83,covale,B:CYS:67:CB,H:SBH:.:C5,B:CYS:67,B:SBH:301,1.810,snapshot 20210105,snapshot 20210105,snapshot,3,v1-4,5,rev 4 2021-10-20 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,none,,true
+1X84,covale,A:GLU:116:OE1,E:SBH:.:C5,A:GLU:116,A:SBH:301,1.533,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,1X84|A|GLU116|OE1|A|SBH301|C5,true
+1XLU,covale,A:ASN:57:ND2,H:NAG:.:C1,A:ASN:57,A:NAG:536,1.458,snapshot 20200722,v1-3,versioned,4,v2-4,9,rev 5 2020-07-29 v2-0 MAJOR(x-0); rev 6 2021-10-20 v2-1 minor,yes,none,,false
+1XLU,covale,A:ASN:106:ND2,G:NAG:.:C1,A:ASN:106,A:NAG:535,1.425,snapshot 20200722,v1-3,versioned,4,v2-4,9,rev 5 2020-07-29 v2-0 MAJOR(x-0); rev 6 2021-10-20 v2-1 minor,yes,none,,false
+1XLU,covale,A:ASN:341:ND2,E:NAG:.:C1,A:ASN:341,A:NAG:533,1.422,snapshot 20200722,v1-3,versioned,4,v2-4,9,rev 5 2020-07-29 v2-0 MAJOR(x-0); rev 6 2021-10-20 v2-1 minor,yes,none,,false
+1XLU,covale,A:ASN:485:ND2,I:NAG:.:C1,A:ASN:485,A:NAG:537,1.449,snapshot 20200722,v1-3,versioned,4,v2-4,9,rev 5 2020-07-29 v2-0 MAJOR(x-0); rev 6 2021-10-20 v2-1 minor,yes,none,,false
+1XLU,covale,B:NAG:.:O4,C:NAG:.:C1,A:NAG:530,A:NAG:531,1.447,snapshot 20200722,v1-3,versioned,4,v2-4,9,rev 5 2020-07-29 v2-0 MAJOR(x-0); rev 6 2021-10-20 v2-1 minor,yes,none,,false
+1XLU,covale,B:NAG:.:O6,D:FUL:.:C1,A:NAG:530,A:FUL:532,1.440,snapshot 20200722,v1-3,versioned,4,v2-4,9,rev 5 2020-07-29 v2-0 MAJOR(x-0); rev 6 2021-10-20 v2-1 minor,yes,none,,false
+1XLU,covale,E:NAG:.:O4,F:NAG:.:C1,A:NAG:533,A:NAG:534,1.435,snapshot 20200722,v1-3,versioned,4,v2-4,9,rev 5 2020-07-29 v2-0 MAJOR(x-0); rev 6 2021-10-20 v2-1 minor,yes,none,,false
+1ZRM,covale,B:BUA:.:C2,A:ASP:10:OD1,A:BUA:300,A:ASP:10,2.409,snapshot 20230102,snapshot 20230102,snapshot,4,v1-6,7,rev 5 2023-05-31 v1-4 minor; rev 7 2024-12-25 v1-6 minor,no,none,,true
+2BKL,covale,A:SER:533:OG,C:ZAH:.:C1,A:SER:533,A:ZAH:1533,1.454,snapshot 20230102,snapshot 20230102,snapshot,3,v1-4,5,rev 4 2023-12-13 v1-3 minor; rev 5 2025-10-01 v1-4 minor,no,exact,2BKL|A|SER533|OG|A|ZAH1533|C1,true
+2BKL,covale,B:SER:533:OG,G:ZAH:.:C1,B:SER:533,B:ZAH:1533,1.441,snapshot 20230102,snapshot 20230102,snapshot,3,v1-4,5,rev 4 2023-12-13 v1-3 minor; rev 5 2025-10-01 v1-4 minor,no,exact,2BKL|B|SER533|OG|B|ZAH1533|C1,true
+2F2A,covale,D:GLN:.:CD,A:SER:178:OG,A:GLN:501,A:SER:178,1.438,snapshot 20230102,snapshot 20230102,snapshot,3,v1-4,5,rev 4 2023-10-25 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,exact,2F2A|A|SER178|OG|A|GLN501|CD,true
+2F2A,covale,D:GLN:.:CG,A:SER:178:OG,A:GLN:501,A:SER:178,2.174,snapshot 20230102,snapshot 20230102,snapshot,3,v1-4,5,rev 4 2023-10-25 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,none,,true
+2IWC,covale,A:ASN:60:C,A:PG1:61:N,A:ASN:390,A:PG1:391,1.331,snapshot 20180101,v1-3,versioned,4,v2-1,6,rev 5 2018-10-24 v2-0 MAJOR(x-0),yes,none,,false
+2IWC,covale,A:PG1:61:C,A:THR:62:N,A:PG1:391,A:THR:392,1.334,snapshot 20180101,v1-3,versioned,4,v2-1,6,rev 5 2018-10-24 v2-0 MAJOR(x-0),yes,none,,false
+2OP9,covale,B:CYS:146:SG,D:WR1:.:C2,B:CYS:145,B:WR1:602,1.846,snapshot 20230102,snapshot 20230102,snapshot,4,v1-5,6,rev 5 2023-12-27 v1-4 minor; rev 6 2024-12-25 v1-5 minor,no,exact,2OP9|B|CYS145|SG|B|WR1602|C2,true
+2WOX,covale,A:CYS:285:SG,E:NDP:.:C2N,A:CYS:286,A:NDP:1491,1.752,v1-1,v1-1,versioned,2,v2-3,6,rev 4 2019-04-24 v2-1 minor; rev 5 2023-12-20 v2-2 minor; rev 6 2025-10-01 v2-3 minor,no,exact,2WOX|A|CYS286|SG|A|NDP1491|C2N,true
+2XYP,covale,A:CYS:135:SG,C:XVE:.:C91,A:CYS:163,A:XVE:1175,1.793,snapshot 20250101,snapshot 20250101,snapshot,2,v1-3,4,rev 3 2025-04-09 v1-2 minor; rev 4 2025-10-01 v1-3 minor,no,exact,2XYP|A|CYS163|SG|A|XVE1175|C91,true
+3GCH,covale,C:SER:47:CB,D:OAC:.:O,C:SER:195,C:OAC:246,1.969,snapshot 20240101,snapshot 20240101,snapshot,3,v1-4,5,rev 4 2024-06-05 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,none,,true
+3GCH,covale,C:SER:47:CB,D:OAC:.:C,C:SER:195,C:OAC:246,1.949,snapshot 20240101,snapshot 20240101,snapshot,3,v1-4,5,rev 4 2024-06-05 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,none,,true
+3GCH,covale,C:SER:47:OG,D:OAC:.:C,C:SER:195,C:OAC:246,1.543,snapshot 20240101,snapshot 20240101,snapshot,3,v1-4,5,rev 4 2024-06-05 v1-3 minor; rev 5 2024-12-25 v1-4 minor,no,exact,3GCH|C|SER195|OG|C|OAC246|C,true
+3N3G,covale,J:935:.:N19,B:CYS:25:SG,B:935:221,B:CYS:25,1.392,snapshot 20240101,snapshot 20240101,snapshot,2,v1-2,3,rev 3 2024-12-25 v1-2 minor,no,none,,true
+4BD0,covale,B:BZB:.:B,A:SER:43:OG,A:BZB:300,A:SER:70,1.469,v1-1,v1-1,versioned,2,v2-2,5,rev 3 2019-05-08 v2-0 MAJOR(x-0); rev 4 2023-12-20 v2-1 minor; rev 5 2025-10-01 v2-2 minor,yes,none,,false
+4BD0,covale,B:BZB:.:C5,A:ASN:77:ND2,A:BZB:300,A:ASN:104,1.453,v1-1,v1-1,versioned,2,v2-2,5,rev 3 2019-05-08 v2-0 MAJOR(x-0); rev 4 2023-12-20 v2-1 minor; rev 5 2025-10-01 v2-2 minor,yes,exact,4BD0|A|ASN104|ND2|A|BZB300|C5,true
+4OYQ,covale,A:PRO:1:N,D:1X2:.:C02,A:PRO:2,A:1X2:201,1.336,v1-3,v1-3,versioned,4,v2-0,5,rev 5 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4OYQ|A|PRO2|N|A|1X2201|C02,true
+4OYQ,covale,B:PRO:1:N,G:1X2:.:C02,B:PRO:2,B:1X2:201,1.341,v1-3,v1-3,versioned,4,v2-0,5,rev 5 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4OYQ|B|PRO2|N|B|1X2201|C02,true
+4OYQ,covale,C:PRO:1:N,K:1X2:.:C02,C:PRO:2,C:1X2:201,1.343,v1-3,v1-3,versioned,4,v2-0,5,rev 5 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4OYQ|C|PRO2|N|C|1X2201|C02,true
+4P01,covale,A:PRO:1:N,D:1ZW:.:CAK,A:PRO:1,A:1ZW:201,1.446,v1-3,v1-3,versioned,4,v2-0,5,rev 5 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4P01|A|PRO1|N|A|1ZW201|CAK,true
+4P01,covale,B:PRO:1:N,F:1ZW:.:CAK,B:PRO:1,B:1ZW:201,1.544,v1-3,v1-3,versioned,4,v2-0,5,rev 5 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4P01|B|PRO1|N|B|1ZW201|CAK,true
+4P0H,covale,A:PRO:1:N,D:DMF:.:C,A:PRO:1,A:DMF:201,1.464,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4P0H|A|PRO1|N|A|DMF201|C,true
+4P0H,covale,B:PRO:1:N,E:DMF:.:C,B:PRO:1,B:DMF:201,1.455,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4P0H|B|PRO1|N|B|DMF201|C,true
+4P0H,covale,C:PRO:1:N,G:DMF:.:C,C:PRO:1,C:DMF:201,1.470,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4P0H|C|PRO1|N|C|DMF201|C,true
+4PA8,covale,A:LYS:83:NZ,B:2K6:.:C10,A:LYS:1083,A:2K6:2001,1.462,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2025-10-01 v2-0 MAJOR(x-0),yes,exact,4PA8|A|LYS1083|NZ|A|2K62001|C10,true
+4PKK,covale,A:PRO:1:N,D:31E:.:CAI,A:PRO:1,A:31E:201,1.392,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4PKK|A|PRO1|N|A|31E201|CAI,true
+4PKK,covale,B:PRO:1:N,J:31E:.:CAI,B:PRO:1,B:31E:201,1.356,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4PKK|B|PRO1|N|B|31E201|CAI,true
+4PKK,covale,C:PRO:1:N,P:31E:.:CAI,C:PRO:1,C:31E:201,1.402,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,4PKK|C|PRO1|N|C|31E201|CAI,true
+4R1E,covale,B:GLY:1:N,C:3EC:.:CAL,B:GLY:802,B:3EC:901,1.316,snapshot 20230102,snapshot 20230102,snapshot,4,v1-5,6,rev 5 2023-09-20 v1-4 minor; rev 6 2024-12-25 v1-5 minor,no,exact,4R1E|B|GLY802|N|B|3EC901|CAL,true
+4U6W,covale,A:MET:220:SD,F:Q08:.:C6,A:MET:309,A:Q08:404,1.749,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2025-09-17 v2-0 MAJOR(x-0),yes,exact,4U6W|A|MET309|SD|A|Q08404|C6,true
+5AK7,covale,A:CYS:305:SG,C:ARG:.:CZ,A:CYS:351,A:ARG:1002,1.700,snapshot 20190101,snapshot 20190101,snapshot,4,v1-5,6,rev 5 2019-10-30 v1-4 minor; rev 6 2024-05-08 v1-5 minor,no,exact,5AK7|A|CYS351|SG|A|ARG1002|CZ,true
+5BNI,covale,B:GLU:177:OE2,C:AVW:.:C1'N,B:GLU:230,B:AVW:301,1.541,snapshot 20250101,snapshot 20250101,snapshot,1,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,5BNI|B|GLU230|OE2|B|AVW301|C1'N,true
+5BPK,covale,B:THR:1:OG1,O:4UD:.:C3,C:THR:380,C:4UD:701,1.332,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-10-01 v1-2 minor,no,exact,5BPK|C|THR380|OG1|C|4UD701|C3,true
+5BPK,covale,D:THR:1:OG1,MA:4UD:.:C3,D:THR:380,D:4UD:701,1.392,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-10-01 v1-2 minor,no,exact,5BPK|D|THR380|OG1|D|4UD701|C3,true
+5D3Z,covale,A:SER:128:OG,B:57H:.:PAG,A:SER:142,A:57H:301,1.747,v1-3,v1-3,versioned,4,v2-0,5,rev 5 2024-12-25 v2-0 MAJOR(x-0),yes,exact,5D3Z|A|SER142|OG|A|57H301|PAG,true
+5D6F,covale,A:HIS:124:NE2,B:57R:.:C9,A:HIS:231,A:57R:501,1.421,snapshot 20190101,snapshot 20190101,snapshot,3,v1-5,6,rev 4 2019-11-20 v1-3 minor; rev 6 2025-10-01 v1-5 minor,no,exact,5D6F|A|HIS231|NE2|A|57R501|C9,true
+5DF7,covale,A:SER:279:OG,C:59H:.:C1,A:SER:294,A:59H:601,1.387,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-10-01 v1-2 minor,no,exact,5DF7|A|SER294|OG|A|59H601|C1,true
+5DF7,covale,B:SER:279:OG,G:59H:.:C1,B:SER:294,B:59H:601,1.389,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-10-01 v1-2 minor,no,exact,5DF7|B|SER294|OG|B|59H601|C1,true
+5GIT,covale,A:CYS:108:SG,B:XXT:.:C14,A:CYS:151,A:XXT:201,1.846,snapshot 20250101,snapshot 20250101,snapshot,2,v1-3,4,rev 4 2025-09-17 v1-3 minor,no,exact,5GIT|A|CYS151|SG|A|XXT201|C14,true
+5INX,covale,B:CYS:9:SG,H:MET:.:C,B:CYS:9,B:MET:501,1.805,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-09-17 v1-3 minor,no,exact,5INX|B|CYS9|SG|B|MET501|C,true
+5INX,covale,C:CYS:9:SG,J:MET:.:C,C:CYS:9,C:MET:501,1.815,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-09-17 v1-3 minor,no,exact,5INX|C|CYS9|SG|C|MET501|C,true
+5INX,covale,D:CYS:9:SG,L:MET:.:C,D:CYS:9,D:MET:501,1.826,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-09-17 v1-3 minor,no,exact,5INX|D|CYS9|SG|D|MET501|C,true
+5INX,covale,E:CYS:9:SG,N:MET:.:C,E:CYS:9,E:MET:501,1.824,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-09-17 v1-3 minor,no,exact,5INX|E|CYS9|SG|E|MET501|C,true
+5IYT,covale,B:CYS:149:SG,C:NZN:.:C26,B:CYS:147,B:NZN:201,1.790,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,5IYT|B|CYS147|SG|B|NZN201|C26,true
+5OM9,covale,A:GLU:380:OE2,C:O2S:.:C11,A:GLU:270,A:O2S:401,1.458,snapshot 20240101,snapshot 20240101,snapshot,2,v1-3,4,rev 3 2024-01-17 v1-2 minor; rev 4 2025-10-01 v1-3 minor,no,exact,5OM9|A|GLU270|OE2|A|O2S401|C11,true
+5OM9,covale,B:GLU:380:OE2,E:O2S:.:C11,B:GLU:270,B:O2S:401,1.266,snapshot 20240101,snapshot 20240101,snapshot,2,v1-3,4,rev 3 2024-01-17 v1-2 minor; rev 4 2025-10-01 v1-3 minor,no,sister,5OM9|A|GLU270|OE2|A|O2S401|C11,true
+5WXS,covale,A:SER:198:OG,B:7YF:.:C9,U:SER:195,U:7YF:301,1.435,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,5WXS|U|SER195|OG|U|7YF301|C9,true
+5Y2Y,covale,A:ASP:108:OD1,C:8LL:.:C26,A:ASP:106,A:8LL:300,1.391,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,5Y2Y|A|ASP106|OD1|A|8LL300|C26,true
+5Y2Y,covale,B:ASP:108:OD1,E:8LL:.:C26,B:ASP:106,B:8LL:300,1.403,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,5Y2Y|B|ASP106|OD1|B|8LL300|C26,true
+5Y9B,covale,B:THR:1:N,E:DON:.:C1C,B:THR:399,B:DON:603,1.490,snapshot 20230102,v1-1,versioned,2,v2-0,3,rev 3 2025-09-17 v2-0 MAJOR(x-0),yes,none,,true
+5Y9B,covale,B:THR:1:OG1,E:DON:.:C1D,B:THR:399,B:DON:603,1.374,snapshot 20230102,v1-1,versioned,2,v2-0,3,rev 3 2025-09-17 v2-0 MAJOR(x-0),yes,none,,true
+5YJO,covale,A:CYS:184:SG,E:8W0:.:CAJ,A:CYS:186,A:8W0:504,1.766,snapshot 20190101,snapshot 20190101,snapshot,1,v1-2,3,rev 2 2019-07-10 v1-1 minor,no,exact,5YJO|A|CYS186|SG|A|8W0504|CAJ,true
+5YKP,covale,A:HIS:124:NE2,F:OVA:.:C11,A:HIS:212,A:OVA:405,1.529,snapshot 20190101,snapshot 20190101,snapshot,1,v1-3,4,rev 2 2019-03-20 v1-1 minor; rev 4 2023-11-22 v1-3 minor,no,exact,5YKP|A|HIS212|NE2|A|OVA405|C11,true
+5YR4,covale,A:HIS:123:NE2,H:TN4:.:C11,A:HIS:212,A:TN4:410,1.544,snapshot 20190101,snapshot 20190101,snapshot,1,v1-4,5,rev 2 2019-03-20 v1-1 minor; rev 5 2023-11-22 v1-4 minor,no,exact,5YR4|A|HIS212|NE2|A|TN4410|C11,true
+5YR5,covale,A:HIS:123:NE2,F:OVA:.:C11,A:HIS:212,A:OVA:405,1.535,snapshot 20190101,snapshot 20190101,snapshot,1,v1-3,4,rev 2 2019-03-20 v1-1 minor; rev 4 2023-11-22 v1-3 minor,no,exact,5YR5|A|HIS212|NE2|A|OVA405|C11,true
+5YR6,covale,A:HIS:123:NE2,E:TN4:.:C11,A:HIS:212,A:TN4:410,1.523,v1-0,v1-0,versioned,1,v2-3,5,rev 2 2019-02-13 v2-0 MAJOR(x-0); rev 5 2023-11-22 v2-3 minor,yes,exact,5YR6|A|HIS212|NE2|A|TN4410|C11,true
+5Z9Y,covale,B:LYS:98:NZ,D:DXP:.:C1,B:LYS:98,B:DXP:301,1.498,snapshot 20250101,snapshot 20250101,snapshot,1,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,5Z9Y|B|LYS98|NZ|B|DXP301|C1,true
+5Z9Y,covale,B:LYS:98:NZ,D:DXP:.:C2,B:LYS:98,B:DXP:301,1.561,snapshot 20250101,snapshot 20250101,snapshot,1,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,none,,true
+5ZQD,covale,A:SER:62:OG,I:PCZ:.:C1,A:SER:58,A:PCZ:301,1.375,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,B:SER:62:OG,K:PCZ:.:C1,B:SER:58,B:PCZ:301,1.375,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,C:SER:62:OG,O:PCZ:.:C1,C:SER:58,C:PCZ:301,1.375,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,C:LYS:208:NZ,Q:PCZ:.:C51,C:LYS:204,C:PCZ:303,1.431,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,D:SER:62:OG,R:PCZ:.:C1,D:SER:58,D:PCZ:301,1.374,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,D:LYS:208:NZ,T:PCZ:.:C51,D:LYS:204,D:PCZ:303,1.431,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,E:SER:62:OG,U:PCZ:.:C1,E:SER:58,E:PCZ:301,1.372,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,F:SER:62:OG,X:PCZ:.:C1,F:SER:58,F:PCZ:301,1.373,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,G:SER:62:OG,Z:PCZ:.:C1,G:SER:58,G:PCZ:301,1.375,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,G:LYS:208:NZ,BA:PCZ:.:C51,G:LYS:204,G:PCZ:303,1.430,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,H:SER:62:OG,CA:PCZ:.:C1,H:SER:58,H:PCZ:301,1.374,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+5ZQD,covale,H:LYS:208:NZ,EA:PCZ:.:C51,H:LYS:204,H:PCZ:303,1.430,v1-2,v1-2,versioned,3,v2-2,6,rev 4 2018-09-19 v2-0 MAJOR(x-0); rev 6 2025-09-17 v2-2 minor,yes,none,,false
+6G3Z,covale,A:LYS:155:NZ,C:ELE:.:C2,A:LYS:155,A:ELE:301,1.266,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,6G3Z|A|LYS155|NZ|A|ELE301|C2,true
+6G3Z,covale,B:LYS:155:NZ,I:ELE:.:C2,B:LYS:155,B:ELE:301,1.270,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,6G3Z|B|LYS155|NZ|B|ELE301|C2,true
+6H0U,covale,A:CYS:199:SG,C:FKB:.:C2,A:CYS:199,A:FKB:501,1.863,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-10-01 v1-2 minor,no,exact,6H0U|A|CYS199|SG|A|FKB501|C2,true
+6H0U,covale,B:CYS:199:SG,F:FKB:.:C2,B:CYS:199,B:FKB:501,1.894,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-10-01 v1-2 minor,no,exact,6H0U|B|CYS199|SG|B|FKB501|C2,true
+6J31,covale,E:DBB:1:N,I:BG9:.:C12,E:DBB:2,E:BG9:101,1.476,v1-1,v1-1,versioned,2,v2-1,4,rev 4 2025-09-17 v2-1 minor,no,exact,6J31|E|DBB2|N|E|BG9101|C12,true
+6J31,covale,F:DBB:1:N,J:BG9:.:C12,F:DBB:2,F:BG9:101,1.477,v1-1,v1-1,versioned,2,v2-1,4,rev 4 2025-09-17 v2-1 minor,no,exact,6J31|F|DBB2|N|F|BG9101|C12,true
+6J31,covale,G:DBB:1:N,K:BG9:.:C12,G:DBB:2,G:BG9:101,1.484,v1-1,v1-1,versioned,2,v2-1,4,rev 4 2025-09-17 v2-1 minor,no,exact,6J31|G|DBB2|N|G|BG9101|C12,true
+6J31,covale,H:DBB:1:N,L:BG9:.:C12,H:DBB:2,H:BG9:101,1.483,v1-1,v1-1,versioned,2,v2-1,4,rev 4 2025-09-17 v2-1 minor,no,exact,6J31|H|DBB2|N|H|BG9101|C12,true
+6KF7,covale,A:SER:162:OG,E:D8F:.:CAN,A:SER:162,A:D8F:401,1.387,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,6KF7|A|SER162|OG|A|D8F401|CAN,true
+6KF7,covale,B:SER:162:OG,R:D8F:.:CAN,B:SER:162,B:D8F:401,1.383,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,6KF7|B|SER162|OG|B|D8F401|CAN,true
+6KF7,covale,C:SER:162:OG,X:D8F:.:CAN,C:SER:162,C:D8F:401,1.389,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,6KF7|C|SER162|OG|C|D8F401|CAN,true
+6KF7,covale,D:SER:162:OG,HA:D8F:.:CAN,D:SER:162,D:D8F:401,1.381,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,6KF7|D|SER162|OG|D|D8F401|CAN,true
+6L71,covale,B:LYS:3:NZ,D:YOY:.:C11,C:LYS:9,C:YOY:401,1.434,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,6L71|C|LYS9|NZ|C|YOY401|C11,true
+6L71,covale,B:LYS:3:NZ,E:YDD:.:C13,C:LYS:9,C:YDD:402,1.428,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,6L71|C|LYS9|NZ|C|YDD402|C13,true
+6MGU,covale,A:CYS:184:SG,C:JQS:.:C10,A:CYS:308,A:JQS:500,1.949,snapshot 20240101,snapshot 20240101,snapshot,2,v1-2,3,rev 3 2024-12-25 v1-2 minor,no,exact,6MGU|A|CYS308|SG|A|JQS500|C10,true
+6MGU,covale,B:CYS:184:SG,I:JQS:.:C10,B:CYS:308,B:JQS:500,1.940,snapshot 20240101,snapshot 20240101,snapshot,2,v1-2,3,rev 3 2024-12-25 v1-2 minor,no,exact,6MGU|B|CYS308|SG|B|JQS500|C10,true
+6P4E,covale,A:CYS:26:SG,H:GES:.:C15,A:CYS:26,A:GES:306,1.764,snapshot 20230102,snapshot 20230102,snapshot,1,v1-3,4,rev 2 2023-02-01 v1-1 minor; rev 4 2024-12-25 v1-3 minor,no,exact,6P4E|A|CYS26|SG|A|GES306|C15,true
+6P4E,covale,B:CYS:26:SG,O:GES:.:C15,B:CYS:26,B:GES:307,1.763,snapshot 20230102,snapshot 20230102,snapshot,1,v1-3,4,rev 2 2023-02-01 v1-1 minor; rev 4 2024-12-25 v1-3 minor,no,exact,6P4E|B|CYS26|SG|B|GES307|C15,true
+6PZP,covale,A:CYS:166:SG,C:P7S:.:C21,A:CYS:285,A:P7S:301,1.770,snapshot 20240101,snapshot 20240101,snapshot,2,v1-2,3,rev 3 2024-12-25 v1-2 minor,no,exact,6PZP|A|CYS285|SG|A|P7S301|C21,true
+6S9W,covale,A:CYS:310:SG,B:L1Z:.:CBL,A:CYS:310,A:L1Z:501,1.830,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,6S9W|A|CYS310|SG|A|L1Z501|CBL,true
+6T5V,covale,A:CYS:12:SG,D:MKZ:.:C,A:CYS:12,A:MKZ:203,1.816,snapshot 20240101,snapshot 20240101,snapshot,2,v1-3,4,rev 3 2024-05-01 v1-2 minor; rev 4 2025-10-01 v1-3 minor,no,exact,6T5V|A|CYS12|SG|A|MKZ203|C,true
+6V8C,covale,A:LYS:257:NZ,E:QRM:.:C5,A:LYS:292,A:QRM:502,1.459,v1-0,v2-0,versioned,2,v3-0,3,rev 3 2024-12-25 v3-0 MAJOR(x-0),yes,exact,6V8C|A|LYS292|NZ|A|QRM502|C5,true
+6V8C,covale,B:LYS:257:NZ,G:QRM:.:C5,B:LYS:292,B:QRM:502,1.436,v1-0,v2-0,versioned,2,v3-0,3,rev 3 2024-12-25 v3-0 MAJOR(x-0),yes,exact,6V8C|B|LYS292|NZ|B|QRM502|C5,true
+6V8C,covale,C:LYS:257:NZ,I:QRM:.:C5,C:LYS:292,C:QRM:502,1.434,v1-0,v2-0,versioned,2,v3-0,3,rev 3 2024-12-25 v3-0 MAJOR(x-0),yes,exact,6V8C|C|LYS292|NZ|C|QRM502|C5,true
+6WSB,covale,A:CYS:285:SG,C:NAD:.:C3N,A:CYS:285,A:NAD:501,1.793,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WSB|A|CYS285|SG|A|NAD501|C3N,true
+6WSB,covale,A:CYS:285:SG,C:NAD:.:C4N,A:CYS:285,A:NAD:501,1.872,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WSB|A|CYS285|SG|A|NAD501|C4N,true
+6WSB,covale,B:CYS:285:SG,E:NAD:.:C3N,B:CYS:285,B:NAD:501,1.836,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WSB|B|CYS285|SG|B|NAD501|C3N,true
+6WSB,covale,B:CYS:285:SG,E:NAD:.:C4N,B:CYS:285,B:NAD:501,1.872,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WSB|B|CYS285|SG|B|NAD501|C4N,true
+6WYG,covale,A:CYS:157:SG,I:RFT:.:C20,A:CYS:157,A:RFT:205,1.827,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WYG|A|CYS157|SG|A|RFT205|C20,true
+6WYG,covale,B:CYS:157:SG,N:RFT:.:C20,B:CYS:157,B:RFT:205,1.823,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WYG|B|CYS157|SG|B|RFT205|C20,true
+6WYG,covale,C:CYS:157:SG,S:RFT:.:C20,C:CYS:157,C:RFT:205,1.836,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WYG|C|CYS157|SG|C|RFT205|C20,true
+6WYG,covale,D:CYS:157:SG,Y:RFT:.:C20,D:CYS:157,D:RFT:206,1.814,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,6WYG|D|CYS157|SG|D|RFT206|C20,true
+6WYH,covale,A:CYS:157:SG,I:RFT:.:C20,A:CYS:157,A:RFT:205,1.815,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,6WYH|A|CYS157|SG|A|RFT205|C20,true
+6WYH,covale,B:CYS:157:SG,O:RFT:.:C20,B:CYS:157,B:RFT:206,1.821,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,6WYH|B|CYS157|SG|B|RFT206|C20,true
+6WYH,covale,C:CYS:157:SG,T:RFT:.:C20,C:CYS:157,C:RFT:205,1.819,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,6WYH|C|CYS157|SG|C|RFT205|C20,true
+6WYH,covale,D:CYS:157:SG,Y:RFT:.:C20,D:CYS:157,D:RFT:205,1.817,v1-2,v1-2,versioned,3,v2-0,4,rev 4 2024-12-25 v2-0 MAJOR(x-0),yes,exact,6WYH|D|CYS157|SG|D|RFT205|C20,true
+6XHG,covale,A:CYS:116:SG,C:BVX:.:CAC,A:CYS:636,A:BVX:801,1.887,snapshot 20240101,snapshot 20240101,snapshot,3,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,6XHG|A|CYS636|SG|A|BVX801|CAC,true
+6XHG,covale,B:CYS:116:SG,E:BVX:.:CAC,B:CYS:636,B:BVX:801,1.879,snapshot 20240101,snapshot 20240101,snapshot,3,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,6XHG|B|CYS636|SG|B|BVX801|CAC,true
+6YGV,covale,A:CYS:332:SG,H:OQH:.:C3,A:CYS:330,A:OQH:407,1.757,snapshot 20240101,snapshot 20240101,snapshot,2,v1-3,4,rev 3 2024-01-24 v1-2 minor; rev 4 2025-10-01 v1-3 minor,no,exact,6YGV|A|CYS330|SG|A|OQH407|C3,true
+7B3E,covale,A:CYS:145:SG,I:MYC:.:C19,A:CYS:145,A:MYC:407,1.696,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-10-01 v1-4 minor,no,sister,7B3E|B|CYS145|SG|B|MYC606|C19,true
+7B3E,covale,B:CYS:145:SG,O:MYC:.:C19,B:CYS:145,B:MYC:606,1.703,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-10-01 v1-4 minor,no,exact,7B3E|B|CYS145|SG|B|MYC606|C19,true
+7B9I,covale,A:SER:155:OG,J:T3T:.:C03,A:SER:232,A:T3T:509,1.386,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,7B9I|A|SER232|OG|A|T3T509|C03,true
+7BAP,covale,A:ASP:204:OD2,D:S4V:.:C7,A:ASP:281,A:S4V:503,1.396,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,7BAP|A|ASP281|OD2|A|S4V503|C7,true
+7BJF,covale,A:LYS:127:NZ,D:TZH:.:C16,A:LYS:122,A:TZH:302,1.428,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,7BJF|A|LYS122|NZ|A|TZH302|C16,true
+7D9E,covale,B:THR:1:OG1,D:DON:.:C1D,B:THR:364,B:DON:701,1.376,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,7D9E|B|THR364|OG1|B|DON701|C1D,true
+7D9W,covale,B:THR:1:OG1,E:DON:.:C1D,B:THR:364,B:DON:601,1.375,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2025-09-17 v2-0 MAJOR(x-0),yes,exact,7D9W|B|THR364|OG1|B|DON601|C1D,true
+7D9W,covale,D:THR:1:OG1,G:DON:.:C1D,D:THR:364,D:DON:601,1.375,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2025-09-17 v2-0 MAJOR(x-0),yes,exact,7D9W|D|THR364|OG1|D|DON601|C1D,true
+7DPP,covale,A:CYS:145:SG,B:MYC:.:C19,A:CYS:145,A:MYC:401,1.769,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-09-17 v1-3 minor,no,exact,7DPP|A|CYS145|SG|A|MYC401|C19,true
+7F1V,covale,A:LYS:211:NZ,E:7XF:.:CAL,A:LYS:211,A:7XF:401,1.315,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-09-17 v1-3 minor,no,exact,7F1V|A|LYS211|NZ|A|7XF401|CAL,true
+7FQI,covale,A:THR:147:C,A:SNN:148:N3,A:THR:146,A:SNN:147,1.340,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,none,,false
+7FQI,covale,A:SNN:148:C2,A:HIS:149:N,A:SNN:147,A:HIS:148,1.312,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,none,,false
+7FQI,covale,A:CYS:190:SG,G:WSN:.:C6,A:CYS:189,A:WSN:501,1.674,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,sister,7FQI|C|CYS189|SG|C|WSN501|C6,true
+7FQI,covale,B:THR:147:C,B:SNN:148:N3,B:THR:146,B:SNN:147,1.353,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,none,,false
+7FQI,covale,B:SNN:148:C2,B:HIS:149:N,B:SNN:147,B:HIS:148,1.313,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,none,,false
+7FQI,covale,B:CYS:190:SG,K:WSN:.:C6,B:CYS:189,B:WSN:501,1.701,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,exact,7FQI|B|CYS189|SG|B|WSN501|C6,true
+7FQI,covale,C:THR:147:C,C:SNN:148:N3,C:THR:146,C:SNN:147,1.364,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,none,,false
+7FQI,covale,C:SNN:148:C2,C:HIS:149:N,C:SNN:147,C:HIS:148,1.331,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,none,,false
+7FQI,covale,C:CYS:190:SG,L:WSN:.:C6,C:CYS:189,C:WSN:501,1.700,v1-0,v1-0,versioned,1,v2-2,4,rev 2 2023-11-15 v2-0 MAJOR(x-0); rev 3 2024-12-25 v2-1 minor,yes,exact,7FQI|C|CYS189|SG|C|WSN501|C6,true
+7G9G,covale,B:CYS:103:SG,K:ZGK:.:C12,B:CYS:306,B:ZGK:501,1.837,v1-0,v1-0,versioned,1,v2-1,3,rev 2 2024-12-25 v2-0 MAJOR(x-0),yes,exact,7G9G|B|CYS306|SG|B|ZGK501|C12,true
+7LEL,covale,D:ASN:36:ND2,H:BMF:.:C06,D:ASN:297,D:BMF:401,1.446,snapshot 20240101,snapshot 20240101,snapshot,4,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,7LEL|D|ASN297|ND2|D|BMF401|C06,true
+7LNM,covale,A:THR:287:OG1,H:Y7S:.:C17,B:THR:322,B:Y7S:502,1.451,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,sister,7LNM|C|THR322|OG1|B|Y7S501|C17,true
+7LNM,covale,G:Y7S:.:C17,B:THR:287:OG1,B:Y7S:501,C:THR:322,1.460,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,exact,7LNM|C|THR322|OG1|B|Y7S501|C17,true
+7LNM,covale,H:Y7S:.:C17,B:LYS:257:NZ,B:Y7S:502,C:LYS:292,1.301,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,none,,false
+7LNM,covale,C:THR:287:OG1,J:Y7S:.:C17,E:THR:322,E:Y7S:502,1.450,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,sister,7LNM|C|THR322|OG1|B|Y7S501|C17,true
+7LNM,covale,I:Y7S:.:C17,D:THR:287:OG1,E:Y7S:501,F:THR:322,1.460,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,sister,7LNM|C|THR322|OG1|B|Y7S501|C17,true
+7LNM,covale,J:Y7S:.:C17,D:LYS:257:NZ,E:Y7S:502,F:LYS:292,1.303,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,none,,false
+7LNM,covale,E:THR:287:OG1,L:Y7S:.:C17,I:THR:322,I:Y7S:502,1.463,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,sister,7LNM|C|THR322|OG1|B|Y7S501|C17,true
+7LNM,covale,K:Y7S:.:C17,F:THR:287:OG1,I:Y7S:501,J:THR:322,1.463,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,sister,7LNM|C|THR322|OG1|B|Y7S501|C17,true
+7LNM,covale,L:Y7S:.:C17,F:LYS:257:NZ,I:Y7S:502,J:LYS:292,1.290,v1-1,v1-1,versioned,2,v2-0,3,rev 3 2024-12-25 v2-0 MAJOR(x-0),yes,none,,false
+7NAJ,covale,A:GLU:86:OE2,C:1LK:.:C,A:GLU:642,A:1LK:801,1.380,snapshot 20240101,snapshot 20240101,snapshot,4,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,7NAJ|A|GLU642|OE2|A|1LK801|C,true
+7NAJ,covale,B:GLU:86:OE2,D:1LK:.:C,B:GLU:642,B:1LK:801,1.375,snapshot 20240101,snapshot 20240101,snapshot,4,v1-4,5,rev 5 2024-12-25 v1-4 minor,no,exact,7NAJ|B|GLU642|OE2|B|1LK801|C,true
+7NH4,covale,A:CYS:310:SG,B:UCE:.:C37,A:CYS:310,A:UCE:501,1.821,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,7NH4|A|CYS310|SG|A|UCE501|C37,true
+7NH5,covale,A:CYS:296:SG,C:UC8:.:C39,A:CYS:296,A:UC8:502,1.765,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,none,,false
+7NH5,covale,A:CYS:310:SG,C:UC8:.:C39,A:CYS:310,A:UC8:502,1.767,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,7NH5|A|CYS310|SG|A|UC8502|C39,true
+7QV0,covale,A:HIS:47:NE2,G:GC5:.:C2,A:HIS:48,A:GC5:301,1.418,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,exact,7QV0|A|HIS48|NE2|A|GC5301|C2,true
+7QV0,covale,G:GC5:.:C10,L:PNS:.:S44,A:GC5:301,F:PNS:101,1.800,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,none,,false
+7QV0,covale,B:HIS:47:NE2,H:GC5:.:C2,B:HIS:48,B:GC5:301,1.426,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,exact,7QV0|B|HIS48|NE2|B|GC5301|C2,true
+7QV0,covale,H:GC5:.:C10,K:PNS:.:S44,B:GC5:301,E:PNS:101,1.829,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,none,,false
+7QV0,covale,C:HIS:47:NE2,I:GC5:.:C2,C:HIS:48,C:GC5:301,1.357,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,exact,7QV0|C|HIS48|NE2|C|GC5301|C2,true
+7QV0,covale,I:GC5:.:C10,J:PNS:.:S44,C:GC5:301,D:PNS:101,1.806,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,none,,false
+7QV0,covale,D:SER:40:OG,J:PNS:.:P24,D:SER:41,D:PNS:101,1.640,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,none,,false
+7QV0,covale,E:SER:40:OG,K:PNS:.:P24,E:SER:41,E:PNS:101,1.598,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,none,,false
+7QV0,covale,F:SER:40:OG,L:PNS:.:P24,F:SER:41,F:PNS:101,1.613,v1-1,v1-1,versioned,2,v2-1,4,rev 3 2023-04-26 v2-0 MAJOR(x-0),yes,none,,false
+7R0Y,covale,A:GLN:3:NE2,D:HNU:.:C4,AAA:GLN:981,AAA:HNU:1203,1.486,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-10-01 v1-4 minor,no,none,,false
+7R0Y,covale,A:GLN:3:NE2,D:HNU:.:O1,AAA:GLN:981,AAA:HNU:1203,1.184,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-10-01 v1-4 minor,no,none,,false
+7R0Y,covale,A:CYS:101:SG,D:HNU:.:C2,AAA:CYS:1079,AAA:HNU:1203,1.732,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-10-01 v1-4 minor,no,exact,7R0Y|AAA|CYS1079|SG|AAA|HNU1203|C2,true
+7RP3,covale,A:CYS:14:SG,D:MKZ:.:C,A:CYS:12,A:MKZ:201,1.839,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,7RP3|A|CYS12|SG|A|MKZ201|C,true
+7RP4,covale,A:CYS:13:SG,C:MKZ:.:C,A:CYS:12,A:MKZ:201,1.814,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,7RP4|A|CYS12|SG|A|MKZ201|C,true
+7RP4,covale,B:CYS:13:SG,F:MKZ:.:C,B:CYS:12,B:MKZ:201,1.824,snapshot 20240101,snapshot 20240101,snapshot,3,v1-3,4,rev 4 2024-12-25 v1-3 minor,no,exact,7RP4|B|CYS12|SG|B|MKZ201|C,true
+7WQI,covale,A:GLU:165:N,C:80I:.:O01,A:GLU:166,A:80I:401,1.305,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,none,,false
+7WYL,covale,A:CYS:151:SG,C:G7L:.:C01,A:CYS:147,A:G7L:201,1.766,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-09-17 v1-4 minor,no,exact,7WYL|A|CYS147|SG|A|G7L201|C01,true
+7WYM,covale,A:CYS:145:SG,B:G7L:.:C01,A:CYS:145,A:G7L:401,1.766,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-09-17 v1-4 minor,no,exact,7WYM|A|CYS145|SG|A|G7L401|C01,true
+7YSF,covale,A:CYS:57:SG,D:MLT:.:C4,A:CYS:161,A:MLT:301,1.766,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,exact,7YSF|A|CYS161|SG|A|MLT301|C4,true
+7Z9J,covale,A:CYS:101:SG,D:IIY:.:C2,AAA:CYS:1079,AAA:IIY:1203,1.730,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,7Z9J|AAA|CYS1079|SG|AAA|IIY1203|C2,true
+7ZLS,covale,G:CYS:82:SG,P:JH9:.:C24,J:CYS:111,J:JH9:201,1.771,snapshot 20250101,snapshot 20250101,snapshot,4,v1-4,5,rev 5 2025-10-01 v1-4 minor,no,exact,7ZLS|J|CYS111|SG|J|JH9201|C24,true
+8AKL,covale,A:SER:66:OG,C:O2F:.:C12,A:SER:70,A:O2F:402,1.345,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,8AKL|A|SER70|OG|A|O2F402|C12,true
+8B2I,covale,A:LYS:127:NZ,G:OQ9:.:C9,A:LYS:122,A:OQ9:305,1.427,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,8B2I|A|LYS122|NZ|A|OQ9305|C9,true
+8B2I,covale,G:OQ9:.:S1,B:CYS:7:SG,A:OQ9:305,B:CYS:180,2.020,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,none,,false
+8B5P,covale,A:LYS:127:NZ,F:OQ3:.:C10,A:LYS:122,A:OQ3:304,1.431,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,exact,8B5P|A|LYS122|NZ|A|OQ3304|C10,true
+8B5P,covale,F:OQ3:.:S1,B:CYS:7:SG,A:OQ3:304,B:CYS:180,2.021,snapshot 20250101,snapshot 20250101,snapshot,3,v1-3,4,rev 4 2025-10-01 v1-3 minor,no,none,,false
+8HVY,covale,A:THR:188:N,C:80I:.:C13,A:THR:190,A:80I:401,1.435,snapshot 20250101,snapshot 20250101,snapshot,2,v1-2,3,rev 3 2025-09-17 v1-2 minor,no,none,,false
+8JHL,covale,A:ASP:12:OD1,D:DNU:.:CBG,A:ASP:12,A:DNU:203,1.439,snapshot 20250101,snapshot 20250101,snapshot,1,v1-1,2,rev 2 2025-09-24 v1-1 minor,no,exact,8JHL|A|ASP12|OD1|A|DNU203|CBG,true
+8U6T,covale,A:LYS:104:NZ,C:VO8:.:C1,A:LYS:102,A:VO8:601,1.488,snapshot 20240101,snapshot 20240101,snapshot,1,v1-1,2,rev 2 2024-12-25 v1-1 minor,no,exact,8U6T|A|LYS102|NZ|A|VO8601|C1,true
+8X5M,covale,A:CYS:115:SG,B:Y4O:.:C17,A:CYS:116,A:Y4O:401,1.784,snapshot 20250101,snapshot 20250101,snapshot,1,v1-1,2,rev 2 2025-09-17 v1-1 minor,no,exact,8X5M|A|CYS116|SG|A|Y4O401|C17,true

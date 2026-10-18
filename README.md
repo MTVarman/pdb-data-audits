@@ -21,12 +21,15 @@ The floor is honest as a scan result and should not be read as a drug-discovery 
 
 None of the 491 strict sites is reported as a steric-clash outlier in its wwPDB validation report. The reason is in `unrecorded-covalent/clash-misclassification/`: the validation software perceives the bond from geometry, suppresses the clash accordingly, and writes nothing down.
 
+141 of the 491 sites (88 entries) did have the bond recorded in an earlier release. A wwPDB revision removed it, mostly on 2024-12-25, 2025-09-17 or 2025-10-01, and nothing re-filed it in any linkage category; 104 of those 141 are density-supported. Details in `unrecorded-covalent/remediation-history/`.
+
 ## Layout
 
 ```
 unrecorded-covalent/
   strict-cut-491/            the 491-site table (28 columns: geometry, density, clash, UniProt) + README
   sars-cov-2/                73 SARS-CoV-2 sites / 46 entries; Mpro Cys145 66 of 66 density-supported
+  remediation-history/       141 of the 491 were recorded, then removed by a 2024–25 revision and not re-filed
   lp-pdbbind-crosscheck/     20 LP-PDBBind entries that are covalent and labelled covalent=False; the mechanism
   benchmark-overlap/         PoseBusters (0 of 308), Runs N' Poses (7 entries / 23 sites)
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception

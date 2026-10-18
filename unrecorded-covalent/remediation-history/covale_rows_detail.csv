@@ -1,0 +1,245 @@
+entry,pre_revision_file,partner_type,status,in_current_as_other_conn_type,is_flagged_bond,ptnr1,ptnr2,pdbx_dist_value
+1A65,snapshot 20200722,protein-glycan,kept,,false,A:NAG800:C1,A:ASN343:ND2,1.457
+1A65,snapshot 20200722,protein-small-molecule ligand,removed,,true,A:PYE900:C1,A:SER499:OG,1.475
+1JCN,snapshot 20240101,protein-small-molecule ligand,removed,,false,A:CYS331:SG,A:CPR631:C6,2.002
+1JCN,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:CYS331:SG,B:CPR631:C6,1.907
+1K2I,snapshot 20230102,protein-small-molecule ligand,removed,,true,1:SER195:OG,1:SN1400:C2,1.322
+1M6D,snapshot 20210105,protein-small-molecule ligand,removed,,true,A:CYS25:SG,A:MYP1280:CT,1.824
+1M6D,snapshot 20210105,protein-small-molecule ligand,removed,,true,B:CYS25:SG,B:MYP2280:CT,1.808
+1NU7,snapshot 20240101,protein-small-molecule ligand,kept,,false,B:SER195:OG,B:0ZJ299:C4,1.381
+1NU7,snapshot 20240101,protein-small-molecule ligand,kept,,false,F:SER195:OG,F:0ZJ299:C4,1.391
+1NU7,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:HIS57:NE2,B:0ZJ299:CM,1.441
+1NU7,snapshot 20240101,protein-small-molecule ligand,removed,,true,F:HIS57:NE2,F:0ZJ299:CM,1.453
+1NU9,snapshot 20240101,protein-small-molecule ligand,kept,,false,A:SER195:OG,A:0ZJ299:C4,1.390
+1NU9,snapshot 20240101,protein-small-molecule ligand,kept,,false,D:SER195:OG,D:0ZJ299:C4,1.402
+1NU9,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:HIS57:NE2,A:0ZJ299:CM,1.454
+1NU9,snapshot 20240101,protein-small-molecule ligand,removed,,true,D:HIS57:NE2,D:0ZJ299:CM,1.461
+1OHL,snapshot 20190101,protein-small-molecule ligand,kept,,false,A:CYS224:SG,A:BME1224:S2,2.051
+1OHL,snapshot 20190101,protein-small-molecule ligand,removed,,true,A:LYS263:NZ,A:PBG1263:C3A,1.434
+1PV8,snapshot 20210105,protein-small-molecule ligand,removed,,true,A:LYS252:NZ,A:PB1350:C3,1.449
+1PV8,snapshot 20210105,protein-small-molecule ligand,removed,,true,A:LYS199:NZ,A:PB1350:C5,1.288
+1QGX,snapshot 20230102,protein-small-molecule ligand,removed,,true,A:CYS349:SG,A:BME407:C2,1.781
+1QGX,snapshot 20230102,protein-small-molecule ligand,removed,,false,A:CYS349:CB,A:BME407:S2,2.009
+1X84,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:GLU116:OE1,A:SBH301:C5,1.533
+2BKL,snapshot 20230102,protein-small-molecule ligand,removed,,true,A:SER533:OG,A:ZAH1533:C1,1.454
+2BKL,snapshot 20230102,protein-small-molecule ligand,removed,,true,B:SER533:OG,B:ZAH1533:C1,1.441
+2F2A,snapshot 20230102,protein-small-molecule ligand,removed,,true,A:GLN501:CD,A:SER178:OG,1.438
+2F2A,snapshot 20230102,protein-small-molecule ligand,removed,,false,A:GLN501:CG,A:SER178:OG,2.174
+2OP9,snapshot 20230102,protein-small-molecule ligand,removed,,true,B:CYS145:SG,B:WR1602:C2,1.846
+2WOX,v1-1,protein-small-molecule ligand,removed,,true,A:CYS286:SG,A:NDP1491:C2N,1.752
+2WOX,v1-1,protein-small-molecule ligand,kept,,false,C:CYS353:SG,C:BME1600:S2,1.874
+2XYP,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS163:SG,A:XVE1175:C91,1.793
+3GCH,snapshot 20240101,protein-small-molecule ligand,removed,,false,C:SER195:CB,C:OAC246:O,1.969
+3GCH,snapshot 20240101,protein-small-molecule ligand,removed,,false,C:SER195:CB,C:OAC246:C,1.949
+3GCH,snapshot 20240101,protein-small-molecule ligand,removed,,true,C:SER195:OG,C:OAC246:C,1.543
+4BD0,v1-1,protein-small-molecule ligand,kept,,false,A:BZB300:B,A:SER70:OG,1.469
+4BD0,v1-1,protein-small-molecule ligand,removed,,true,A:BZB300:C5,A:ASN104:ND2,1.453
+4OYQ,v1-3,protein-small-molecule ligand,removed,,true,A:PRO2:N,A:1X2201:C02,1.336
+4OYQ,v1-3,protein-small-molecule ligand,removed,,true,B:PRO2:N,B:1X2201:C02,1.341
+4OYQ,v1-3,protein-small-molecule ligand,removed,,true,C:PRO2:N,C:1X2201:C02,1.343
+4P01,v1-3,protein-small-molecule ligand,removed,,true,A:PRO1:N,A:1ZW201:CAK,1.446
+4P01,v1-3,protein-small-molecule ligand,removed,,true,B:PRO1:N,B:1ZW201:CAK,1.544
+4P0H,v1-2,protein-small-molecule ligand,removed,,true,A:PRO1:N,A:DMF201:C,1.464
+4P0H,v1-2,protein-small-molecule ligand,removed,,true,B:PRO1:N,B:DMF201:C,1.455
+4P0H,v1-2,protein-small-molecule ligand,removed,,true,C:PRO1:N,C:DMF201:C,1.470
+4PA8,v1-2,protein-small-molecule ligand,removed,,true,A:LYS1083:NZ,A:2K62001:C10,1.462
+4PKK,v1-2,protein-small-molecule ligand,removed,,true,A:PRO1:N,A:31E201:CAI,1.392
+4PKK,v1-2,protein-small-molecule ligand,removed,,true,B:PRO1:N,B:31E201:CAI,1.356
+4PKK,v1-2,protein-small-molecule ligand,removed,,true,C:PRO1:N,C:31E201:CAI,1.402
+4R1E,snapshot 20230102,protein-small-molecule ligand,removed,,true,B:GLY802:N,B:3EC901:CAL,1.316
+4U6W,v1-2,protein-small-molecule ligand,removed,,true,A:MET309:SD,A:Q08404:C6,1.749
+5AK7,snapshot 20190101,protein-small-molecule ligand,removed,,true,A:CYS351:SG,A:ARG1002:CZ,1.700
+5BNI,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:GLU230:OE2,B:AVW301:C1'N,1.541
+5BPK,snapshot 20250101,protein-small-molecule ligand,removed,,true,C:THR380:OG1,C:4UD701:C3,1.332
+5BPK,snapshot 20250101,protein-small-molecule ligand,removed,,true,C:THR380:OG1,C:4UD701:C3,1.388
+5BPK,snapshot 20250101,protein-small-molecule ligand,removed,,true,D:THR380:OG1,D:4UD701:C3,1.392
+5BPK,snapshot 20250101,protein-small-molecule ligand,removed,,true,D:THR380:OG1,D:4UD701:C3,1.338
+5D3Z,v1-3,protein-small-molecule ligand,removed,,true,A:SER142:OG,A:57H301:PAG,1.747
+5D6F,snapshot 20190101,protein-small-molecule ligand,removed,,true,A:HIS231:NE2,A:57R501:C9,1.421
+5DF7,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:SER294:OG,A:59H601:C1,1.387
+5DF7,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:SER294:OG,B:59H601:C1,1.389
+5GIT,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS151:SG,A:XXT201:C14,1.846
+5INX,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:CYS9:SG,B:MET501:C,1.805
+5INX,snapshot 20250101,protein-small-molecule ligand,removed,,true,C:CYS9:SG,C:MET501:C,1.815
+5INX,snapshot 20250101,protein-small-molecule ligand,removed,,true,D:CYS9:SG,D:MET501:C,1.826
+5INX,snapshot 20250101,protein-small-molecule ligand,removed,,true,E:CYS9:SG,E:MET501:C,1.824
+5IYT,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:CYS147:SG,B:NZN201:C26,1.790
+5OM9,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:GLU270:OE2,A:O2S401:C11,1.458
+5OM9,snapshot 20240101,protein-small-molecule ligand,removed,,false,B:GLU270:OE2,B:O2S401:C11,1.266
+5WXS,snapshot 20250101,protein-small-molecule ligand,removed,,true,U:SER195:OG,U:7YF301:C9,1.435
+5Y2Y,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:ASP106:OD1,A:8LL300:C26,1.391
+5Y2Y,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:ASP106:OD1,B:8LL300:C26,1.403
+5YJO,snapshot 20190101,protein-small-molecule ligand,removed,,true,A:CYS186:SG,A:8W0504:CAJ,1.766
+5YKP,snapshot 20190101,protein-small-molecule ligand,removed,,true,A:HIS212:NE2,A:OVA405:C11,1.529
+5YR4,snapshot 20190101,protein-small-molecule ligand,removed,,true,A:HIS212:NE2,A:TN4410:C11,1.544
+5YR5,snapshot 20190101,protein-small-molecule ligand,removed,,true,A:HIS212:NE2,A:OVA405:C11,1.535
+5YR6,v1-0,protein-small-molecule ligand,removed,,true,A:HIS212:NE2,A:TN4410:C11,1.523
+5Z9Y,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:LYS98:NZ,B:DXP301:C1,1.498
+5Z9Y,snapshot 20250101,protein-small-molecule ligand,removed,,false,B:LYS98:NZ,B:DXP301:C2,1.561
+6G3Z,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:LYS155:NZ,A:ELE301:C2,1.266
+6G3Z,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:LYS155:NZ,A:ELE301:C2,1.280
+6G3Z,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:LYS155:NZ,B:ELE301:C2,1.270
+6G3Z,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:LYS155:NZ,B:ELE301:C2,1.276
+6H0U,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS199:SG,A:FKB501:C2,1.863
+6H0U,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:CYS199:SG,B:FKB501:C2,1.894
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,E:DBB2:C,E:DSG3:N,1.516
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,E:DBB2:CB,E:DLE10:OXT,1.402
+6J31,v1-1,protein-small-molecule ligand,removed,,true,E:DBB2:N,E:BG9101:C12,1.476
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,E:DSG3:C,E:VAL4:N,1.506
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,E:VAL4:C,E:MEA5:N,1.494
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,E:MEA5:C,E:VAL6:N,1.493
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,E:GLY8:C,E:DVA9:N,1.486
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,E:DVA9:C,E:DLE10:N,1.490
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,F:DBB2:C,F:DSG3:N,1.514
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,F:DBB2:CB,F:DLE10:OXT,1.400
+6J31,v1-1,protein-small-molecule ligand,removed,,true,F:DBB2:N,F:BG9101:C12,1.477
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,F:DSG3:C,F:VAL4:N,1.507
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,F:VAL4:C,F:MEA5:N,1.496
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,F:MEA5:C,F:VAL6:N,1.495
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,F:GLY8:C,F:DVA9:N,1.486
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,F:DVA9:C,F:DLE10:N,1.486
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,G:DBB2:C,G:DSG3:N,1.513
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,G:DBB2:CB,G:DLE10:OXT,1.402
+6J31,v1-1,protein-small-molecule ligand,removed,,true,G:DBB2:N,G:BG9101:C12,1.484
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,G:DSG3:C,G:VAL4:N,1.508
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,G:VAL4:C,G:MEA5:N,1.495
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,G:MEA5:C,G:VAL6:N,1.488
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,G:GLY8:C,G:DVA9:N,1.485
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,G:DVA9:C,G:DLE10:N,1.485
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,H:DBB2:C,H:DSG3:N,1.511
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,H:DBB2:CB,H:DLE10:O,1.397
+6J31,v1-1,protein-small-molecule ligand,removed,,true,H:DBB2:N,H:BG9101:C12,1.483
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,H:DSG3:C,H:VAL4:N,1.510
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,H:VAL4:C,H:MEA5:N,1.498
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,H:MEA5:C,H:VAL6:N,1.487
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,H:GLY8:C,H:DVA9:N,1.483
+6J31,v1-1,protein-protein non-standard linkage,kept,,false,H:DVA9:C,H:DLE10:N,1.486
+6KF7,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:SER162:OG,A:D8F401:CAN,1.387
+6KF7,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:SER162:OG,B:D8F401:CAN,1.383
+6KF7,snapshot 20250101,protein-small-molecule ligand,removed,,true,C:SER162:OG,C:D8F401:CAN,1.389
+6KF7,snapshot 20250101,protein-small-molecule ligand,removed,,true,D:SER162:OG,D:D8F401:CAN,1.381
+6L71,snapshot 20250101,protein-small-molecule ligand,removed,,true,C:LYS9:NZ,C:YOY401:C11,1.434
+6L71,snapshot 20250101,protein-small-molecule ligand,removed,,true,C:LYS9:NZ,C:YDD402:C13,1.428
+6MGU,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS308:SG,A:JQS500:C10,1.949
+6MGU,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:CYS308:SG,B:JQS500:C10,1.940
+6P4E,snapshot 20230102,protein-small-molecule ligand,removed,,true,A:CYS26:SG,A:GES306:C15,1.764
+6P4E,snapshot 20230102,protein-small-molecule ligand,removed,,true,A:CYS26:SG,A:GES306:C15,1.763
+6P4E,snapshot 20230102,protein-small-molecule ligand,removed,,true,B:CYS26:SG,B:GES307:C15,1.763
+6P4E,snapshot 20230102,protein-small-molecule ligand,removed,,true,B:CYS26:SG,B:GES307:C15,1.764
+6PZP,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS285:SG,A:P7S301:C21,1.770
+6S9W,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS310:SG,A:L1Z501:CBL,1.830
+6T5V,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS12:SG,A:MKZ203:C,1.816
+6V8C,v2-0,protein-small-molecule ligand,removed,,true,A:LYS292:NZ,A:QRM502:C5,1.459
+6V8C,v2-0,ligand-ligand,kept,,false,A:PLP501:C4A,A:QRM502:N10,1.251
+6V8C,v2-0,protein-small-molecule ligand,removed,,true,B:LYS292:NZ,B:QRM502:C5,1.436
+6V8C,v2-0,ligand-ligand,kept,,false,B:PLP501:C4A,B:QRM502:N10,1.254
+6V8C,v2-0,protein-small-molecule ligand,removed,,true,C:LYS292:NZ,C:QRM502:C5,1.434
+6V8C,v2-0,ligand-ligand,kept,,false,C:PLP501:C4A,C:QRM502:N10,1.210
+6WSB,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS285:SG,A:NAD501:C3N,1.793
+6WSB,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS285:SG,A:NAD501:C4N,1.872
+6WSB,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:CYS285:SG,B:NAD501:C3N,1.836
+6WSB,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:CYS285:SG,B:NAD501:C4N,1.872
+6WYG,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS157:SG,A:RFT205:C20,1.827
+6WYG,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:CYS157:SG,B:RFT205:C20,1.823
+6WYG,snapshot 20240101,protein-small-molecule ligand,removed,,true,C:CYS157:SG,C:RFT205:C20,1.836
+6WYG,snapshot 20240101,protein-small-molecule ligand,removed,,true,D:CYS157:SG,D:RFT206:C20,1.814
+6WYH,v1-2,protein-small-molecule ligand,removed,,true,A:CYS157:SG,A:RFT205:C20,1.815
+6WYH,v1-2,protein-small-molecule ligand,removed,,true,B:CYS157:SG,B:RFT206:C20,1.821
+6WYH,v1-2,protein-small-molecule ligand,removed,,true,C:CYS157:SG,C:RFT205:C20,1.819
+6WYH,v1-2,protein-small-molecule ligand,removed,,true,D:CYS157:SG,D:RFT205:C20,1.817
+6XHG,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS636:SG,A:BVX801:CAC,1.887
+6XHG,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:CYS636:SG,B:BVX801:CAC,1.879
+6YGV,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS330:SG,A:OQH407:C3,1.757
+7B3E,snapshot 20250101,protein-small-molecule ligand,removed,,false,A:CYS145:SG,A:MYC407:C19,1.696
+7B3E,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:CYS145:SG,B:MYC606:C19,1.703
+7B9I,snapshot 20250101,protein-glycan,kept,,false,A:ASN96:ND2,A:NAG502:C1,1.446
+7B9I,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:SER232:OG,A:T3T509:C03,1.386
+7BAP,snapshot 20250101,protein-glycan,kept,,false,A:ASN96:ND2,A:NAG502:C1,1.438
+7BAP,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:ASP281:OD2,A:S4V503:C7,1.396
+7BJF,snapshot 20250101,protein-protein non-standard linkage,kept,,false,A:SER37:C,A:CSO38:N,1.329
+7BJF,snapshot 20250101,protein-protein non-standard linkage,kept,,false,A:CSO38:C,A:GLU39:N,1.328
+7BJF,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:LYS122:NZ,A:TZH302:C16,1.428
+7BJF,snapshot 20250101,protein-protein non-standard linkage,kept,,false,P:GLY44:C,P:SEP45:N,1.328
+7BJF,snapshot 20250101,protein-protein non-standard linkage,kept,,false,P:SEP45:C,P:ILE46:N,1.329
+7D9E,snapshot 20250101,protein-small-molecule ligand,removed,,true,B:THR364:OG1,B:DON701:C1D,1.376
+7D9W,v1-1,protein-small-molecule ligand,removed,,true,B:THR364:OG1,B:DON601:C1D,1.375
+7D9W,v1-1,protein-small-molecule ligand,removed,,true,D:THR364:OG1,D:DON601:C1D,1.375
+7DPP,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS145:SG,A:MYC401:C19,1.769
+7F1V,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:LYS211:NZ,A:7XF401:CAL,1.315
+7F1V,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:THR210:C,B:LLP211:N,1.332
+7F1V,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:LLP211:C,B:TYR212:N,1.338
+7F1V,snapshot 20250101,protein-protein non-standard linkage,kept,,false,D:THR210:C,D:LLP211:N,1.340
+7F1V,snapshot 20250101,protein-protein non-standard linkage,kept,,false,D:LLP211:C,D:TYR212:N,1.332
+7FQI,v1-0,protein-protein non-standard linkage,removed,,false,A:THR146:C,A:SNN147:N3,1.340
+7FQI,v1-0,protein-protein non-standard linkage,removed,,false,A:SNN147:C2,A:HIS148:N,1.312
+7FQI,v1-0,protein-protein non-standard linkage,kept,,false,A:SNN147:C5,A:HIS148:N,1.333
+7FQI,v1-0,protein-glycan,kept,,false,A:ASN167:ND2,D:NAG1:C1,1.452
+7FQI,v1-0,protein-small-molecule ligand,removed,,false,A:CYS189:SG,A:WSN501:C6,1.674
+7FQI,v1-0,protein-protein non-standard linkage,removed,,false,B:THR146:C,B:SNN147:N3,1.353
+7FQI,v1-0,protein-protein non-standard linkage,removed,,false,B:SNN147:C2,B:HIS148:N,1.313
+7FQI,v1-0,protein-protein non-standard linkage,kept,,false,B:SNN147:C5,B:HIS148:N,1.302
+7FQI,v1-0,protein-glycan,kept,,false,B:ASN167:ND2,E:NAG1:C1,1.437
+7FQI,v1-0,protein-small-molecule ligand,removed,,true,B:CYS189:SG,B:WSN501:C6,1.701
+7FQI,v1-0,protein-protein non-standard linkage,removed,,false,C:THR146:C,C:SNN147:N3,1.364
+7FQI,v1-0,protein-protein non-standard linkage,removed,,false,C:SNN147:C2,C:HIS148:N,1.331
+7FQI,v1-0,protein-protein non-standard linkage,kept,,false,C:SNN147:C5,C:HIS148:N,1.317
+7FQI,v1-0,protein-glycan,kept,,false,C:ASN167:ND2,F:NAG1:C1,1.442
+7FQI,v1-0,protein-small-molecule ligand,removed,,true,C:CYS189:SG,C:WSN501:C6,1.700
+7FQI,v1-0,glycan-glycan,kept,,false,D:NAG1:O4,D:NAG2:C1,1.338
+7FQI,v1-0,glycan-glycan,kept,,false,E:NAG1:O4,E:NAG2:C1,1.340
+7FQI,v1-0,glycan-glycan,kept,,false,F:NAG1:O4,F:NAG2:C1,1.340
+7G9G,v1-0,protein-small-molecule ligand,removed,,true,B:CYS306:SG,B:ZGK501:C12,1.837
+7LEL,snapshot 20240101,protein-small-molecule ligand,removed,,true,D:ASN297:ND2,D:BMF401:C06,1.446
+7LNM,v1-1,protein-small-molecule ligand,kept,,false,B:LYS292:NZ,B:Y7S501:C17,1.285
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,B:THR322:OG1,B:Y7S502:C17,1.451
+7LNM,v1-1,protein-small-molecule ligand,removed,,true,B:Y7S501:C17,C:THR322:OG1,1.460
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,B:Y7S502:C17,C:LYS292:NZ,1.301
+7LNM,v1-1,protein-small-molecule ligand,kept,,false,E:LYS292:NZ,E:Y7S501:C17,1.277
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,E:THR322:OG1,E:Y7S502:C17,1.450
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,E:Y7S501:C17,F:THR322:OG1,1.460
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,E:Y7S502:C17,F:LYS292:NZ,1.303
+7LNM,v1-1,protein-small-molecule ligand,kept,,false,I:LYS292:NZ,I:Y7S501:C17,1.295
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,I:THR322:OG1,I:Y7S502:C17,1.463
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,I:Y7S501:C17,J:THR322:OG1,1.463
+7LNM,v1-1,protein-small-molecule ligand,removed,,false,I:Y7S502:C17,J:LYS292:NZ,1.290
+7NAJ,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:GLU642:OE2,A:1LK801:C,1.380
+7NAJ,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:GLU642:OE2,B:1LK801:C,1.375
+7NH4,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS310:SG,A:UCE501:C37,1.821
+7NH5,snapshot 20250101,protein-small-molecule ligand,removed,,false,A:CYS296:SG,A:UC8502:C39,1.765
+7NH5,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS310:SG,A:UC8502:C39,1.767
+7QV0,v1-1,protein-small-molecule ligand,removed,,true,A:HIS48:NE2,A:GC5301:C2,1.418
+7QV0,v1-1,ligand-ligand,removed,,false,A:GC5301:C10,F:PNS101:S44,1.800
+7QV0,v1-1,protein-small-molecule ligand,removed,,true,B:HIS48:NE2,B:GC5301:C2,1.426
+7QV0,v1-1,ligand-ligand,removed,,false,B:GC5301:C10,E:PNS101:S44,1.829
+7QV0,v1-1,protein-small-molecule ligand,removed,,true,C:HIS48:NE2,C:GC5301:C2,1.357
+7QV0,v1-1,ligand-ligand,removed,,false,C:GC5301:C10,D:PNS101:S44,1.806
+7QV0,v1-1,protein-small-molecule ligand,removed,,false,D:SER41:OG,D:PNS101:P24,1.640
+7QV0,v1-1,protein-small-molecule ligand,removed,,false,E:SER41:OG,E:PNS101:P24,1.598
+7QV0,v1-1,protein-small-molecule ligand,removed,,false,F:SER41:OG,F:PNS101:P24,1.613
+7R0Y,snapshot 20250101,protein-small-molecule ligand,removed,,false,AAA:GLN981:NE2,AAA:HNU1203:C4,1.486
+7R0Y,snapshot 20250101,protein-small-molecule ligand,removed,,false,AAA:GLN981:NE2,AAA:HNU1203:O1,1.184
+7R0Y,snapshot 20250101,protein-small-molecule ligand,removed,,true,AAA:CYS1079:SG,AAA:HNU1203:C2,1.732
+7RP3,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS12:SG,A:MKZ201:C,1.839
+7RP4,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:CYS12:SG,A:MKZ201:C,1.814
+7RP4,snapshot 20240101,protein-small-molecule ligand,removed,,true,B:CYS12:SG,B:MKZ201:C,1.824
+7WYL,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS147:SG,A:G7L201:C01,1.766
+7WYM,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS145:SG,A:G7L401:C01,1.766
+7YSF,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS161:SG,A:MLT301:C4,1.766
+7Z9J,snapshot 20250101,protein-small-molecule ligand,removed,,true,AAA:CYS1079:SG,AAA:IIY1203:C2,1.730
+7ZLS,snapshot 20250101,protein-small-molecule ligand,removed,,true,J:CYS111:SG,J:JH9201:C24,1.771
+8AKL,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:SER70:OG,A:O2F402:C12,1.345
+8B2I,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:LYS122:NZ,A:OQ9305:C9,1.427
+8B2I,snapshot 20250101,protein-small-molecule ligand,removed,,false,A:OQ9305:S1,B:CYS180:SG,2.020
+8B2I,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:LYS178:C,B:SEP179:N,1.326
+8B2I,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:SEP179:C,B:CYS180:N,1.325
+8B2I,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:ALA182:C,B:NH2183:N,1.330
+8B5P,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:LYS122:NZ,A:OQ3304:C10,1.431
+8B5P,snapshot 20250101,protein-small-molecule ligand,removed,,false,A:OQ3304:S1,B:CYS180:SG,2.021
+8B5P,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:LYS178:C,B:SEP179:N,1.329
+8B5P,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:SEP179:C,B:CYS180:N,1.323
+8B5P,snapshot 20250101,protein-protein non-standard linkage,kept,,false,B:ALA182:C,B:NH2183:N,1.328
+8JHL,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:ASP12:OD1,A:DNU203:CBG,1.439
+8U6T,snapshot 20240101,protein-small-molecule ligand,removed,,true,A:LYS102:NZ,A:VO8601:C1,1.488
+8X5M,snapshot 20250101,protein-small-molecule ligand,removed,,true,A:CYS116:SG,A:Y4O401:C17,1.784
+8X5M,snapshot 20250101,protein-protein non-standard linkage,kept,,false,A:ASP162:C,A:CSO163:N,1.339
+8X5M,snapshot 20250101,protein-protein non-standard linkage,kept,,false,A:CSO163:C,A:THR164:N,1.339

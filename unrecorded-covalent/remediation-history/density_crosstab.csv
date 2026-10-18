@@ -1,0 +1,6 @@
+remediation_class,sites,sites_density_supported,entries,entries_with_density_supported_site,sites_ligand_uncertain,sites_protein_uncertain,sites_unknown,sites_unsupported
+never recorded; struct_conn not revised after release,286,246,162,136,25,2,11,2
+recorded then removed by a revision (exact copy),141,104,88,67,26,3,5,3
+"revised, and absent from every pre-revision file retrieved",61,51,38,30,4,0,5,1
+undeterminable (no pre-revision file available),3,2,3,2,1,0,0,0
+ALL,491,403,289,233,56,5,21,6
