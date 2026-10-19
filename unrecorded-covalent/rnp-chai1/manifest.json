@@ -1,0 +1,89 @@
+[
+  {
+    "entry": "7EI4",
+    "ccd": "J3U",
+    "chain": "A",
+    "residue": 90,
+    "seq_index": 90,
+    "patom": "SG",
+    "latom_ccd": "CAT",
+    "latom_chai": "C1",
+    "smiles": "C=CC#CC#CC=CCC(O)C(O)CCCCC(=O)O",
+    "cofactors": [],
+    "seq_len": 407
+  },
+  {
+    "entry": "7F1V",
+    "ccd": "7XF",
+    "chain": "A",
+    "residue": 211,
+    "seq_index": 211,
+    "patom": "NZ",
+    "latom_ccd": "CAL",
+    "latom_chai": "C5",
+    "smiles": "CC1=C(O)C(CNC(CCS)C(=O)O)=C(COP(=O)(O)O)C=N1",
+    "cofactors": [],
+    "seq_len": 398
+  },
+  {
+    "entry": "7YCC",
+    "ccd": "IQC",
+    "chain": "A",
+    "residue": 12,
+    "seq_index": 13,
+    "patom": "SG",
+    "latom_ccd": "C36",
+    "latom_chai": "C1",
+    "smiles": "CCC(=O)N1CC2(CCN(C3=NC(NC4CCN(C)CC4)=NC4=C(F)C(C5=C(C)C=CC6=C5C=NN6)=C(Cl)C=C34)CC2)C1",
+    "cofactors": [
+      "GDP",
+      "MG"
+    ],
+    "seq_len": 170
+  },
+  {
+    "entry": "7YCE",
+    "ccd": "IQN",
+    "chain": "A",
+    "residue": 12,
+    "seq_index": 13,
+    "patom": "SG",
+    "latom_ccd": "C31",
+    "latom_chai": "C1",
+    "smiles": "CCC(=O)N1CC2(CCN(C3=NC(OC4CCN(CC)CC4)=NC4=C3C=C(Cl)C(C3=C(C)C=CC5=C3C=NN5)=C4F)CC2)C1",
+    "cofactors": [
+      "GDP",
+      "MG"
+    ],
+    "seq_len": 170
+  },
+  {
+    "entry": "8DVH",
+    "ccd": "BO2",
+    "chain": "A",
+    "residue": 445,
+    "seq_index": 99,
+    "patom": "OG",
+    "latom_ccd": "B26",
+    "latom_chai": "B1",
+    "smiles": "CC(C)CC(NC(=O)C(CC1=CC=CC=C1)NC(=O)C1=CN=CC=N1)B(O)O",
+    "cofactors": [],
+    "seq_len": 206
+  },
+  {
+    "entry": "8X6R",
+    "ccd": "Y9D",
+    "chain": "A",
+    "residue": 12,
+    "seq_index": 13,
+    "patom": "SG",
+    "latom_ccd": "C46",
+    "latom_chai": "C15",
+    "smiles": "C=CC1=CC2=C(N3CCC4(CC3)CN(C(=O)CC)C4)N=C(OC3CCN(C)CC3)N=C2C(OCC)=C1C1=C(C)C=CC2=C1C=NN2",
+    "cofactors": [
+      "GDP",
+      "MG"
+    ],
+    "seq_len": 170
+  }
+]

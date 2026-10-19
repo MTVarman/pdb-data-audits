@@ -19,6 +19,8 @@ Ligand heavy-atom RMSD (Å) to the deposited pose, pocket-Cα superposition (Cα
 - SMILES only: ligand centroid within 0.1–0.75 Å of the deposited centroid in all 30 samples; nucleophile to nearest ligand atom 2.6–3.5 Å (contact distance, not bonded).
 - All 60 samples: complex pLDDT and pTM 0.94–0.98.
 
+`../rnp-chai1/` repeats this on the same six entries with Chai-1 and measures the warhead atom specifically across both models. Two notes that bear on the numbers above: the 2.6–3.5 Å quoted here is the nucleophile to *nearest ligand atom*; the warhead itself is 2.64–3.91 Å, differing only on 7F1V. And Boltz-2 reaches bond distance in 0 of 30 SMILES-only samples where Chai-1 reaches it in 20 of 30, so the contact-distance placement is not a consequence of the SMILES-only input format.
+
 ## Setup
 
 Boltz-2 2.2.1, Python 3.12 venv, NVIDIA A100. `--use_msa_server --use_potentials --no_kernels --diffusion_samples 5 --seed 42`. One copy of the chain carrying the site; GDP and Mg for the three KRAS entries. Residue indices mapped from author numbering through `_pdbx_poly_seq_scheme`. The two conditions share identical protein input.

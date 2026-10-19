@@ -33,6 +33,7 @@ unrecorded-covalent/
   lp-pdbbind-crosscheck/     20 LP-PDBBind entries that are covalent and labelled covalent=False; the mechanism
   benchmark-overlap/         PoseBusters (0 of 308), Runs N' Poses (7 entries / 23 sites)
   rnp-boltz2/                Boltz-2 on the 6 Runs N' Poses covalent entries, SMILES-only vs bond-declared
+  rnp-chai1/                 Chai-1 on the same six; warhead-to-nucleophile distance measured across both models
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
