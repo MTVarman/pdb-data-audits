@@ -73,6 +73,9 @@ Examples in the removed set: 6T5V (KRAS Cys12–MKZ; recorded in the 2024-01-01 
 | `entries_snapshot_check.csv` | 109 | Per entry that needed the PDBj snapshot archive: snapshots in the window, the snapshot used, its revision ordinal, `struct_conn` row counts and the exact/sister/none result |
 | `downloads_versioned.jsonl` | 287 | wwPDB versioned-archive requests with SHA-256 |
 | `downloads_v2.jsonl` | 107 | PDBj snapshot requests with SHA-256 |
+| `split/sites_strict_match.part01–02.csv` | 491 | One row per strict-cut site: the class above, the files checked, the strict match in each, and other records on the same residue and ligand. Split in two for size; the header is repeated in each part |
+| `split/revision_items.part01–03.csv` | 828 | Every revision item (`pdbx_audit_revision_item`), category and group listed after release for the 88 removed entries, with whether the revision falls in the removal window. Split in three, header repeated |
+| `SHA256SUMS` | | SHA-256 of every table here. Each matches the hash recorded for the same file in the run directory that produced it |
 
 ## Notes
 
