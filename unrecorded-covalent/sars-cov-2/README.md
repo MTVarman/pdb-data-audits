@@ -2,7 +2,7 @@
 
 `sars_cov2_unrecorded_covalent_appendix.csv` lists every SARS-CoV-2 site in the strict cut: class 2, X-ray, ≤ 2.5 Å, a protein nucleophile within covalent bond length of a ligand atom, and no `_struct_conn` record. There are 73 sites in 46 entries.
 
-It is a subset of `../strict-cut-491/unrecorded_covalent_tight_cut_491_sites.csv` (SHA-256 `05be1431…4edb7d0`), filtered on organism. `python3 -I build.py ../strict-cut-491/unrecorded_covalent_tight_cut_491_sites.csv` rebuilds it byte for byte. Density and clash values are taken from the wwPDB validation reports.
+It is a subset of `../strict-cut-491/unrecorded_covalent_tight_cut_491_sites.csv` (SHA-256 `51c05a4e…13423e6`), filtered on organism. `python3 -I build.py ../strict-cut-491/unrecorded_covalent_tight_cut_491_sites.csv` rebuilds it byte for byte. Density and clash values are taken from the wwPDB validation reports.
 
 ## Numbers
 

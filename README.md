@@ -14,22 +14,22 @@ A scan of 199,603 experimental PDB entries (RCSB snapshot `20261013T233952Z`) fo
 |---|---:|---:|---|
 | Scan floor | 16,827 | 2,568 | Organic ligand, protein nucleophile, ≤ 2.0 Å, no bond record. All classes, methods, resolutions. |
 | Chemistry-consistent | 1,705 | 477 | Triage class 2: distance inside the element-pair bond-length window; not a known cofactor, PTM or artefact. |
-| **Strict** | **491** | **289** | Class 2, X-ray, ≤ 2.5 Å. |
-| …density-supported | 403 | 233 | Both partners RSCC ≥ 0.8, RSR ≤ 0.3, occupancy > 0 in the wwPDB validation report. Thresholds fixed before reading. |
+| **Strict** | **485** | **289** | Class 2, X-ray, ≤ 2.5 Å. |
+| …density-supported | 397 | 233 | Both partners RSCC ≥ 0.8, RSR ≤ 0.3, occupancy > 0 in the wwPDB validation report. Thresholds fixed before reading. |
 
 The floor is honest as a scan result and should not be read as a drug-discovery claim: half of it is one bilin cofactor on cysteine, and four-fifths of it is cryo-EM at ~3 Å. The defensible number is 233 entries. More than half of the strict 289 were released since 2020.
 
-None of the 491 strict sites is reported as a steric-clash outlier in its wwPDB validation report. The reason is in `unrecorded-covalent/clash-misclassification/`: the validation software perceives the bond from geometry, suppresses the clash accordingly, and writes nothing down.
+None of the 485 strict sites is reported as a steric-clash outlier in its wwPDB validation report. The reason is in `unrecorded-covalent/clash-misclassification/`: the validation software perceives the bond from geometry, suppresses the clash accordingly, and writes nothing down.
 
-141 of the 491 sites (88 entries) did have the bond recorded in an earlier release. A wwPDB revision removed it, mostly on 2024-12-25, 2025-09-17 or 2025-10-01, and nothing re-filed it in any linkage category; 104 of those 141 are density-supported. Details in `unrecorded-covalent/remediation-history/`.
+135 of the 485 sites (88 entries) did have the bond recorded in an earlier release. A wwPDB revision removed it, mostly on 2024-12-25, 2025-09-17 or 2025-10-01, and nothing re-filed it in any linkage category; 98 of those 135 are density-supported. Details in `unrecorded-covalent/remediation-history/`.
 
 ## Layout
 
 ```
 unrecorded-covalent/
-  strict-cut-491/            the 491-site table (28 columns: geometry, density, clash, UniProt) + README
+  strict-cut-491/            the 485-site table (28 columns: geometry, density, clash, UniProt) + README
   sars-cov-2/                73 SARS-CoV-2 sites / 46 entries; Mpro Cys145 66 of 66 density-supported
-  remediation-history/       141 of the 491 were recorded, then removed by a 2024–25 revision and not re-filed
+  remediation-history/       135 of the 485 were recorded, then removed by a 2024–25 revision and not re-filed
   lp-pdbbind-crosscheck/     20 LP-PDBBind entries that are covalent and labelled covalent=False; the mechanism
   benchmark-overlap/         PoseBusters (0 of 308), Runs N' Poses (7 entries / 23 sites)
   rnp-boltz2/                Boltz-2 on the 6 Runs N' Poses covalent entries, SMILES-only vs bond-declared

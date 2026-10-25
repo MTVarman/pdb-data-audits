@@ -10,13 +10,13 @@ That wwPDB validation, lacking a bond record, evaluates these contacts against v
 
 ## What the data says
 
-**0 of 491 sites. 0 of 289 entries.** Not one flagged contact appears as a clash outlier at the flagged atom pair.
+**0 of 485 sites. 0 of 289 entries.** Not one flagged contact appears as a clash outlier at the flagged atom pair.
 
 It fails at the control. 6T5V's validation report contains four clash records in total — all hydrogens, on Gln22, Ile24, Ile55 and Arg149. None involve Cys12 or the ligand. The Cys12 and ligand rows carry no clash children at all.
 
-Not a threshold effect. Expected overlap at that contact is about 1.68 Å against a 0.4 Å cutoff — four times over. Across all 491 sites the predicted overlap runs 1.55–1.98 Å, median 1.73 Å, and every single one would clear the cutoff. The largest overlap actually reported anywhere in the residue-level matches is 1.29 Å, between hydrogen-bearing atoms.
+Not a threshold effect. Expected overlap at that contact is about 1.68 Å against a 0.4 Å cutoff — four times over. Across all 485 sites the predicted overlap runs 1.55–1.98 Å, median 1.73 Å, and every single one would clear the cutoff. The largest overlap actually reported anywhere in the residue-level matches is 1.29 Å, between hydrogen-bearing atoms.
 
-Loose matches exist and are not the contact: 45 sites have a clash somewhere between the same residue and ligand, but 22 of those involve only hydrogens and the rest are heavy atoms at 2.2–3.0 Å — neighbouring atoms, not the bond.
+Loose matches exist and are not the contact: 43 sites have a clash somewhere between the same residue and ligand, but 22 of those involve only hydrogens and the rest are heavy atoms at 2.2–3.0 Å — neighbouring atoms, not the bond.
 
 Cross-tabbed against density: no density-supported site is reported as a clash at the flagged pair. Neither is any other class.
 
@@ -24,7 +24,7 @@ Same behaviour under both report schema versions in play. Zero network retrieval
 
 ## Why the zero is the finding
 
-**All 491 contacts are in the mmCIF close-contact table.** That is where the scan found them. So the pipeline measured every one of these pairs, wrote each one down as a close contact — and then left all 491 out of the clash list.
+**All 485 contacts are in the mmCIF close-contact table.** That is where the scan found them. So the pipeline measured every one of these pairs, wrote each one down as a close contact — and then left all 491 out of the clash list.
 
 A 1.8 Å sulfur-to-carbon contact at four times the clash cutoff does not quietly fail to be flagged. Something in the pipeline removed it.
 
@@ -44,13 +44,13 @@ Clash detection in the wwPDB report comes from MolProbity's `clashlist`, which d
 
 So: probe measures a 1.816 Å sulfur-to-carbon separation, concludes from the distance alone that it is a bond, marks the pair bonded, and suppresses contact analysis across the pair and everything within four bonds of it. The contact never reaches the clash list. Not misfiled — deliberately and correctly excluded, by a program that decided it was looking at a covalent bond.
 
-**This is the finding.** The validation pipeline independently perceives every one of these 491 bonds, from geometry, with the annotation-driven path switched off. It acts on that perception. And the perception exists only inside probe's memory for the length of the run. Nothing writes it down. `_struct_conn` stays empty, the mmCIF close-contact table keeps listing the pair as a non-bonded contact, and every downstream consumer reads an unbonded ligand sitting at bonding distance.
+**This is the finding.** The validation pipeline independently perceives every one of these 485 bonds, from geometry, with the annotation-driven path switched off. It acts on that perception. And the perception exists only inside probe's memory for the length of the run. Nothing writes it down. `_struct_conn` stays empty, the mmCIF close-contact table keeps listing the pair as a non-bonded contact, and every downstream consumer reads an unbonded ligand sitting at bonding distance.
 
 The recommendation is no longer "add a check." It is **write down the answer the pipeline already computed.**
 
 ### Established vs. not
 
-Established: probe's 1–4 exclusion depth and its default-off standard bond tables; MolProbity's clashlist leaving `-stdbonds` inactive; zero clash records at all 491 flagged pairs; all 491 present in the close-contact table.
+Established: probe's 1–4 exclusion depth and its default-off standard bond tables; MolProbity's clashlist leaving `-stdbonds` inactive; zero clash records at all 485 flagged pairs; all 485 present in the close-contact table.
 
 Not established: the exact distance threshold `markBonds()` applies; whether the wwPDB production pipeline runs the same clashlist flags as the public MolProbity distribution; whether probe reads `_struct_conn` or LINK records at all (if it does not, the geometric perception is wholly independent of the annotation, which is the strongest reading).
 
@@ -58,7 +58,7 @@ Open, and now cheap to answer: read `markBonds()` in `probe.c` and `stdconntable
 
 ## Status of the related layers
 
-- Density validation: 233 of 289 entries density-supported (80.6%), 403 of 491 sites. Unaffected by this.
+- Density validation: 233 of 289 entries density-supported (80.6%), 397 of 485 sites. Unaffected by this.
 - The scan, triage, classification rules and every published count: unchanged.
 
 ## Pre-registration

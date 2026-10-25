@@ -18,7 +18,7 @@ All from `analysis/unrecorded_covalent/` at snapshot 20261013T233952Z.
 |---|---:|---:|---|
 | **Scan floor** | 16,827 | 2,568 | Organic ligand, protein nucleophile, ≤2.0 Å, no `_struct_conn` row. All classes, all methods, all resolutions. **This is the 16.7%.** |
 | **Chemistry-consistent** | 1,705 | 477 | Triage class 2: bond-length-consistent adduct. Excludes known cofactors and artefacts. |
-| **Defensible** | 491 | 289 | Class 2, X-ray only, ≤2.5 Å. |
+| **Defensible** | 485 | 289 | Class 2, X-ray only, ≤2.5 Å. |
 
 Why the floor is hard to defend as a drug-discovery claim:
 

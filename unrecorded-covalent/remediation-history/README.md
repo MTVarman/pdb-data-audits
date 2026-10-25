@@ -1,6 +1,6 @@
-# Remediation history of the 491 strict sites
+# Remediation history of the 485 strict sites
 
-What happened to the bond record at each of the 491 strict-cut sites (289 entries, see `../strict-cut-491/`). In the current files none of them has a `_struct_conn` row for the bond. This folder checks whether the bond was ever recorded in an earlier release of the same entry and, if it was, what removed it.
+What happened to the bond record at each of the 485 strict-cut sites (289 entries, see `../strict-cut-491/`). In the current files none of them has a `_struct_conn` row for the bond. This folder checks whether the bond was ever recorded in an earlier release of the same entry and, if it was, what removed it.
 
 ## Sources
 
@@ -17,32 +17,32 @@ Matching is strict and on covale rows only: author chain, label asym, residue nu
 | Class | Sites | Entries | Density-supported sites | Entries with a density-supported site |
 |---|---:|---:|---:|---:|
 | Never recorded; `struct_conn` never revised since release | 286 | 162 | 246 | 136 |
-| **Recorded, then removed by a revision** | **141** | **88** | **104** | **67** |
+| **Recorded, then removed by a revision** | **135** | **88** | **98** | **67** |
 | Revised; bond absent from every pre-revision file retrieved | 61 | 38 | 51 | 30 |
 | Undeterminable (no pre-revision file anywhere) | 3 | 3 | 2 | 2 |
 | Recorded now | 0 | 0 | | |
-| All | 491 | 289 | 403 | 233 |
+| All | 485 | 289 | 397 | 233 |
 
 An entry with sites in more than one class is counted in each row, so the entry column does not sum to 289. Sister classes are empty: no site was recorded only on another copy of its entity, in any file.
 
 "Removed" means the row is present in an earlier retrieved file, absent from every later one, and a revision listing `struct_conn` lies between the two. A revision that touches `struct_conn` is not by itself proof that a row was removed; the removal is read from the files on either side of it.
 
-## The 141 removed bonds were not re-filed
+## The 135 removed bonds were not re-filed
 
 In each current file, the removed bond was looked for in `pdbx_modification_feature`, in any `struct_conn` row of any type between the same two residues, in `pdbx_entity_branch_link`, in `pdbx_struct_mod_residue`, and as a residue merge or component rename.
 
 | Result | Sites |
 |---|---:|
 | Re-filed in any linkage category | 0 |
-| Removed, not represented elsewhere | 141 |
+| Removed, not represented elsewhere | 135 |
 
-In all 141, the protein residue and the ligand are unchanged (same residue name at the same number; same ligand component). In all 141, the same two residues now appear as a `pdbx_validate_close_contact` pair, which is a validation listing, not a linkage record. Per site: `refiled_check.csv`.
+In all 135, the protein residue and the ligand are unchanged (same residue name at the same number; same ligand component). In all 135, the same two residues now appear as a `pdbx_validate_close_contact` pair, which is a validation listing, not a linkage record. Per site: `refiled_check.csv`.
 
 ## Which links the revisions removed
 
 Every covale row in the 88 pre-revision files, kept or removed in the current file:
 
-| Partner type | Kept | Removed | Removed that are flagged bonds |
+| Partner type | Kept | Removed | Removed that are flagged bond rows |
 |---|---:|---:|---:|
 | Protein–small-molecule ligand | 10 | 166 | 141 |
 | Protein–protein non-standard linkage | 47 | 6 | 0 |
@@ -66,14 +66,14 @@ Examples in the removed set: 6T5V (KRAS Cys12–MKZ; recorded in the 2024-01-01 
 | File | Rows | Contents |
 |---|---:|---|
 | `density_crosstab.csv` | 5 | The result table above, with the full density breakdown per class |
-| `refiled_check.csv` | 141 | Each removed site, checked in the current file for every linkage category. Six `site_id` values appear twice, as they do in the strict-cut table |
+| `refiled_check.csv` | 141 | Each removed site, checked in the current file for every linkage category. Six `site_id` values appear twice (141 rows, 135 distinct sites): these are the six sites the strict-cut table once listed twice |
 | `covale_kept_removed_by_type.csv` | 6 | Kept and removed covale rows by partner type, 88 pre-revision files |
 | `covale_rows_detail.csv` | 244 | The same, one row per covale row |
 | `deleted_rows_strict.csv` | 221 | Every covale row present in an earlier retrieved file and absent from the current file, across all entries checked, with the revisions in the removal window and the strict match to a flagged site (exact 135, sister 9, none 77) |
 | `entries_snapshot_check.csv` | 109 | Per entry that needed the PDBj snapshot archive: snapshots in the window, the snapshot used, its revision ordinal, `struct_conn` row counts and the exact/sister/none result |
 | `downloads_versioned.jsonl` | 287 | wwPDB versioned-archive requests with SHA-256 |
 | `downloads_v2.jsonl` | 107 | PDBj snapshot requests with SHA-256 |
-| `split/sites_strict_match.part01–02.csv` | 491 | One row per strict-cut site: the class above, the files checked, the strict match in each, and other records on the same residue and ligand. Split in two for size; the header is repeated in each part |
+| `split/sites_strict_match.part01–02.csv` | 485 | One row per strict-cut site: the class above, the files checked, the strict match in each, and other records on the same residue and ligand. Split in two for size; the header is repeated in each part |
 | `split/revision_items.part01–03.csv` | 828 | Every revision item (`pdbx_audit_revision_item`), category and group listed after release for the 88 removed entries, with whether the revision falls in the removal window. Split in three, header repeated |
 | `SHA256SUMS` | | SHA-256 of every table here. Each matches the hash recorded for the same file in the run directory that produced it |
 

@@ -2,14 +2,14 @@
 
 **Date:** 2026-10-17
 **LP-PDBBind source:** `THGLab/LP-PDBBind`, `dataset/LP_PDBBind.csv`, SHA-256 `7bb4e54e66c0c58ab74263edb8c2a2d677c2474cfc4ae4dec1eb31a231b10f8a`; curation code in `dataset_creation/CL_filters.ipynb` and `dataset_creation/prepare_info.ipynb`, same commit.
-**Scan source:** the 491-site strict cut in `../strict-cut-491/`.
+**Scan source:** the 485-site strict cut in `../strict-cut-491/`.
 **Reproduce:** `python3 -I verify_lp.py LP_PDBBind.csv unrecorded_covalent_tight_cut_491_sites.csv github_issue_8_as_filed.md`
 
 ## Numbers
 
 | | Entries | Sites |
 |---|---:|---:|
-| Strict cut (class 2, X-ray ≤ 2.5 Å) | 289 | 491 |
+| Strict cut (class 2, X-ray ≤ 2.5 Å) | 289 | 485 |
 | …present in LP-PDBBind | 34 | — |
 | …labelled `covalent=False` | 27 | 38 |
 | …after per-entry ligand verification: **confirmed or plausible covalent inhibitor of the LP-PDBBind ligand** | **20** | **29** |
