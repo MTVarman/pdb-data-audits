@@ -16,7 +16,7 @@ It fails at the control. 6T5V's validation report contains four clash records in
 
 Not a threshold effect. Expected overlap at that contact is about 1.68 Å against a 0.4 Å cutoff — four times over. Across all 485 sites the predicted overlap runs 1.55–1.98 Å, median 1.73 Å, and every single one would clear the cutoff. The largest overlap actually reported anywhere in the residue-level matches is 1.29 Å, between hydrogen-bearing atoms.
 
-Loose matches exist and are not the contact: 43 sites have a clash somewhere between the same residue and ligand, but 22 of those involve only hydrogens and the rest are heavy atoms at 2.2–3.0 Å — neighbouring atoms, not the bond.
+Loose matches exist and are not the contact: 43 sites have a clash somewhere between the same residue and ligand, but in 20 of those every clashing pair includes a hydrogen (6 are hydrogen–hydrogen only), and the other 23 involve heavy atoms 2.0–3.0 Å apart — neighbouring atoms, not the bond. (Recounted 24 Oct 2026 from the current wwPDB validation reports after the strict-cut duplicates were removed; the two dropped 5BPK Thr380 sites were hydrogen-involved.)
 
 Cross-tabbed against density: no density-supported site is reported as a clash at the flagged pair. Neither is any other class.
 
@@ -24,7 +24,7 @@ Same behaviour under both report schema versions in play. Zero network retrieval
 
 ## Why the zero is the finding
 
-**All 485 contacts are in the mmCIF close-contact table.** That is where the scan found them. So the pipeline measured every one of these pairs, wrote each one down as a close contact — and then left all 491 out of the clash list.
+**All 485 contacts are in the mmCIF close-contact table.** That is where the scan found them. So the pipeline measured every one of these pairs, wrote each one down as a close contact — and then left all 485 out of the clash list.
 
 A 1.8 Å sulfur-to-carbon contact at four times the clash cutoff does not quietly fail to be flagged. Something in the pipeline removed it.
 
