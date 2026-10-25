@@ -23,6 +23,8 @@ None of the 485 strict sites is reported as a steric-clash outlier in its wwPDB 
 
 135 of the 485 sites (88 entries) did have the bond recorded in an earlier release. A wwPDB revision removed it, mostly on 2024-12-25, 2025-09-17 or 2025-10-01, and nothing re-filed it in any linkage category; 98 of those 135 are density-supported. Details in `unrecorded-covalent/remediation-history/`.
 
+Removed bond records are not only cysteine. Across all 811 protein–ligand covalent sites removed by wwPDB revisions since May 2024 (archive-wide, from the Protenix training-set diff), 23 density-supported non-cysteine covalent sites on real drug targets lost their record, including a ligand bonded to the mutant Asp12 of KRAS G12D (8JHL), HIV-1 reverse transcriptase Lys102 and Tyr181, GSTP1 Tyr109 and 14-3-3σ Lys122. Details in `unrecorded-covalent/reactive-residues/`.
+
 ## Layout
 
 ```
@@ -34,6 +36,7 @@ unrecorded-covalent/
   benchmark-overlap/         PoseBusters (0 of 308), Runs N' Poses (7 entries / 23 sites)
   rnp-boltz2/                Boltz-2 on the 6 Runs N' Poses covalent entries, SMILES-only vs bond-declared
   rnp-chai1/                 Chai-1 on the same six; warhead-to-nucleophile distance measured across both models
+  reactive-residues/         811 archive-removed covalent sites classified; 23 non-Cys covalent sites on drug targets
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
