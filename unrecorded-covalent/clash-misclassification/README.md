@@ -56,6 +56,14 @@ Not established: the exact distance threshold `markBonds()` applies; whether the
 
 Open, and now cheap to answer: read `markBonds()` in `probe.c` and `stdconntable.c` directly for the distance rule, and confirm the production flags against a wwPDB pipeline description.
 
+## Update, 31 Oct 2026: the threshold, and whether probe reads the records
+
+Both open questions above are answered in `../two-rulers/`.
+- **The threshold.** probe's distance rule is covalent radii + 0.2 Å, which is 2.01 Å for C–S. Across the PDB, unrecorded Cys–ligand C pairs are clash-listed 1 of 496 times at or under that line and 1,606 of 1,686 times over it.
+- **The records.** The production pipeline does honour them: recorded bonds past the line are flagged 3 of 101 times.
+
+The 485 strict-cut sites all sit inside their element-pair lines (C–S max 1.950 vs 2.01; S–S max 1.998 vs 2.28; C–O max 1.550 vs 1.63). That is why the count here is exactly zero.
+
 ## Status of the related layers
 
 - Density validation: 233 of 289 entries density-supported (80.6%), 397 of 485 sites. Unaffected by this.

@@ -19,7 +19,7 @@ A scan of 199,603 experimental PDB entries (RCSB snapshot `20261013T233952Z`) fo
 
 The floor is honest as a scan result and should not be read as a drug-discovery claim: half of it is one bilin cofactor on cysteine, and four-fifths of it is cryo-EM at ~3 Å. The defensible number is 233 entries. More than half of the strict 289 were released since 2020.
 
-None of the 485 strict sites is reported as a steric-clash outlier in its wwPDB validation report. The reason is in `unrecorded-covalent/clash-misclassification/`: the validation software perceives the bond from geometry, suppresses the clash accordingly, and writes nothing down.
+None of the 485 strict sites is reported as a steric-clash outlier in its wwPDB validation report. The reason is in `unrecorded-covalent/clash-misclassification/`: the validation software perceives the bond from geometry, suppresses the clash accordingly, and writes nothing down. That perception stops at 2.01 Å for C–S. The bond record itself follows a similar ruler near 2.0 Å, so the same drug in the same entry is recorded at 1.981 Å and not at 2.000 Å. Past the line, an unrecorded bond is reported as a clash. Details in `unrecorded-covalent/two-rulers/`.
 
 135 of the 485 sites (88 entries) did have the bond recorded in an earlier release. A wwPDB revision removed it, mostly on 2024-12-25, 2025-09-17 or 2025-10-01, and nothing re-filed it in any linkage category; 98 of those 135 are density-supported. Details in `unrecorded-covalent/remediation-history/`.
 
@@ -38,6 +38,7 @@ unrecorded-covalent/
   rnp-chai1/                 Chai-1 on the same six; warhead-to-nucleophile distance measured across both models
   reactive-residues/         811 archive-removed covalent sites classified; 23 non-Cys covalent sites on drug targets
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
+  two-rulers/                the 2.01 Å validator line and the 2.0 Å record line, archive-wide; 132 density-supported Cys adducts past 2 Å
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
 rascore/                     KRAS switch-state table after correcting silent wildtype mislabels (issue #2)
