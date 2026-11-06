@@ -1,0 +1,125 @@
+check,entry,detail,note,title
+PARITY,9OCR,CXXCH C192 -> C:HEC302 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.01 A; C:CYS192 3.511 A (unrecorded); C:CYS195 3.284 A (unrecorded),Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
+PARITY,9OCR,CXXCH c192 -> c:HEC302 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.21 A; c:CYS192 3.688 A (unrecorded); c:CYS195 3.942 A (unrecorded),Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
+PARITY,9OCS,CXXCH C192 -> C:HEC302 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.1 A; C:CYS192 3.464 A (unrecorded); C:CYS195 3.367 A (unrecorded),High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
+PARITY,9OCS,CXXCH J60 -> J:HEC201 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 6.98 A; J:CYS60 3.421 A (unrecorded); J:CYS63 5.507 A (unrecorded),High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
+PARITY,9OCS,CXXCH N271 -> N:HEC401 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 1.96 A; N:CYS271 3.165 A (unrecorded); N:CYS274 3.280 A (unrecorded),High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
+PARITY,9OCS,CXXCH c192 -> c:HEC302 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.25 A; c:CYS192 3.632 A (unrecorded); c:CYS195 4.097 A (unrecorded),High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
+PARITY,9OCT,CXXCH C192 -> C:HEC301 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.26 A; C:CYS192 3.787 A (unrecorded); C:CYS195 3.330 A (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
+PARITY,9OCT,CXXCH c192 -> c:HEC302 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.27 A; c:CYS192 4.010 A (unrecorded); c:CYS195 3.279 A (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
+PARITY,9OCU,CXXCH C192 -> C:HEC301 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.26 A; C:CYS192 3.787 A (unrecorded); C:CYS195 3.330 A (unrecorded),High-resolution cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis (composite)
+PARITY,9OCU,CXXCH c192 -> c:HEC302 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.27 A; c:CYS192 4.010 A (unrecorded); c:CYS195 3.279 A (unrecorded),High-resolution cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis (composite)
+PARITY,9OCV,CXXCH C192 -> C:HEC301 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.5 A; C:CYS192 3.891 A (unrecorded); C:CYS195 3.399 A (unrecorded),Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+PARITY,9OCV,CXXCH J60 -> J:HEC201 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 4.79 A; J:CYS60 1.767 A (recorded); J:CYS63 3.690 A (unrecorded),Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+PARITY,9OCV,CXXCH N271 -> N:HEC401 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.07 A; N:CYS271 3.315 A (unrecorded); N:CYS274 3.277 A (unrecorded),Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+PARITY,9OCV,CXXCH c192 -> c:HEC302 [UNRECORDED],both thioethers in bonding range; covale record missing :: His-Fe 4.37 A; c:CYS192 1.766 A (unrecorded); c:CYS195 1.766 A (unrecorded),Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+PARITY,9OCX,CXXCH C192 -> C:HEC302 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.18 A; C:CYS192 3.578 A (unrecorded); C:CYS195 3.347 A (unrecorded),Cryo-EM structure of the CIII2 featuring FES in b-position from Bacillus subtilis
+PARITY,9OCX,CXXCH c192 -> c:HEC302 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.34 A; c:CYS192 3.815 A (unrecorded); c:CYS195 4.673 A (unrecorded),Cryo-EM structure of the CIII2 featuring FES in b-position from Bacillus subtilis
+PARITY,9OCY,CXXCH C192 -> C:HEC301 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 4.58 A; C:CYS192 3.583 A (unrecorded); C:CYS195 3.959 A (unrecorded),Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+PARITY,9OCY,CXXCH c192 -> c:HEC302 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 7.12 A; c:CYS192 3.814 A (unrecorded); c:CYS195 4.102 A (unrecorded),Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+PARITY,9OCZ,CXXCH C192 -> C:HEC301 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.27 A; C:CYS192 3.782 A (unrecorded); C:CYS195 3.660 A (unrecorded),Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+PARITY,9OCZ,CXXCH c192 -> c:HEC302 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 2.98 A; c:CYS192 3.572 A (unrecorded); c:CYS195 4.391 A (unrecorded),Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+PARITY,9OD0,CXXCH C192 -> C:HEC301 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.42 A; C:CYS192 3.551 A (unrecorded); C:CYS195 3.347 A (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+PARITY,9OD0,CXXCH c192 -> c:HEC302 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.26 A; c:CYS192 3.913 A (unrecorded); c:CYS195 3.276 A (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+GEOMETRY,21ZV,H:LYS261 NZ - ATP O2B 1.305 A,closer than any single bond; atoms overlap,Cdc48-Ufd1-Npl4 complex processing Ub6 in the presence of ubx2
+GEOMETRY,21ZV,J:ARG369 NH1 - ATP O1B 1.297 A,closer than any single bond; atoms overlap,Cdc48-Ufd1-Npl4 complex processing Ub6 in the presence of ubx2
+GEOMETRY,21ZW,J:ARG369 NH1 - ATP O1B 1.298 A,closer than any single bond; atoms overlap,Cdc48-Ufd1-Npl4 complex processing polyUbEOS in the presence of ubx2
+GEOMETRY,36OP,H:HIS58 NE2 - ADP O1B 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of Fluc-Nte in complex with ADP-bound Fcap
+GEOMETRY,36YY,D:LYS68 NZ - ATP O1B 1.298 A,closer than any single bond; atoms overlap,Crystal structure of DUF190 bound to ATP
+GEOMETRY,9OCS,A:CYS105 SG - FES S2 1.328 A,closer than any single bond; atoms overlap,High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
+GEOMETRY,9OCT,A:CYS100 SG - FES S1 1.394 A,closer than any single bond; atoms overlap,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
+GEOMETRY,9OCU,A:CYS100 SG - FES S1 1.394 A,closer than any single bond; atoms overlap,High-resolution cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis (composite)
+GEOMETRY,9OCV,J:LYS83 NZ - HEC O1D 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+GEOMETRY,9OCV,c:GLU45 OE1 - HEC NC 1.312 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+GEOMETRY,9OCY,E:ASP23 OD2 - PC1 C15 1.374 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+GEOMETRY,9OCZ,A:CYS105 SG - FES S2 1.287 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+GEOMETRY,9OCZ,C:ASP125 OD1 - PEE C5 1.375 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+GEOMETRY,9OCZ,D:ARG20 NH1 - PEE O1P 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+GEOMETRY,9OD0,A:CYS100 SG - FES S1 1.267 A,closer than any single bond; atoms overlap,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+GEOMETRY,9RRV,A:THR117 OG1 - A2G C1 1.375 A,closer than any single bond; atoms overlap,Anti FX-AP VHH of inno8 in complex with FX-AP 31-37
+GEOMETRY,9RRV,B:THR117 OG1 - A2G C1 1.378 A,closer than any single bond; atoms overlap,Anti FX-AP VHH of inno8 in complex with FX-AP 31-37
+GEOMETRY,9RRW,H:SER193 OG - 0GJ C2 1.374 A,closer than any single bond; atoms overlap,Anti FIXa VHH of inno8 in complex with truncated FIXa (catalytic and EGF2 domains)
+GEOMETRY,9RRW,E:SER193 OG - 0GJ C2 1.374 A,closer than any single bond; atoms overlap,Anti FIXa VHH of inno8 in complex with truncated FIXa (catalytic and EGF2 domains)
+GEOMETRY,9YT1,A:LYS20 NZ - GGL CD 1.328 A,closer than any single bond; atoms overlap,Model Structure of Liraglutide Monomer in Buffer
+GEOMETRY,9YYX,D:ASN19 ND2 - NAG C1 1.399 A,closer than any single bond; atoms overlap,"Cryo-EM structure of HKU1 spike with antibody HKU1-11 (local refinement of CTD, NTD, and Fab variable domain)"
+GEOMETRY,9YYZ,A:ASN19 ND2 - NAG C1 1.399 A,closer than any single bond; atoms overlap,Cryo-EM structure of HKU1 spike with antibody HKU1-2 (conformation 2)
+CONTACT,21OJ,B:GLU438 OE1 - A1E3W A501 OBP 30.84 A,no covale record; 2.0-2.3 A band,Crystal Structure of the second bromodomain of human BRD4 BD2 in complex with the covalent inhibitor
+CONTACT,21ZW,I:THR262 OG1 - ATP J901 O3G 2.296 A,no covale record; 2.0-2.3 A band,Cdc48-Ufd1-Npl4 complex processing polyUbEOS in the presence of ubx2
+CONTACT,31KA,A:ASP59 OD2 - GOL A401 O1 2.126 A,no covale record; 2.0-2.3 A band,Guanidine prenyltransferase mutant NosHRP in complex L-arginine
+CONTACT,32MD,A:CYS17 SG - SF4 A801 S4 1.605 A,no covale record; <2.0 A band,";Cryo-EM structure of the persulfide-bound metallopterin-binding domain of molybdoenzyme ergothioneine synthase from Caldithrix abyssi
+;"
+CONTACT,36OO,B:HIS58 NE2 - CMP B201 O1P 1.908 A,no covale record; <2.0 A band,Cryo-EM structure of Fluc-Nte in complex with cAMP-bound Fcap
+CONTACT,36OP,B:HIS58 NE2 - ADP B201 O3B 2.281 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of Fluc-Nte in complex with ADP-bound Fcap
+CONTACT,36OP,G:THR43 OG1 - ADP F201 O2' 2.191 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of Fluc-Nte in complex with ADP-bound Fcap
+CONTACT,37OA,B:TYR134 OH - ADP B1401 N6 2.298 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of human beta-cardiac myosin carrying the E525K mutation in the Interacting-Heads Motif state
+CONTACT,37OA,B:SER242 OG - PO4 B1402 O4 2.258 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of human beta-cardiac myosin carrying the E525K mutation in the Interacting-Heads Motif state
+CONTACT,38AQ,B:CYS25 SG - KR0 A1101 C2 1.766 A,no covale record; <2.0 A band,Bacteroides SusCD Unliganded - Closed w/ Plug Domain
+CONTACT,38FE,B:CYS25 SG - KR0 A1101 C2 1.833 A,no covale record; <2.0 A band,Bacteroides SusCD + Maltoheptaose - Closed w/ Plug Domain
+CONTACT,39QS,E:THR239 OG1 - ADP E701 O3B 2.291 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA consensus
+CONTACT,39QT,E:THR239 OG1 - ADP E701 O3B 2.262 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA component 0 frame 0
+CONTACT,39QU,E:THR239 OG1 - ADP E701 O3B 2.081 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA component 0 frame 9
+CONTACT,39QU,E:ARG343 NH2 - ANP D701 O2G 2.241 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA component 0 frame 9
+CONTACT,39QX,E:THR239 OG1 - ADP E701 O3B 2.155 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA component 2 frame 0
+CONTACT,39RB,E:THR239 OG1 - ADP E701 O3B 2.263 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA component 2 frame 9
+CONTACT,39RB,E:ARG343 NH2 - ANP D701 O2G 2.218 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA component 2 frame 9
+CONTACT,9OC9,A:HIS86 NE2 - GOL A409 O3 2.293 A,no covale record; 2.0-2.3 A band,Human DHODH in complex with ligand H3D3181
+CONTACT,9OCR,A:CYS105 SG - FES A201 S2 2.002 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
+CONTACT,9OCR,A:CYS123 SG - FES A201 S2 1.7 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
+CONTACT,9OCR,a:HIS102 ND1 - FES a201 S1 2.191 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
+CONTACT,9OCS,J:LYS26 NZ - CDL J202 C71 1.444 A,no covale record; <2.0 A band,High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
+CONTACT,9OCT,A:HIS124 ND1 - FES A201 S2 1.978 A,no covale record; <2.0 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
+CONTACT,9OCT,a:CYS105 SG - FES a201 S2 2.07 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
+CONTACT,9OCU,A:HIS124 ND1 - FES A201 S2 1.978 A,no covale record; <2.0 A band,High-resolution cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis (composite)
+CONTACT,9OCU,a:CYS105 SG - FES a201 S2 2.07 A,no covale record; 2.0-2.3 A band,High-resolution cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis (composite)
+CONTACT,9OCV,C:GLU45 OE1 - HEC B305 C4C 1.77 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCV,C:GLU45 OE2 - HEC B305 C4C 1.734 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCV,J:LYS26 NZ - CDL J202 C71 1.448 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCV,a:CYS100 SG - FES a201 S1 2.148 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCV,a:HIS124 ND1 - FES a201 S2 2.263 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCV,c:CYS192 SG - HEC c302 C2C 1.766 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCV,c:CYS195 SG - HEC c302 C2B 1.766 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCX,c:GLU45 OE1 - HEC b305 NC 2.009 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 featuring FES in b-position from Bacillus subtilis
+CONTACT,9OCY,A:CYS100 SG - FES A201 S2 1.724 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+CONTACT,9OCY,a:CYS105 SG - FES a201 S2 2.049 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+CONTACT,9OCY,a:CYS123 SG - FES a201 S2 1.934 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+CONTACT,9OCY,d:ARG20 NE - PEE d101 C5 1.429 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+CONTACT,9OCZ,A:CYS100 SG - FES A201 S2 2.124 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+CONTACT,9OCZ,a:CYS105 SG - FES a201 S2 2.166 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+CONTACT,9OCZ,a:CYS123 SG - FES a201 S2 2.033 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+CONTACT,9OCZ,d:ARG20 NE - PEE d101 C5 1.429 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+CONTACT,9OD0,A:HIS124 ND1 - FES A201 S2 2.115 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+CONTACT,9OD0,B:THR109 OG1 - HEM B303 O1D 2.22 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+CONTACT,9OD0,D:ARG20 NH2 - PEE C302 O2P 2.288 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+CONTACT,9OD0,a:CYS105 SG - FES a201 S2 1.988 A,no covale record; <2.0 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+CONTACT,9OD0,b:SER221 OG - HEM b303 O2D 2.2 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+CONTACT,9OQC,a:TYR432 OH - DYA a450 O 2.24 A,no covale record; 2.0-2.3 A band,Methyl-coenzyme M Reductase red1/red1-silent ensemble cryo-capillary
+CONTACT,9R12,F:ASN224 ND2 - FMN F501 O2 2.279 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the active state
+CONTACT,9R12,O:SER36 OG - DGT O402 O1G 2.282 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the active state
+CONTACT,9R12,O:TYR83 OH - DGT O402 O3' 2.095 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the active state
+CONTACT,9R12,P:ARG97 NH2 - NDP P401 O2X 2.29 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the active state
+CONTACT,9R13,B:GLU109 OE2 - LMT B203 O4' 2.189 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the deactive state (consensus)
+CONTACT,9R13,L:SER567 OG - LMT L704 O5' 2.282 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the deactive state (consensus)
+CONTACT,9R13,O:TYR83 OH - DGT O404 O3' 2.228 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the deactive state (consensus)
+CONTACT,9R13,d:ASP45 OD2 - CDL d203 O1 2.221 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 6.0 in the deactive state (consensus)
+CONTACT,9R14,L:SER567 OG - LMT L705 O6' 2.248 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 9.2 in the active state
+CONTACT,9R14,O:TYR83 OH - DGT O402 O3' 2.113 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 9.2 in the active state
+CONTACT,9R15,L:SER567 OG - LMT L704 O6' 2.273 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 9.2 in the deactive state (consensus)
+CONTACT,9R15,O:TYR83 OH - DGT O404 O3' 2.218 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 9.2 in the deactive state (consensus)
+CONTACT,9R15,d:ASP45 OD1 - CDL d202 O1 2.286 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 9.2 in the deactive state (consensus)
+CONTACT,9R15,j:TRP38 NE1 - 3PE j101 O14 2.281 A,no covale record; 2.0-2.3 A band,Bovine complex I at pH 9.2 in the deactive state (consensus)
+CONTACT,9R20,C:THR50 OG1 - ATP C302 O2A 2.288 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of Acinetobacter baumannii LolDF bound abaucin (wide cavity)
+CONTACT,9SR3,M:HIS65 NE2 - HEM M601 NA 2.262 A,no covale record; 2.0-2.3 A band,Structure of stacked allo-activated CBS conformer by allosteric SAM - by Helical approach
+CONTACT,9SR3,p:HIS65 NE2 - HEM p601 NA 2.271 A,no covale record; 2.0-2.3 A band,Structure of stacked allo-activated CBS conformer by allosteric SAM - by Helical approach
+CONTACT,9SR3,r:HIS65 NE2 - HEM r601 NA 2.237 A,no covale record; 2.0-2.3 A band,Structure of stacked allo-activated CBS conformer by allosteric SAM - by Helical approach
+CONTACT,9SUZ,CCC:LYS17 NZ - SO4 CCC202 O3 2.292 A,no covale record; 2.0-2.3 A band,gamma carbonic anhydrase LreCA from Limosilactobacillus reuteri in space group P212121
+CONTACT,9TH3,A:ARG137 NH2 - FPS A302 O3A 2.215 A,no covale record; 2.0-2.3 A band,"Guanidine prenyltransferase NosH in complex with FSPP, guanidine and Mg2+"
+CONTACT,9TJO,B:ARG289 NH2 - HEM B501 O2A 2.22 A,no covale record; 2.0-2.3 A band,Crystal structure of the apo CYP123 from Mycobacterium smegmatis
+CONTACT,9TJP,B:HIS346 ND1 - HEM B501 O2A 2.298 A,no covale record; 2.0-2.3 A band,X-ray structure of CYP123 from Mycobacterium smegmatis with bound polyethylene glycol (PEG)
+CONTACT,9V2G,A:CYS399 SG - 8WY A607 CAH 2.294 A,no covale record; 2.0-2.3 A band,CTP synthase dDON-condition state 6
+CONTACT,9V2H,A:CYS399 SG - 8WY A606 CAH 2.087 A,no covale record; 2.0-2.3 A band,CTP synthase dDON-condition state 7
+CONTACT,9V2I,A:CYS399 SG - 8WY A607 CAH 2.071 A,no covale record; 2.0-2.3 A band,CTP synthase dDON-condition state 8
+CONTACT,9X5E,A:CYS46 SG - SQ4 A202 C9 1.79 A,no covale record; <2.0 A band,Crystal structure of sperm whale myoglobin mutant F46C with aniline
+CONTACT,9XEB,A:SER449 OG - FAD A700 O3' 2.298 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of Saccharomyces cerevisiae Mitochondrial Respiratory Complex II in YF241131B-bound state
+CONTACT,9XGD,B:GLU212 OE2 - GYC B63 N2 2.263 A,no covale record; 2.0-2.3 A band,Crystal structure of dKeima570 at pH 4.0
+CONTACT,9XGR,A:SER162 OG - DH2 A401 O30 6.32 A,no covale record; 2.0-2.3 A band,crystal structure of STING-CTD complex with small molecule 09-B11
+CONTACT,9XHW,C:GLN351 NE2 - 59P L401 C2' 2.259 A,no covale record; 2.0-2.3 A band,The cryo-EM structure of CongoRed bound Tau PHF fibril
