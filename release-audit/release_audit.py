@@ -15,13 +15,17 @@ no agreement about where a bond ends:
   CONTACT  nucleophilic protein atom within 2.3 A of a ligand heavy atom
            with no covale/disulf record. Banded, not judged.
 
-  GEOMETRY contacts under 1.4 A: closer than any real single bond, i.e.
-           atoms modelled on top of each other.
+  GEOMETRY contacts shorter than the shortest real bond for that pair of
+           elements (double and triple bonds included), i.e. atoms modelled
+           on top of each other. A retinal Schiff base at 1.3 A is a bond
+           and is not flagged; a sulfur 1.3 A from a sulfur is.
 
-  DEFAULT  metal-ligand distances that sit on a refinement-software default
-           rather than on a measured value: zinc-histidine at 2.300 A in
-           sites with fewer than four Cys/His ligands, and chlorophyll-type
-           magnesium-nitrogen at 1.895 A or 2.300 A.
+  DEFAULT  distances that sit on a refinement-software default rather than
+           on a measured value: zinc-histidine at 2.300 A in sites with
+           fewer than four Cys/His ligands, chlorophyll-type
+           magnesium-nitrogen at 1.895 A or 2.300 A, and unrecorded
+           protein-ligand pairs at the generic N-O (1.297 A) or C-O
+           (1.374 A) bond value.
 
 Emits <date>_findings.csv and <date>_brief.md.
 """
@@ -164,6 +168,44 @@ ZN_TOL = 0.004
 MG_LIG_MAX = 2.6        # nearest outside nitrogen this close is the Mg ligand
 MG_DEFAULTS = (('1.895', 1.895, 0.010),   # cctbx builds 2020.10 - 2024.5
                ('2.300', 2.302, 0.006))   # cctbx builds from 2024.6
+
+
+# --- GEOMETRY: shortest real bond per element pair -------------------------
+# Lower bound for a real bond between a protein nucleophile atom (first
+# element) and a ligand atom (second), multiple bonds included, less a
+# margin for refinement scatter. Anything shorter is two atoms in one place.
+BOND_FLOOR = {('N', 'C'): 1.20, ('O', 'C'): 1.15, ('S', 'C'): 1.55,
+              ('S', 'S'): 1.90, ('N', 'N'): 1.05, ('N', 'O'): 1.15,
+              ('O', 'N'): 1.15, ('O', 'O'): 1.15, ('S', 'O'): 1.38,
+              ('S', 'N'): 1.45, ('O', 'P'): 1.40, ('N', 'P'): 1.45,
+              ('S', 'P'): 1.85, ('O', 'S'): 1.38, ('N', 'S'): 1.45,
+              ('O', 'B'): 1.25, ('N', 'B'): 1.30, ('S', 'SE'): 2.00}
+BOND_FLOOR_OTHER = 1.20
+
+# Generic bond values in cctbx (mmtbx/monomer_library/bondlength_defaults.py,
+# qm_defaults). An unrecorded protein-ligand pair sitting on one of them was
+# linked at refinement time, not measured.
+PAIR_DEFAULTS = {frozenset(('N', 'O')): (1.297, 'N-O'),
+                 frozenset(('O', 'C')): (1.374, 'O-C')}
+PAIR_TOL = 0.004
+
+
+def prot_element(atom_name):
+    return 'SE' if atom_name.startswith('SE') else atom_name[0]
+
+
+def bond_floor(c):
+    return BOND_FLOOR.get((prot_element(c[4]), c[9].upper()), BOND_FLOOR_OTHER)
+
+
+def pair_default(c):
+    """(value, label) when an unrecorded contact sits on a generic bond value."""
+    if c[11] != 'unrecorded':
+        return None
+    hit = PAIR_DEFAULTS.get(frozenset((prot_element(c[4]), c[9].upper())))
+    if hit and abs(c[10] - hit[0]) <= PAIR_TOL and c[10] >= bond_floor(c):
+        return hit
+    return None
 
 
 def _dist(cell, ref, atom, image_idx):
@@ -355,28 +397,40 @@ def main():
                              f'{NOTE[state]} :: {hf}; {desc}',
                              metas.get(entry, {}).get('title', '')])
 
-    # --- GEOMETRY: closer than any real bond ---
+    # --- GEOMETRY: closer than any real bond between these two elements ---
     for c in all_contacts:
-        if c[10] < 1.40:
+        if c[10] < bond_floor(c):
             findings.append(['GEOMETRY', c[0],
                              f'{c[1]}:{c[2]}{c[3]} {c[4]} - {c[5]} {c[8]} {c[10]} A',
-                             'closer than any single bond; atoms overlap',
+                             f'shorter than any real {prot_element(c[4])}-{c[9].upper()} bond'
+                             f' ({bond_floor(c):.2f} A floor); atoms overlap ({c[11]})',
                              metas.get(c[0], {}).get('title', '')])
 
-    # --- CONTACT: unrecorded, in or above the ruler band ---
+    # --- CONTACT: unrecorded, at or above the shortest real bond ---
     for c in all_contacts:
-        if c[11] == 'unrecorded' and c[10] >= 1.40:
+        if c[11] == 'unrecorded' and c[10] >= bond_floor(c) and not pair_default(c):
             band = '<2.0' if c[10] < 2.0 else '2.0-2.3'
             findings.append(['CONTACT', c[0],
                              f'{c[1]}:{c[2]}{c[3]} {c[4]} - {c[5]} {c[6]}{c[7]} {c[8]} {c[10]} A',
                              f'no covale record; {band} A band',
                              metas.get(c[0], {}).get('title', '')])
 
-    # --- DEFAULT: metal distances sitting on a software default ---
+    # --- DEFAULT: distances sitting on a software default ---
     for entry, rows in sorted(all_defaults.items()):
         for detail, note in rows:
             findings.append(['DEFAULT', entry, detail, note,
                              metas.get(entry, {}).get('title', '')])
+    PAIR_NOTE = {
+        'N-O': 'unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied '
+               'at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond',
+        'O-C': 'unrecorded O-C pair on the cctbx generic bond value 1.374 A',
+    }
+    for c in all_contacts:
+        hit = pair_default(c)
+        if hit:
+            findings.append(['DEFAULT', c[0],
+                             f'{c[1]}:{c[2]}{c[3]} {c[4]} - {c[5]} {c[6]}{c[7]} {c[8]} {c[10]} A',
+                             PAIR_NOTE[hit[1]], metas.get(c[0], {}).get('title', '')])
 
     out_csv = os.path.join(work, f'{date}_findings.csv')
     with open(out_csv, 'w', newline='') as fh:
@@ -390,9 +444,9 @@ def main():
         fh.write(f'# PDB release audit — {date}\n\n')
         fh.write(f'{len(ids)} entries released. {len(findings)} findings across {ent} entries.\n\n')
         fh.write(f'- **Parity violations (heme c):** {n["PARITY"]}\n')
-        fh.write(f'- **Impossible geometry (<1.40 A):** {n["GEOMETRY"]}\n')
+        fh.write(f'- **Atoms closer than any real bond:** {n["GEOMETRY"]}\n')
         fh.write(f'- **Unrecorded contacts:** {n["CONTACT"]}\n')
-        fh.write(f'- **Metal distances on a software default:** {n["DEFAULT"]}'
+        fh.write(f'- **Distances on a software default:** {n["DEFAULT"]}'
                  f' in {len({f[1] for f in findings if f[0] == "DEFAULT"})} entries\n\n')
         if failed:
             fh.write(f'{len(failed)} entries failed to parse.\n\n')

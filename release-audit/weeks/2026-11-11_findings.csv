@@ -1,12 +1,5 @@
 check,entry,detail,note,title
-GEOMETRY,21DE,A:LYS191 NZ - RET C15 1.34 A,closer than any single bond; atoms overlap,MsSzR methanogenic Schizorhodopsin
-GEOMETRY,21DF,A:LYS198 NZ - RET C15 1.341 A,closer than any single bond; atoms overlap,MtSzR methanogenic Schizorhodopsin
-GEOMETRY,28VK,R:LYS278 NZ - RET C15 1.266 A,closer than any single bond; atoms overlap,Cryo-EM structure of mosquito OPN3 in complex with the Gi heterotrimer
-GEOMETRY,36XF,A:ASN54 ND2 - A1DLX O8 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of SLC6A19-ACE2 complex with CB3
-GEOMETRY,36XF,C:ASN54 ND2 - A1DLX O8 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of SLC6A19-ACE2 complex with CB3
-GEOMETRY,9OW0,B:HIS524 ND1 - RE2 O15 1.297 A,closer than any single bond; atoms overlap,Crystal Structure of Human Estrogen Receptor-alpha (Y537S) in Complex with NCOA2 Peptide and Dihydroresveratrol
-GEOMETRY,9Z2G,A:LYS20 NZ - GGL CD 1.328 A,closer than any single bond; atoms overlap,Structure of Liraglutide Monomer
-GEOMETRY,9Z56,C:THR163 OG1 - A2G C1 1.374 A,closer than any single bond; atoms overlap,Crystal structure of VACV-A33 in complex with antibody A35-Ab1gr1
+GEOMETRY,9XKK,A:CYS573 SG - SF4 S4 1.667 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
 CONTACT,12LU,A:SER289 OG - FAJ A901 O8 2.268 A,no covale record; 2.0-2.3 A band,LSD1-CoREST in complex with GSK-LSD1 and peptide PRSALV
 CONTACT,21HR,A:ARG86 NH2 - PX2 A409 C1 1.757 A,no covale record; <2.0 A band,CryoEM structural of taurocholic acid bound OST alpha/beta transporter
 CONTACT,21HR,A:TYR128 OH - PX2 A409 O1 2.262 A,no covale record; 2.0-2.3 A band,CryoEM structural of taurocholic acid bound OST alpha/beta transporter
@@ -26,7 +19,6 @@ CONTACT,9XIU,A:ASN143 ND2 - CH6 A63 OH 2.284 A,no covale record; 2.0-2.3 A band,
 CONTACT,9XJA,LY:TYR74 OH - OMG L875 OP2 2.052 A,no covale record; 2.0-2.3 A band,In situ portimine A-bound human pre-60S ribosome from intact HEK293T cells
 CONTACT,9XKK,A:HIS317 NE2 - CLA A820 ND 2.219 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
 CONTACT,9XKK,A:ASN353 ND2 - CLA A804 OBD 2.259 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
-CONTACT,9XKK,A:CYS573 SG - SF4 A848 S4 1.667 A,no covale record; <2.0 A band,Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
 CONTACT,9XKK,B:TYR358 OH - CLA B824 OBD 2.214 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
 CONTACT,9XKK,B:GLN464 NE2 - CLA B828 OBD 2.286 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
 CONTACT,9XKK,L:TYR85 OH - CLA L304 O1A 2.156 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
@@ -44,3 +36,6 @@ DEFAULT,43WP,"ZN G401 [2 His, 0 Cys] G:HIS271 NE2 2.299 A; G:HIS254 NE2 2.299 A"
 DEFAULT,43WP,"ZN H401 [2 His, 0 Cys] H:HIS254 NE2 2.298 A; H:HIS271 NE2 2.299 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Glycerol dehydrogenase
 DEFAULT,9XKK,pigment Mg-N: 47 of 47 at 1.895 A (median 1.898 A),Mg-N on the 1.895 A default for chlorophyll-type magnesium (X-ray structures sit near 2.20 A),Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
 DEFAULT,9Z1F,"ZN B701 [2 His, 0 Cys] B:HIS374 NE2 2.300 A; B:HIS378 NE2 2.301 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Crystal structure of NJ receptor binding domain in complex with human ACE2
+DEFAULT,36XF,A:ASN54 ND2 - A1DLX A703 O8 1.297 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Cryo-EM structure of SLC6A19-ACE2 complex with CB3
+DEFAULT,36XF,C:ASN54 ND2 - A1DLX C703 O8 1.297 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Cryo-EM structure of SLC6A19-ACE2 complex with CB3
+DEFAULT,9OW0,B:HIS524 ND1 - RE2 B602 O15 1.297 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Crystal Structure of Human Estrogen Receptor-alpha (Y537S) in Complex with NCOA2 Peptide and Dihydroresveratrol

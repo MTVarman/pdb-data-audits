@@ -21,33 +21,19 @@ PARITY,9OCZ,CXXCH C192 -> C:HEC301 [UNBONDED_DISPLACED],motif present with heme 
 PARITY,9OCZ,CXXCH c192 -> c:HEC302 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 2.98 A; c:CYS192 3.572 A (unrecorded); c:CYS195 4.391 A (unrecorded),Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
 PARITY,9OD0,CXXCH C192 -> C:HEC301 [UNBONDED_DISPLACED],motif present with heme c nearby; neither His nor Cys in contact :: His-Fe 3.42 A; C:CYS192 3.551 A (unrecorded); C:CYS195 3.347 A (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
 PARITY,9OD0,CXXCH c192 -> c:HEC302 [UNBONDED_HIS_ON_FE],motif His coordinates the iron; cysteines modelled beyond bonding range :: His-Fe 2.26 A; c:CYS192 3.913 A (unrecorded); c:CYS195 3.276 A (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
-GEOMETRY,21ZV,H:LYS261 NZ - ATP O2B 1.305 A,closer than any single bond; atoms overlap,Cdc48-Ufd1-Npl4 complex processing Ub6 in the presence of ubx2
-GEOMETRY,21ZV,J:ARG369 NH1 - ATP O1B 1.297 A,closer than any single bond; atoms overlap,Cdc48-Ufd1-Npl4 complex processing Ub6 in the presence of ubx2
-GEOMETRY,21ZW,J:ARG369 NH1 - ATP O1B 1.298 A,closer than any single bond; atoms overlap,Cdc48-Ufd1-Npl4 complex processing polyUbEOS in the presence of ubx2
-GEOMETRY,36OP,H:HIS58 NE2 - ADP O1B 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of Fluc-Nte in complex with ADP-bound Fcap
-GEOMETRY,36YY,D:LYS68 NZ - ATP O1B 1.298 A,closer than any single bond; atoms overlap,Crystal structure of DUF190 bound to ATP
-GEOMETRY,9OCS,A:CYS105 SG - FES S2 1.328 A,closer than any single bond; atoms overlap,High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
-GEOMETRY,9OCT,A:CYS100 SG - FES S1 1.394 A,closer than any single bond; atoms overlap,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
-GEOMETRY,9OCU,A:CYS100 SG - FES S1 1.394 A,closer than any single bond; atoms overlap,High-resolution cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis (composite)
-GEOMETRY,9OCV,J:LYS83 NZ - HEC O1D 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
-GEOMETRY,9OCV,c:GLU45 OE1 - HEC NC 1.312 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
-GEOMETRY,9OCY,E:ASP23 OD2 - PC1 C15 1.374 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
-GEOMETRY,9OCZ,A:CYS105 SG - FES S2 1.287 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
-GEOMETRY,9OCZ,C:ASP125 OD1 - PEE C5 1.375 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
-GEOMETRY,9OCZ,D:ARG20 NH1 - PEE O1P 1.297 A,closer than any single bond; atoms overlap,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
-GEOMETRY,9OD0,A:CYS100 SG - FES S1 1.267 A,closer than any single bond; atoms overlap,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
-GEOMETRY,9RRV,A:THR117 OG1 - A2G C1 1.375 A,closer than any single bond; atoms overlap,Anti FX-AP VHH of inno8 in complex with FX-AP 31-37
-GEOMETRY,9RRV,B:THR117 OG1 - A2G C1 1.378 A,closer than any single bond; atoms overlap,Anti FX-AP VHH of inno8 in complex with FX-AP 31-37
-GEOMETRY,9RRW,H:SER193 OG - 0GJ C2 1.374 A,closer than any single bond; atoms overlap,Anti FIXa VHH of inno8 in complex with truncated FIXa (catalytic and EGF2 domains)
-GEOMETRY,9RRW,E:SER193 OG - 0GJ C2 1.374 A,closer than any single bond; atoms overlap,Anti FIXa VHH of inno8 in complex with truncated FIXa (catalytic and EGF2 domains)
-GEOMETRY,9YT1,A:LYS20 NZ - GGL CD 1.328 A,closer than any single bond; atoms overlap,Model Structure of Liraglutide Monomer in Buffer
-GEOMETRY,9YYX,D:ASN19 ND2 - NAG C1 1.399 A,closer than any single bond; atoms overlap,"Cryo-EM structure of HKU1 spike with antibody HKU1-11 (local refinement of CTD, NTD, and Fab variable domain)"
-GEOMETRY,9YYZ,A:ASN19 ND2 - NAG C1 1.399 A,closer than any single bond; atoms overlap,Cryo-EM structure of HKU1 spike with antibody HKU1-2 (conformation 2)
-CONTACT,21OJ,B:GLU438 OE1 - A1E3W A501 OBP 30.84 A,no covale record; 2.0-2.3 A band,Crystal Structure of the second bromodomain of human BRD4 BD2 in complex with the covalent inhibitor
+GEOMETRY,32MD,A:CYS17 SG - SF4 S4 1.605 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),";Cryo-EM structure of the persulfide-bound metallopterin-binding domain of molybdoenzyme ergothioneine synthase from Caldithrix abyssi
+;"
+GEOMETRY,9OCR,A:CYS123 SG - FES S2 1.7 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
+GEOMETRY,9OCS,A:CYS105 SG - FES S2 1.328 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
+GEOMETRY,9OCT,A:CYS100 SG - FES S1 1.394 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
+GEOMETRY,9OCU,A:CYS100 SG - FES S1 1.394 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),High-resolution cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis (composite)
+GEOMETRY,9OCY,A:CYS100 SG - FES S2 1.724 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+GEOMETRY,9OCZ,A:CYS105 SG - FES S2 1.287 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+GEOMETRY,9OD0,A:CYS100 SG - FES S1 1.267 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis with multiple Qi site menaquinone binding
+CONTACT,21OJ,B:GLU438 OE1 - A1E3W A501 OBP 2.285 A,no covale record; 2.0-2.3 A band,Crystal Structure of the second bromodomain of human BRD4 BD2 in complex with the covalent inhibitor
+CONTACT,21ZV,H:LYS261 NZ - ATP H901 O2B 1.305 A,no covale record; <2.0 A band,Cdc48-Ufd1-Npl4 complex processing Ub6 in the presence of ubx2
 CONTACT,21ZW,I:THR262 OG1 - ATP J901 O3G 2.296 A,no covale record; 2.0-2.3 A band,Cdc48-Ufd1-Npl4 complex processing polyUbEOS in the presence of ubx2
 CONTACT,31KA,A:ASP59 OD2 - GOL A401 O1 2.126 A,no covale record; 2.0-2.3 A band,Guanidine prenyltransferase mutant NosHRP in complex L-arginine
-CONTACT,32MD,A:CYS17 SG - SF4 A801 S4 1.605 A,no covale record; <2.0 A band,";Cryo-EM structure of the persulfide-bound metallopterin-binding domain of molybdoenzyme ergothioneine synthase from Caldithrix abyssi
-;"
 CONTACT,36OO,B:HIS58 NE2 - CMP B201 O1P 1.908 A,no covale record; <2.0 A band,Cryo-EM structure of Fluc-Nte in complex with cAMP-bound Fcap
 CONTACT,36OP,B:HIS58 NE2 - ADP B201 O3B 2.281 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of Fluc-Nte in complex with ADP-bound Fcap
 CONTACT,36OP,G:THR43 OG1 - ADP F201 O2' 2.191 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of Fluc-Nte in complex with ADP-bound Fcap
@@ -64,7 +50,6 @@ CONTACT,39RB,E:THR239 OG1 - ADP E701 O3B 2.263 A,no covale record; 2.0-2.3 A ban
 CONTACT,39RB,E:ARG343 NH2 - ANP D701 O2G 2.218 A,no covale record; 2.0-2.3 A band,SaPIbov1 Rep:dsDNA component 2 frame 9
 CONTACT,9OC9,A:HIS86 NE2 - GOL A409 O3 2.293 A,no covale record; 2.0-2.3 A band,Human DHODH in complex with ligand H3D3181
 CONTACT,9OCR,A:CYS105 SG - FES A201 S2 2.002 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
-CONTACT,9OCR,A:CYS123 SG - FES A201 S2 1.7 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
 CONTACT,9OCR,a:HIS102 ND1 - FES a201 S1 2.191 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 featuring FES in c-position from Bacillus subtilis
 CONTACT,9OCS,J:LYS26 NZ - CDL J202 C71 1.444 A,no covale record; <2.0 A band,High-resolution cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis (composite)
 CONTACT,9OCT,A:HIS124 ND1 - FES A201 S2 1.978 A,no covale record; <2.0 A band,Cryo-EM structure of the cytochrome bc complex (CIII2) from Bacillus subtilis
@@ -76,10 +61,10 @@ CONTACT,9OCV,C:GLU45 OE2 - HEC B305 C4C 1.734 A,no covale record; <2.0 A band,Cr
 CONTACT,9OCV,J:LYS26 NZ - CDL J202 C71 1.448 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
 CONTACT,9OCV,a:CYS100 SG - FES a201 S1 2.148 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
 CONTACT,9OCV,a:HIS124 ND1 - FES a201 S2 2.263 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+CONTACT,9OCV,c:GLU45 OE1 - HEC b304 NC 1.312 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
 CONTACT,9OCV,c:CYS192 SG - HEC c302 C2C 1.766 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
 CONTACT,9OCV,c:CYS195 SG - HEC c302 C2B 1.766 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
 CONTACT,9OCX,c:GLU45 OE1 - HEC b305 NC 2.009 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 featuring FES in b-position from Bacillus subtilis
-CONTACT,9OCY,A:CYS100 SG - FES A201 S2 1.724 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
 CONTACT,9OCY,a:CYS105 SG - FES a201 S2 2.049 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
 CONTACT,9OCY,a:CYS123 SG - FES a201 S2 1.934 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
 CONTACT,9OCY,d:ARG20 NE - PEE d101 C5 1.429 A,no covale record; <2.0 A band,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
@@ -121,5 +106,13 @@ CONTACT,9V2I,A:CYS399 SG - 8WY A607 CAH 2.071 A,no covale record; 2.0-2.3 A band
 CONTACT,9X5E,A:CYS46 SG - SQ4 A202 C9 1.79 A,no covale record; <2.0 A band,Crystal structure of sperm whale myoglobin mutant F46C with aniline
 CONTACT,9XEB,A:SER449 OG - FAD A700 O3' 2.298 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of Saccharomyces cerevisiae Mitochondrial Respiratory Complex II in YF241131B-bound state
 CONTACT,9XGD,B:GLU212 OE2 - GYC B63 N2 2.263 A,no covale record; 2.0-2.3 A band,Crystal structure of dKeima570 at pH 4.0
-CONTACT,9XGR,A:SER162 OG - DH2 A401 O30 6.32 A,no covale record; 2.0-2.3 A band,crystal structure of STING-CTD complex with small molecule 09-B11
+CONTACT,9XGR,A:SER162 OG - DH2 A401 O30 1.964 A,no covale record; <2.0 A band,crystal structure of STING-CTD complex with small molecule 09-B11
 CONTACT,9XHW,C:GLN351 NE2 - 59P L401 C2' 2.259 A,no covale record; 2.0-2.3 A band,The cryo-EM structure of CongoRed bound Tau PHF fibril
+DEFAULT,21ZV,J:ARG369 NH1 - ATP J901 O1B 1.297 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Cdc48-Ufd1-Npl4 complex processing Ub6 in the presence of ubx2
+DEFAULT,21ZW,J:ARG369 NH1 - ATP J901 O1B 1.298 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Cdc48-Ufd1-Npl4 complex processing polyUbEOS in the presence of ubx2
+DEFAULT,36OP,H:HIS58 NE2 - ADP H201 O1B 1.297 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Cryo-EM structure of Fluc-Nte in complex with ADP-bound Fcap
+DEFAULT,36YY,D:LYS68 NZ - ATP D201 O1B 1.298 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Crystal structure of DUF190 bound to ATP
+DEFAULT,9OCV,J:LYS83 NZ - HEC J201 O1D 1.297 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Cryo-EM structure of the CIII2CIV1 respiratory supercomplex from Bacillus subtilis
+DEFAULT,9OCY,E:ASP23 OD2 - PC1 E101 C15 1.374 A,unrecorded O-C pair on the cctbx generic bond value 1.374 A,Cryo-EM structure of the CIII2 with YlbA from Bacillus subtilis
+DEFAULT,9OCZ,C:ASP125 OD1 - PEE D101 C5 1.375 A,unrecorded O-C pair on the cctbx generic bond value 1.374 A,Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis
+DEFAULT,9OCZ,D:ARG20 NH1 - PEE D101 O1P 1.297 A,"unrecorded N-O pair on the cctbx generic bond value 1.297 A, which is applied at sigma 0.01 once the atoms are within 2.20 A; not a chemical bond",Cryo-EM structure of the CIII2 without YlbA from Bacillus subtilis

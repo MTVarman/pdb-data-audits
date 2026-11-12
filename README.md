@@ -42,6 +42,8 @@ unrecorded-covalent/
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
 rascore/                     KRAS switch-state table after correcting silent wildtype mislabels (issue #2)
+release-audit/               weekly audit of each PDB release: heme c parity, overlapping atoms, unrecorded contacts, software defaults
+priority/                    SHA-256 fingerprints of unpublished bundles, by date
 ```
 
 Every table carries its source URL, snapshot or commit, and SHA-256 where a file was downloaded. Nothing here was recomputed from maps; density and clash values are the wwPDB's own.

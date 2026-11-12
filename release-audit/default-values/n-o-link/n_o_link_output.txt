@@ -1,0 +1,38 @@
+# cctbx-base 2025.11 (pip), default pdb_interpretation parameters; dictionaries phenix-project/geostd f4d21cc + rlabduke/mon_lib c382734
+# fragment from 36YY (X-ray 1.9 A, PHENIX): LYS D 68 and ATP D 201, deposited NZ-O1B 1.298 A; other files move the ATP along the NZ-O1B line
+
+input=frag_dep.pdb
+   bond pdb=" NZ  LYS A  68 "
+        pdb=" O1B ATP B 201 "
+     ideal  model  delta    sigma   weight residual
+     1.297  1.298 -0.001 1.00e-02 1.00e+04 1.38e-02
+input=frag_200.pdb
+   bond pdb=" NZ  LYS A  68 "
+        pdb=" O1B ATP B 201 "
+     ideal  model  delta    sigma   weight residual
+     1.297  2.000 -0.703 1.00e-02 1.00e+04 4.94e+03
+input=frag_210.pdb
+   bond pdb=" NZ  LYS A  68 "
+        pdb=" O1B ATP B 201 "
+     ideal  model  delta    sigma   weight residual
+     1.297  2.100 -0.803 1.00e-02 1.00e+04 6.44e+03
+input=frag_215.pdb
+   bond pdb=" NZ  LYS A  68 "
+        pdb=" O1B ATP B 201 "
+     ideal  model  delta    sigma   weight residual
+     1.297  2.150 -0.853 1.00e-02 1.00e+04 7.27e+03
+input=frag_220.pdb
+   bond pdb=" NZ  LYS A  68 "
+        pdb=" O1B ATP B 201 "
+     ideal  model  delta    sigma   weight residual
+     1.297  2.200 -0.903 1.00e-02 1.00e+04 8.15e+03
+input=frag_225.pdb
+   no Lys NZ - ATP bond restraint
+input=frag_229.pdb
+   no Lys NZ - ATP bond restraint
+input=frag_240.pdb
+   no Lys NZ - ATP bond restraint
+input=frag_280.pdb
+   no Lys NZ - ATP bond restraint
+input=frag_310.pdb
+   no Lys NZ - ATP bond restraint
