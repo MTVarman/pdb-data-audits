@@ -1,6 +1,6 @@
 # Weekly PDB release audit
 
-The PDB releases new entries every Wednesday. This runs three checks against
+The PDB releases new entries every Wednesday. This runs four checks against
 that week's release and commits the result, dated.
 
 Each week lands in `weeks/<YYYY-MM-DD>_findings.csv` with a short
@@ -44,6 +44,24 @@ bond perception stops looking and that is the thing under audit.
 Hydrogens are stripped, zero-occupancy atoms skipped, altlocs must match, and
 metals are excluded — a metal coordination bond is not a covalent bond and is
 not counted as one.
+
+**DEFAULT** (from the 2026-11-11 release on) — a metal–ligand distance that
+equals a refinement-software default to the third decimal. Two defaults in
+cctbx, the library under PHENIX, are covered; both are traced to the code and
+reproduced in [doi:10.5281/zenodo.24150338](https://doi.org/10.5281/zenodo.24150338).
+
+| what | rule | the default |
+|---|---|---|
+| zinc | a zinc ion with fewer than four Cys SG / His N ligands (within 2.8 Å) and at least two Zn–N(His) distances within 0.004 Å of 2.300 | 2.30 Å, sigma 0.03, applied to every such zinc; X-ray at 1.5 Å or better has a median of 2.034 Å |
+| chlorophyll-type Mg | the nearest outside nitrogen to each pigment magnesium (within 2.6 Å); the entry is listed when at least 3 and a quarter of them, or at least 2 and half of them, sit at 1.895 ± 0.010 or 2.302 ± 0.006 Å | 1.895 Å in cctbx builds 2020.10–2024.5, 2.300 Å from 2024.6, sigma 0.01; X-ray sits near 2.20 Å |
+
+One row per zinc site, one row per entry and value for magnesium. A listed
+distance is not by that fact wrong. It is the software's number, not the
+map's.
+
+From the same release on, CONTACT measures to the correct symmetry image of
+the ligand atom. Before that a contact made across a crystal symmetry
+operator was listed with the distance to the unmoved copy.
 
 ## Running it
 

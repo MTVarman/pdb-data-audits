@@ -4,7 +4,7 @@ Weekly PDB release auditor.
 
 Usage:  release_audit.py <YYYY-MM-DD> [workdir]
 
-Pulls every entry released on that date, then runs three checks that need
+Pulls every entry released on that date, then runs four checks that need
 no agreement about where a bond ends:
 
   PARITY   heme c (HEC) attaches through exactly two cysteine thioethers
@@ -17,6 +17,11 @@ no agreement about where a bond ends:
 
   GEOMETRY contacts under 1.4 A: closer than any real single bond, i.e.
            atoms modelled on top of each other.
+
+  DEFAULT  metal-ligand distances that sit on a refinement-software default
+           rather than on a measured value: zinc-histidine at 2.300 A in
+           sites with fewer than four Cys/His ligands, and chlorophyll-type
+           magnesium-nitrogen at 1.895 A or 2.300 A.
 
 Emits <date>_findings.csv and <date>_brief.md.
 """
@@ -151,8 +156,89 @@ def ok_alt(a, b):
     return (not a.has_altloc()) or (not b.has_altloc()) or a.altloc == b.altloc
 
 
+# --- DEFAULT: distances equal to a restraint default -----------------------
+# Source and reproduction: doi:10.5281/zenodo.24150338
+ZN_LIG_MAX = 2.8        # a Cys SG / His N this close counts as a zinc ligand
+ZN_DEFAULT = 2.300      # cctbx metal coordination library, sites with < 4 Cys/His
+ZN_TOL = 0.004
+MG_LIG_MAX = 2.6        # nearest outside nitrogen this close is the Mg ligand
+MG_DEFAULTS = (('1.895', 1.895, 0.010),   # cctbx builds 2020.10 - 2024.5
+               ('2.300', 2.302, 0.006))   # cctbx builds from 2024.6
+
+
+def _dist(cell, ref, atom, image_idx):
+    """Distance from ref to the right symmetry image of atom. A non-crystal
+    entry (cryo-EM) has no images and the cell is a placeholder."""
+    if image_idx == 0 or not cell.is_crystal():
+        return ref.pos.dist(atom.pos)
+    return ref.pos.dist(cell.find_nearest_pbc_position(ref.pos, atom.pos, image_idx))
+
+
+def default_metals(model, ns, cell):
+    """Returns rows (detail, note) for metal sites whose ligand distances sit
+    on a known software default."""
+    out = []
+    mg = []                                    # nearest outside N per pigment Mg
+    for ch in model:
+        for res in ch:
+            # zinc ions
+            if res.name == 'ZN' and len(res) == 1 and res[0].occ > 0:
+                zn = res[0]
+                lig, seen = [], set()
+                for m in ns.find_atoms(zn.pos, '\0', radius=ZN_LIG_MAX):
+                    c = m.to_cra(model)
+                    if c.atom.occ <= 0 or not ok_alt(zn, c.atom):
+                        continue
+                    kind = ('S' if (c.residue.name == 'CYS' and c.atom.name == 'SG') else
+                            'N' if (c.residue.name == 'HIS' and c.atom.name in ('ND1', 'NE2')) else None)
+                    if kind is None:
+                        continue
+                    key = (c.chain.name, c.residue.seqid.num, c.atom.name, m.image_idx)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    d = _dist(cell, zn, c.atom, m.image_idx)
+                    lig.append((d, kind, f'{c.chain.name}:{c.residue.name}{c.residue.seqid.num} {c.atom.name}'))
+                n_s = sum(1 for x in lig if x[1] == 'S')
+                n_n = sum(1 for x in lig if x[1] == 'N')
+                at = [x for x in lig if x[1] == 'N' and abs(x[0] - ZN_DEFAULT) <= ZN_TOL]
+                if n_s + n_n < 4 and len(at) >= 2:
+                    desc = '; '.join(f'{lab} {d:.3f} A' for d, _, lab in sorted(lig))
+                    out.append((f'ZN {ch.name}{res.seqid.num} [{n_n} His, {n_s} Cys] {desc}',
+                                f'{len(at)} of {n_n} Zn-N(His) at 2.300 A: the default for zinc with '
+                                'fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A)'))
+            # magnesium inside a pigment (chlorophylls, bacteriochlorophylls and relatives)
+            elif res.het_flag == 'H' and len(res) > 5:
+                for a in res:
+                    if a.element.name != 'Mg' or a.occ <= 0:
+                        continue
+                    best = None
+                    for m in ns.find_atoms(a.pos, '\0', radius=MG_LIG_MAX):
+                        c = m.to_cra(model)
+                        if c.residue is res or c.atom.element.name != 'N':
+                            continue
+                        if c.atom.occ <= 0 or not ok_alt(a, c.atom):
+                            continue
+                        d = _dist(cell, a, c.atom, m.image_idx)
+                        if best is None or d < best:
+                            best = d
+                    if best is not None:
+                        mg.append(best)
+    if mg:
+        n = len(mg)
+        for label, centre, tol in MG_DEFAULTS:
+            hit = sorted(d for d in mg if abs(d - centre) <= tol)
+            k = len(hit)
+            if (k >= 3 and k / n >= 0.25) or (k >= 2 and k / n >= 0.5):
+                med = hit[k // 2]
+                out.append((f'pigment Mg-N: {k} of {n} at {label} A (median {med:.3f} A)',
+                            f'Mg-N on the {label} A default for chlorophyll-type magnesium '
+                            '(X-ray structures sit near 2.20 A)'))
+    return out
+
+
 def scan(path):
-    """Returns (entry, meta, contacts, hemes). Imported lazily so the parent
+    """Returns (entry, meta, contacts, hemes, defaults). Imported lazily so the parent
     process never holds gemmi state."""
     import gemmi
     entry = os.path.basename(path)[:4]
@@ -181,6 +267,7 @@ def scan(path):
 
     model = st[0]
     ns = gemmi.NeighborSearch(model, st.cell, 3).populate()
+    defaults = default_metals(model, ns, st.cell)
 
     contacts = []
 
@@ -198,7 +285,7 @@ def scan(path):
                         if (c.atom.element.name.upper() in METALS
                                 or c.atom.occ <= 0 or not ok_alt(a, c.atom)):
                             continue
-                        d = a.pos.dist(c.atom.pos)
+                        d = _dist(st.cell, a, c.atom, m.image_idx)
                         if best is None or d < best[0]:
                             best = (d, c)
                     if best:
@@ -210,7 +297,7 @@ def scan(path):
                                          c.residue.name, c.chain.name, c.residue.seqid.num,
                                          c.atom.name, c.atom.element.name, round(d, 3),
                                          'recorded' if is_rec else 'unrecorded'])
-    return entry, meta, contacts, heme_c_sites(b, st)
+    return entry, meta, contacts, heme_c_sites(b, st), defaults
 
 
 def main():
@@ -229,16 +316,17 @@ def main():
     bad = [r for r in res if r[1].startswith('fail')]
     print(f'downloaded {len(res)-len(bad)}/{len(res)}', flush=True)
 
-    all_contacts, all_hemes, metas, failed = [], {}, {}, []
+    all_contacts, all_hemes, all_defaults, metas, failed = [], {}, {}, {}, []
     for n, pdbid in enumerate(ids, 1):
         p = os.path.join(cifdir, pdbid + '.cif.gz')
         if not os.path.exists(p):
             continue
         try:
-            e, meta, contacts, sites = scan(p)
+            e, meta, contacts, sites, defaults = scan(p)
             metas[e] = meta
             all_contacts += contacts
             all_hemes[e] = sites
+            all_defaults[e] = defaults
         except Exception as ex:
             failed.append((pdbid, str(ex)[:120]))
             if len(failed) <= 3:
@@ -284,6 +372,12 @@ def main():
                              f'no covale record; {band} A band',
                              metas.get(c[0], {}).get('title', '')])
 
+    # --- DEFAULT: metal distances sitting on a software default ---
+    for entry, rows in sorted(all_defaults.items()):
+        for detail, note in rows:
+            findings.append(['DEFAULT', entry, detail, note,
+                             metas.get(entry, {}).get('title', '')])
+
     out_csv = os.path.join(work, f'{date}_findings.csv')
     with open(out_csv, 'w', newline='') as fh:
         w = csv.writer(fh)
@@ -297,10 +391,12 @@ def main():
         fh.write(f'{len(ids)} entries released. {len(findings)} findings across {ent} entries.\n\n')
         fh.write(f'- **Parity violations (heme c):** {n["PARITY"]}\n')
         fh.write(f'- **Impossible geometry (<1.40 A):** {n["GEOMETRY"]}\n')
-        fh.write(f'- **Unrecorded contacts:** {n["CONTACT"]}\n\n')
+        fh.write(f'- **Unrecorded contacts:** {n["CONTACT"]}\n')
+        fh.write(f'- **Metal distances on a software default:** {n["DEFAULT"]}'
+                 f' in {len({f[1] for f in findings if f[0] == "DEFAULT"})} entries\n\n')
         if failed:
             fh.write(f'{len(failed)} entries failed to parse.\n\n')
-        for cat in ('PARITY', 'GEOMETRY', 'CONTACT'):
+        for cat in ('PARITY', 'GEOMETRY', 'CONTACT', 'DEFAULT'):
             rows = [f for f in findings if f[0] == cat][:15]
             if not rows:
                 continue
