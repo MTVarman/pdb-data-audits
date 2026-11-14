@@ -58,15 +58,19 @@ pj = [r for r in rows if r[0] == 'PDBJ'][0]; tot = sum(r[3] for r in rows)
 ax2.set_title(f'B  By wwPDB processing site: PDBj has {100*pj[2]/len(lo):.0f}% of contacts under 2.0 Å\n    but {pj[3]} of the {tot} unrecorded ones', loc='left', fontsize=11, color=INK)
 
 # panel C: the two matched cases, chemistry held fixed
-ax3 = fig.add_axes([0.10, 0.100, 0.84, 0.095]); ax3.axis('off')
+ax3 = fig.add_axes([0.10, 0.118, 0.84, 0.090]); ax3.axis('off')
+tg = pd.read_csv(f'{O}/nirmatrelvir_targets.tsv', sep='\t')
+sars2 = set(tg[tg.source_organism == 'Severe acute respiratory syndrome coronavirus 2'].entry)
+nm = lo[(lo.lig_comp == '4WI') & lo.entry.isin(sars2) & (lo.cys_seq.astype(str) == '145')]
 def mrow(df, comp, site):
-    x = lo[(lo.lig_comp == comp) & (lo.process_site == site)]
+    x = (nm if comp == '4WI' else lo[lo.lig_comp == comp]); x = x[x.process_site == site]
     return int(x.recorded.sum()), len(x)
-cases = [('Nirmatrelvir (4WI) on Mpro Cys145', [('RCSB',) + mrow(lo, '4WI', 'RCSB'), ('PDBC',) + mrow(lo, '4WI', 'PDBC'),
+cases = [('Nirmatrelvir (4WI) on SARS-CoV-2 Mpro Cys145', [('RCSB',) + mrow(lo, '4WI', 'RCSB'), ('PDBC',) + mrow(lo, '4WI', 'PDBC'),
                                                ('PDBe',) + mrow(lo, '4WI', 'PDBE'), ('PDBj',) + mrow(lo, '4WI', 'PDBJ')]),
          ('Ubiquinone-0 (UQ0) on glyoxylate carboligase Cys588', [('PDBe 8BEO',) + mrow(lo, 'UQ0', 'PDBE'),
                                                                   ('PDBj 8I01/05/08',) + mrow(lo, 'UQ0', 'PDBJ')])]
-ax3.text(0, 1.12, 'C  Same ligand, same residue, same protein — recorded or not by site', fontsize=11, color=INK, transform=ax3.transAxes)
+ax3.text(0, 1.12, 'C  Same ligand, same residue, same protein: every unrecorded copy is a PDBj entry', fontsize=11, color=INK, transform=ax3.transAxes)
+ax3.text(0, -0.27, 'Depositing groups differ too, so these cases fix the chemistry but do not separate site from depositor.', fontsize=8.5, color=GREY, transform=ax3.transAxes)
 for k, (lab, cells) in enumerate(cases):
     y = 0.80 - k * 0.50
     ax3.text(0, y, lab, fontsize=9.5, color=INK, weight='bold', transform=ax3.transAxes)
@@ -74,8 +78,8 @@ for k, (lab, cells) in enumerate(cases):
         col = ORANGE if n_ and r_ / n_ < 0.5 else BLUE
         ax3.text(0.02 + j * 0.15, y - 0.26, f'{nm}  {r_}/{n_}', fontsize=8.5, color=col,
                  weight='bold', transform=ax3.transAxes)
-fig.text(0.07, 0.048, 'Sample: RCSB full-text "covalent cysteine" or "covalent inhibitor", plus entries with named covalent drugs:\n24,144 entries, mmCIF downloaded 14 Nov 2026. Nearest ligand per Cys; heavy atoms, occupancy > 0, matching alt confs,\nsymmetry-aware. Recorded = a covale row joining that Cys and that ligand residue.', fontsize=8.5, color=GREY)
-fig.text(0.07, 0.013, 'Michael T. Varman · Morphogenesis Analytics · morphalytica.com', fontsize=10.5, color=INK, weight='bold')
+fig.text(0.07, 0.040, 'Sample: RCSB full-text "covalent cysteine" or "covalent inhibitor", plus entries with named covalent drugs:\n24,144 entries, mmCIF downloaded 14 Nov 2026. Nearest ligand per Cys; heavy atoms, occupancy > 0, matching alt confs,\nsymmetry-aware. Recorded = a covale row joining that Cys and that ligand residue.', fontsize=8.5, color=GREY)
+fig.text(0.07, 0.010, 'Michael T. Varman · Morphogenesis Analytics · morphalytica.com', fontsize=10.5, color=INK, weight='bold')
 fig.savefig(f'{O}/cys_covalent_two_rulers.png', dpi=200, facecolor=fig.get_facecolor())
 fig.savefig(f'{O}/cys_covalent_two_rulers.pdf', facecolor=fig.get_facecolor())
 fig.savefig(f'{O}/cys_covalent_two_rulers.svg', facecolor=fig.get_facecolor())

@@ -147,6 +147,54 @@ z = [r['d'] for r in lo if r['lig_comp'] == '4WI' and r['site'] == 'PDBJ' and no
 check('4WI PDBj misses distance range', (len(z), min(z), max(z)), (23, 1.761, 1.846))
 
 
+
+print('\n-- deposition year of the unrecorded contacts --')
+check('PDBj unrecorded, deposited 2021-2023', fr([bool(r['yr'] and 2021 <= r['yr'] <= 2023) for r in lo if r['site'] == 'PDBJ' and not r['rec']]), (76, 97))
+check('RCSB unrecorded, deposited 2006-2013', fr([bool(r['yr'] and 2006 <= r['yr'] <= 2013) for r in lo if r['site'] == 'RCSB' and not r['rec']]), (35, 52))
+
+print('\n-- per depositing group (out/depositor_groups.tsv) --')
+G = rows('depositor_groups.tsv'); gk = {r['entry']: r for r in G}
+check('entries with a group key', len(G), 2442)
+check('group table matches contact table', all(int(gk[e]['n_unrecorded_lt2']) == sum(1 for r in lo if r['entry'] == e and not r['rec']) for e in list(gk)[::25]), True)
+for key, exp_, tot_ in (('citation_group', {'RCSB': (23, 546), 'PDBE': (15, 275), 'PDBC': (7, 60), 'PDBJ': (30, 182), 'BNL': (1, 14)}, ((30, 182), (46, 895), '3.6', '1e-06')),
+                        ('last_author_group', {'RCSB': (23, 337), 'PDBE': (13, 179), 'PDBC': (5, 29), 'PDBJ': (25, 127), 'BNL': (1, 15)}, ((25, 127), (42, 560), '3.0', '1e-04'))):
+    tot, hit = {}, {}
+    for r in G:
+        tot.setdefault(r['process_site'], set()).add(r[key])
+        if int(r['n_unrecorded_lt2']) > 0: hit.setdefault(r['process_site'], set()).add(r[key])
+    for s_, v in exp_.items(): check(f'{key} {s_} groups with a miss', (len(hit.get(s_, ())), len(tot[s_])), v)
+    a = len(hit['PDBJ']); b_ = len(tot['PDBJ']) - a
+    c = sum(len(v) for k, v in hit.items() if k != 'PDBJ'); d = sum(len(v) for k, v in tot.items() if k != 'PDBJ') - c
+    orr, pv = fisher(a, b_, c, d)
+    check(f'{key} PDBj vs others', ((a, a + b_), (c, c + d), f'{orr:.1f}', sci(pv)), tot_)
+
+print('\n-- matched case 1: nirmatrelvir on SARS-CoV-2 Mpro Cys145 (out/nirmatrelvir_targets.tsv) --')
+T = {r['entry']: r for r in rows('nirmatrelvir_targets.tsv')}
+N = [r for r in lo if r['lig_comp'] == '4WI']
+check('nirmatrelvir contacts / entries under 2.0 A', (len(N), len({r['entry'] for r in N})), (104, 64))
+check('distinct source organisms', len({T[r['entry']]['source_organism'] for r in N}), 9)
+S2 = [r for r in N if T[r['entry']]['source_organism'] == 'Severe acute respiratory syndrome coronavirus 2' and r['cys_seq'] == '145']
+check('SARS-CoV-2 Cys145 contacts / entries', (len(S2), len({r['entry'] for r in S2})), (80, 56))
+for s_, v in (('RCSB', (44, 44, 29, 14)), ('PDBC', (10, 10, 10, 2)), ('PDBE', (2, 2, 2, 1)), ('PDBJ', (6, 24, 15, 7))):
+    g = [r for r in S2 if r['site'] == s_]
+    check(f'SARS-CoV-2 Cys145 {s_} recorded / contacts / entries / papers',
+          (sum(r['rec'] for r in g), len(g), len({r['entry'] for r in g}), len({gk[r['entry']]['citation_group'] for r in g})), v)
+g = [r for r in S2 if r['site'] != 'PDBJ']
+check('SARS-CoV-2 Cys145 outside PDBj: recorded / contacts / entries / papers',
+      (sum(r['rec'] for r in g), len(g), len({r['entry'] for r in g}), len({gk[r['entry']]['citation_group'] for r in g})), (56, 56, 41, 17))
+g = [r for r in S2 if r['site'] == 'PDBJ']
+check('SARS-CoV-2 Cys145 PDBj papers: recorded-only / unrecorded',
+      (len({gk[r['entry']]['citation_group'] for r in g if r['rec']}), len({gk[r['entry']]['citation_group'] for r in g if not r['rec']})), (3, 4))
+z = [r['d'] for r in g if not r['rec']]
+check('SARS-CoV-2 Cys145 PDBj unrecorded: n, range', (len(z), min(z), max(z)), (18, 1.761, 1.846))
+for s_, v in (('RCSB', (49, 49)), ('PDBC', (23, 23)), ('PDBE', (2, 2)), ('PDBJ', (7, 30))):
+    check(f'nirmatrelvir, all targets, {s_}', fr([r['rec'] for r in N if r['site'] == s_]), v)
+g = [r for r in N if r['site'] == 'PDBJ' and not r['rec']]
+check('nirmatrelvir PDBj unrecorded: contacts / entries / papers',
+      (len(g), len({r['entry'] for r in g}), len({gk[r['entry']]['citation_group'] for r in g})), (23, 13, 5))
+check('UQ0: 8I01/8I05/8I08 share a citation, 8BEO does not',
+      (len({gk[e]['citation_group'] for e in ('8I01', '8I05', '8I08')}), gk['8BEO']['citation_group'] == gk['8I01']['citation_group']), (1, False))
+
 print('\n-- composition of the PDBj excess --')
 pj_mis = [r for r in lo if r['site'] == 'PDBJ' and not r['rec']]
 check('PDBj unrecorded < 2.0 A', len(pj_mis), 97)
