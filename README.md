@@ -23,6 +23,8 @@ None of the 485 strict sites is reported as a steric-clash outlier in its wwPDB 
 
 135 of the 485 sites (88 entries) did have the bond recorded in an earlier release. A wwPDB revision removed it, mostly on 2024-12-25, 2025-09-17 or 2025-10-01, and nothing re-filed it in any linkage category; 98 of those 135 are density-supported. Details in `unrecorded-covalent/remediation-history/`.
 
+Whether the record is written at all also varies by where the entry was processed. In a 24,144-entry scan of cysteine–ligand contacts, PDBj-processed entries hold 13% of the contacts under 2.0 Å and 97 of the 197 with no bond record, concentrated in 2021–2023 depositions. Two cases hold the chemistry fixed: nirmatrelvir on Mpro Cys145 is recorded 49/49 at RCSB and 7 of 30 at PDBj, and ubiquinone-0 on glyoxylate carboligase Cys588 is recorded 6/6 in 8BEO (PDBe) and 0 of 23 in the three PDBj entries of the same enzyme. 55 of the 97 PDBj misses sit on cctbx's generic 1.766 Å carbon–sulfur link value, so the pair was restrained as a bond and recorded as nothing. Details in `unrecorded-covalent/cys-ligand-sites/`.
+
 Removed bond records are not only cysteine. Across all 811 protein–ligand covalent sites removed by wwPDB revisions since May 2024 (archive-wide, from the Protenix training-set diff), 23 density-supported non-cysteine covalent sites on real drug targets lost their record, including a ligand bonded to the mutant Asp12 of KRAS G12D (8JHL), HIV-1 reverse transcriptase Lys102 and Tyr181, GSTP1 Tyr109 and 14-3-3σ Lys122. Details in `unrecorded-covalent/reactive-residues/`.
 
 ## Layout
@@ -39,6 +41,7 @@ unrecorded-covalent/
   reactive-residues/         811 archive-removed covalent sites classified; 23 non-Cys covalent sites on drug targets
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
   two-rulers/                the 2.01 Å validator line and the 2.0 Å record line, archive-wide; 132 density-supported Cys adducts past 2 Å
+  cys-ligand-sites/          the same two lines for drugs and substrates on cysteine, 24,144 entries; the PDBj concentration and two matched cases
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
 rascore/                     KRAS switch-state table after correcting silent wildtype mislabels (issue #2)

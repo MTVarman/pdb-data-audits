@@ -1,0 +1,198 @@
+entry	process_site	deposit_year	method	resolution	lig_comp	lig_name	drug	drug_class	cys_chain	cys_seq	cys_alt	lig_chain	lig_seq	lig_atom	lig_alt	lig_occ	dist	recorded	rec_atom_exact	rec_dist	bonded_elsewhere	in_strict_cut_491
+1BP4	BNL	1998	X-RAY DIFFRACTION	2.2	ALD	N-[(benzyloxy)carbonyl]-L-leucyl-N-[(2S)-1-hydroxy-4-methylpentan-2-yl]-L-leucinamide			A	25		A	301	C22		0.65	1.757	False	False		False	True
+23MD	PDBC	2026	X-RAY DIFFRACTION	1.8	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			A	145		A	401	C7		1.0	1.898	False	False		False	True
+23MD	PDBC	2026	X-RAY DIFFRACTION	1.8	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			B	145		B	401	C7		1.0	1.862	False	False		False	True
+23MF	PDBC	2026	X-RAY DIFFRACTION	1.78	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			A	145		A	401	C7		1.0	1.932	False	False		False	True
+23MF	PDBC	2026	X-RAY DIFFRACTION	1.78	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			B	145		B	401	C7		1.0	1.912	False	False		False	True
+23MG	PDBC	2026	X-RAY DIFFRACTION	2.0	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			A	145		A	401	C7		1.0	1.881	False	False		False	True
+23MG	PDBC	2026	X-RAY DIFFRACTION	2.0	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			B	145		B	401	C7		1.0	1.867	False	False		False	True
+23MI	PDBC	2026	X-RAY DIFFRACTION	1.7	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			A	145		A	401	C7		1.0	1.903	False	False		False	True
+23MI	PDBC	2026	X-RAY DIFFRACTION	1.7	A1EN0	(3~{S},3~{a}~{S},6~{a}~{R})-2-[(2~{S})-2-cyclohexyl-2-[2,2,2-tris(fluoranyl)ethanoylamino]			B	145		B	401	C7		1.0	1.908	False	False		False	True
+9JGV	PDBC	2024	X-RAY DIFFRACTION	1.76	YDL	N-(methoxycarbonyl)-3-methyl-L-valyl-(4R)-N-{(1Z,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]			B	145		B	401	C2		1.0	1.781	False	False		False	True
+9JGW	PDBC	2024	X-RAY DIFFRACTION	1.49	YDL	N-(methoxycarbonyl)-3-methyl-L-valyl-(4R)-N-{(1Z,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]			A	145		A	401	C2		1.0	1.783	False	False		False	True
+9JJZ	PDBC	2024	X-RAY DIFFRACTION	1.61	A1ECA	methyl 4-[[(3~{S})-1,1-bis(oxidanylidene)thiolan-3-yl]-(2,2-dimethylpropyl)amino]-4-oxidan			A	113		A	200	C15		1.0	1.834	False	False		False	True
+9JJZ	PDBC	2024	X-RAY DIFFRACTION	1.61	A1ECA	methyl 4-[[(3~{S})-1,1-bis(oxidanylidene)thiolan-3-yl]-(2,2-dimethylpropyl)amino]-4-oxidan			B	113		B	200	C15		1.0	1.83	False	False		False	True
+9LHP	PDBC	2025	X-RAY DIFFRACTION	2.14	A1LYG	(1~{S},2~{S})-2-[(2-methoxy-5-methyl-4-oxidanyl-phenyl)methyl]cyclopropane-1-carboxylic ac			A	276		A	501	CAH		1.0	1.771	False	False		False	True
+9UNY	PDBC	2025	X-RAY DIFFRACTION	1.87	A1EP4	(1~{S},2~{S},5~{S},6~{S},8~{R},9~{S},10~{S},11~{R},15~{S},18~{R})-6,12,12-trimethyl-9,10,1			A	152		A	410	C22		1.0	1.793	False	False		False	True
+9WN5	PDBC	2025	X-RAY DIFFRACTION	2.47	A1EYA	~{N}-[(3~{R})-1,1-bis(oxidanylidene)thiolan-3-yl]-~{N}-[[5-(4-fluorophenyl)thiophen-2-yl]m			A	113		A	201	C12		1.0	1.766	False	False		False	True
+9WN5	PDBC	2025	X-RAY DIFFRACTION	2.47	A1EYA	~{N}-[(3~{R})-1,1-bis(oxidanylidene)thiolan-3-yl]-~{N}-[[5-(4-fluorophenyl)thiophen-2-yl]m			B	113		B	200	C12		1.0	1.768	False	False		False	True
+9WNN	PDBC	2025	X-RAY DIFFRACTION	2.12	A1EX9	~{N}-(1-benzothiophen-2-ylmethyl)-~{N}-[(1~{S})-3,3-bis(fluoranyl)cyclopentyl]ethanamide			A	113		A	201	C18		1.0	1.819	False	False		False	True
+9WNN	PDBC	2025	X-RAY DIFFRACTION	2.12	A1EX9	~{N}-(1-benzothiophen-2-ylmethyl)-~{N}-[(1~{S})-3,3-bis(fluoranyl)cyclopentyl]ethanamide			B	113		B	200	C18		1.0	1.793	False	False		False	True
+2VJ1	PDBE	2007	X-RAY DIFFRACTION	2.25	XP1	4-(DIMETHYLAMINO)BENZOIC ACID			B	145		B	1304	CAC		0.7	1.836	False	False		False	True
+2WOX	PDBE	2009	X-RAY DIFFRACTION	2.3	NDP	NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE			A	286		A	1491	C2N		0.8	1.752	False	False		False	True
+2WOX	PDBE	2009	X-RAY DIFFRACTION	2.3	NDP	NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE			C	286	A	C	1491	C2N		0.8	1.66	False	False		False	False
+4CAZ	PDBE	2013	X-RAY DIFFRACTION	2.55	TXE	[[(2R,3S,4R,5R)-5-[(3R)-3-aminocarbonyl-3,4-dihydro-2H-pyridin-1-yl]-3,4-bis(oxidanyl)oxol			A	286		A	1526	C2N		0.5	1.618	False	False		False	False
+4CAZ	PDBE	2013	X-RAY DIFFRACTION	2.55	TXE	[[(2R,3S,4R,5R)-5-[(3R)-3-aminocarbonyl-3,4-dihydro-2H-pyridin-1-yl]-3,4-bis(oxidanyl)oxol			B	286		B	1514	C2N		0.5	1.618	False	False		False	False
+5IYT	PDBE	2016	X-RAY DIFFRACTION	1.73	NZN	N-Ethyl 4-((1-cycloheptyl-1,2-dihydropyrazol-3-one-5-yl)-amino)-4-oxo-butanamide			B	147		B	201	C26		1.0	1.79	False	False		False	True
+6GXY	PDBE	2018	X-RAY DIFFRACTION	1.8	FFN	5-(4-fluorophenyl)-2-methyl-3~{H}-thieno[2,3-d]pyrimidin-4-one			A	40	A	A	201	C01		1.0	1.981	False	False		False	False
+6GXY	PDBE	2018	X-RAY DIFFRACTION	1.8	FFN	5-(4-fluorophenyl)-2-methyl-3~{H}-thieno[2,3-d]pyrimidin-4-one			B	40	A	B	201	C01		1.0	1.96	False	False		False	False
+6H0U	PDBE	2018	X-RAY DIFFRACTION	2.3	FKB	(2~{R})-3-[7-azanyl-5-(cyclohexylamino)-[1,2,4]triazolo[1,5-a][1,3,5]triazin-2-yl]-2-cyano			A	199		A	501	C2		1.0	1.863	False	False		False	True
+6H0U	PDBE	2018	X-RAY DIFFRACTION	2.3	FKB	(2~{R})-3-[7-azanyl-5-(cyclohexylamino)-[1,2,4]triazolo[1,5-a][1,3,5]triazin-2-yl]-2-cyano			B	199		B	501	C2		1.0	1.894	False	False		False	True
+6S9W	PDBE	2019	X-RAY DIFFRACTION	2.3	L1Z	~{N}-[3-[1-[[4-(5-methyl-6-oxidanylidene-3-phenyl-1~{H}-pyrazin-2-yl)phenyl]methyl]piperid			A	310		A	501	CBL		1.0	1.83	False	False		False	True
+6S9X	PDBE	2019	X-RAY DIFFRACTION	2.6	L1W	~{N}-[3-[1-[[4-[5-[(4-hydroxyphenyl)methyl]-6-oxidanylidene-2-phenyl-1~{H}-pyrazin-3-yl]ph			A	310		A	501	CBL		1.0	1.827	False	False		False	False
+7NH4	PDBE	2021	X-RAY DIFFRACTION	2.3	UCE	~{N}-[3-[1-[[4-[5-(hydroxymethyl)-3-phenyl-pyridin-2-yl]phenyl]methyl]piperidin-4-yl]-2-ox			A	310		A	501	C37		1.0	1.821	False	False		False	True
+7NH5	PDBE	2021	X-RAY DIFFRACTION	1.9	UC8	~{N}-methyl-6-[4-[[4-[2-oxidanylidene-6-(propanoylamino)-3~{H}-benzimidazol-1-yl]piperidin			A	296	A	A	502	C39	A	0.5	1.765	False	False		False	False
+7NH5	PDBE	2021	X-RAY DIFFRACTION	1.9	UC8	~{N}-methyl-6-[4-[[4-[2-oxidanylidene-6-(propanoylamino)-3~{H}-benzimidazol-1-yl]piperidin			A	310		A	502	C39	B	0.5	1.767	False	False		False	True
+7NT1	PDBE	2021	X-RAY DIFFRACTION	2.85	UQW	[(2R)-1-[2-(1H-indol-3-yl)ethylamino]-1-oxidanylidene-butan-2-yl] prop-2-enoate			B	145		B	504	C1		1.0	1.817	False	False		False	False
+7NXK	PDBE	2021	X-RAY DIFFRACTION	3.0	UUB	(E)-N-[4-[(1R,3R)-3-[[5-chloranyl-4-(1H-indol-3-yl)pyrimidin-2-yl]amino]cyclohexyl]oxyphen			A	1039		A	2000	C35		1.0	1.769	False	False		False	False
+7NXK	PDBE	2021	X-RAY DIFFRACTION	3.0	UUB	(E)-N-[4-[(1R,3R)-3-[[5-chloranyl-4-(1H-indol-3-yl)pyrimidin-2-yl]amino]cyclohexyl]oxyphen			C	1039		C	2000	C35		1.0	1.738	False	False		False	False
+7ORE	PDBE	2021	X-RAY DIFFRACTION	2.18	0EI	4-(dimethylamino)-N-[(5Z)-9-[[4-[5-(4-fluorophenyl)-3-methyl-2-methylsulfanyl-imidazol-4-y			A	154	A	A	501	C32	A	0.5	1.836	False	False		False	False
+7QK9	PDBE	2021	X-RAY DIFFRACTION	1.782	P4C	O-ACETALDEHYDYL-HEXAETHYLENE GLYCOL			A	314		A	606	C21		1.0	1.822	False	False		False	False
+7QK9	PDBE	2021	X-RAY DIFFRACTION	1.782	P4C	O-ACETALDEHYDYL-HEXAETHYLENE GLYCOL			B	314		B	906	C21		1.0	1.834	False	False		False	False
+7ZLS	PDBE	2022	X-RAY DIFFRACTION	1.92	JH9	[4-[(2~{S})-3-[(4-fluoranyl-3-prop-2-enyl-phenyl)methylamino]-2-[2-(4-fluorophenyl)ethanoy			J	111		J	201	C24		1.0	1.771	False	False		False	True
+9RA3	PDBE	2025	X-RAY DIFFRACTION	2.3	A1JDX	1-ethylisoquinoline			A	354		A	501	C07		1.0	1.818	False	False		False	True
+9RA3	PDBE	2025	X-RAY DIFFRACTION	2.3	A1JDX	1-ethylisoquinoline			B	354		B	501	C07		1.0	1.82	False	False		False	True
+9RA4	PDBE	2025	X-RAY DIFFRACTION	2.25	A1JEA	1-cyclobutylisoquinoline			A	354		A	501	C07		1.0	1.812	False	False		False	True
+9SUR	PDBE	2025	X-RAY DIFFRACTION	2.343	DGL	D-GLUTAMIC ACID			BBB	200		BBB	407	CD		1.0	1.811	False	False		True	False
+9SUR	PDBE	2025	X-RAY DIFFRACTION	2.343	DGL	D-GLUTAMIC ACID			AAA	200		AAA	407	CD		1.0	1.788	False	False		True	False
+9SUR	PDBE	2025	X-RAY DIFFRACTION	2.343	DGL	D-GLUTAMIC ACID			CCC	200		CCC	405	CD		1.0	1.803	False	False		True	False
+9SUR	PDBE	2025	X-RAY DIFFRACTION	2.343	DGL	D-GLUTAMIC ACID			DDD	200		DDD	406	CD		1.0	1.823	False	False		True	False
+3BCN	PDBJ	2007	X-RAY DIFFRACTION	2.85	E64	N-[N-[1-HYDROXYCARBOXYETHYL-CARBONYL]LEUCYLAMINO-BUTYL]-GUANIDINE			A	25		A	214	C2		1.0	1.806	False	False		False	False
+3BCN	PDBJ	2007	X-RAY DIFFRACTION	2.85	E64	N-[N-[1-HYDROXYCARBOXYETHYL-CARBONYL]LEUCYLAMINO-BUTYL]-GUANIDINE			B	25		B	215	C2		1.0	1.804	False	False		False	False
+3M31	PDBJ	2010	X-RAY DIFFRACTION	1.85	NEN	1-ETHYL-PYRROLIDINE-2,5-DIONE			A	208		A	501	C1		1.0	1.825	False	False		False	True
+3WZU	PDBJ	2014	X-RAY DIFFRACTION	3.01	1FM	(3S,5Z,8S,9S,11E)-8,9,16-trihydroxy-14-methoxy-3-methyl-3,4,9,10-tetrahydro-1H-2-benzoxacy			A	218		A	600	C42		1.0	1.821	False	False		False	False
+5YJO	PDBJ	2017	X-RAY DIFFRACTION	2.135	8W0	propyl (3~{S})-4-[[(6~{R})-6-(aminomethyl)-5,6,7,8-tetrahydroacridin-3-yl]carbonyl]-3-meth			A	186		A	504	CAJ		1.0	1.766	False	False		False	True
+5Z1D	PDBJ	2017	X-RAY DIFFRACTION	2.28	95U	N-[3-(6-methyl-1H-indazol-3-yl)phenyl]prop-2-enamide			A	218		A	501	C20		0.8	1.878	False	False		False	True
+6IJL	PDBJ	2018	X-RAY DIFFRACTION	2.351	A8U	propyl (2~{R})-4-[2-[4-(1-azanylcyclopropyl)phenyl]quinolin-7-yl]carbonyl-2-methyl-piperaz			A	186		A	501	CAR		1.0	1.758	False	False		False	True
+6JF0	PDBJ	2019	X-RAY DIFFRACTION	3.4	EBF	7-methoxychromen-2-one			B	285		B	501	C8		1.0	1.644	False	False		False	False
+6JZ0	PDBJ	2019	X-RAY DIFFRACTION	2.86	CKO	E-4-(dimethylamino)-N-[3-[4-[[(1S)-2-oxidanyl-1-phenyl-ethyl]amino]-6-phenyl-furo[2,3-d]py			A	797		A	1100	CBE		1.0	1.932	False	False		False	False
+6KC5	PDBJ	2019	X-RAY DIFFRACTION	1.543	D5U	2-[3-(2-methoxyphenyl)-3-oxidanylidene-propyl]benzoic acid			B	885		B	1105	C10		1.0	1.826	False	False		False	True
+6KC6	PDBJ	2019	X-RAY DIFFRACTION	2.123	D60	2-[3-[2,6-bis(fluoranyl)-4-(1~{H}-pyrazol-4-yl)phenyl]-3-oxidanylidene-propyl]-4-(1-methyl			A	885		A	1105	C12		1.0	1.823	False	False		False	True
+6KC6	PDBJ	2019	X-RAY DIFFRACTION	2.123	D60	2-[3-[2,6-bis(fluoranyl)-4-(1~{H}-pyrazol-4-yl)phenyl]-3-oxidanylidene-propyl]-4-(1-methyl			C	885		C	1105	C12		1.0	1.796	False	False		False	True
+6KC6	PDBJ	2019	X-RAY DIFFRACTION	2.123	D60	2-[3-[2,6-bis(fluoranyl)-4-(1~{H}-pyrazol-4-yl)phenyl]-3-oxidanylidene-propyl]-4-(1-methyl			E	885		E	1105	C12		1.0	1.796	False	False		False	True
+6KC6	PDBJ	2019	X-RAY DIFFRACTION	2.123	D60	2-[3-[2,6-bis(fluoranyl)-4-(1~{H}-pyrazol-4-yl)phenyl]-3-oxidanylidene-propyl]-4-(1-methyl			G	885		G	1105	C12		1.0	1.803	False	False		False	True
+6KC6	PDBJ	2019	X-RAY DIFFRACTION	2.123	D60	2-[3-[2,6-bis(fluoranyl)-4-(1~{H}-pyrazol-4-yl)phenyl]-3-oxidanylidene-propyl]-4-(1-methyl			I	885		I	1105	C12		1.0	1.803	False	False		False	True
+6KC6	PDBJ	2019	X-RAY DIFFRACTION	2.123	D60	2-[3-[2,6-bis(fluoranyl)-4-(1~{H}-pyrazol-4-yl)phenyl]-3-oxidanylidene-propyl]-4-(1-methyl			K	885		K	1105	C12		1.0	1.826	False	False		False	True
+6LO0	PDBJ	2020	X-RAY DIFFRACTION	1.939	EOF	(2~{S})-4-methyl-~{N}-[(2~{S})-1-oxidanylidene-3-[(3~{S})-2-oxidanylidenepyrrolidin-3-yl]p			A	145		A	401	C21		1.0	1.764	False	False		False	True
+7DPP	PDBJ	2020	X-RAY DIFFRACTION	2.1	MYC	3,5,7-TRIHYDROXY-2-(3,4,5-TRIHYDROXYPHENYL)-4H-CHROMEN-4-ONE			A	145		A	401	C19		1.0	1.769	False	False		False	True
+7EI4	PDBJ	2021	X-RAY DIFFRACTION	1.66	J3U	(6S,7R,9E)-6,7-bis(oxidanyl)hexadeca-9,15-dien-11,13-diynoic acid			A	90		A	500	CAT		1.0	1.757	False	False		False	True
+7EI4	PDBJ	2021	X-RAY DIFFRACTION	1.66	J3U	(6S,7R,9E)-6,7-bis(oxidanyl)hexadeca-9,15-dien-11,13-diynoic acid			B	90		B	500	CAT		1.0	1.814	False	False		False	True
+7EI4	PDBJ	2021	X-RAY DIFFRACTION	1.66	J3U	(6S,7R,9E)-6,7-bis(oxidanyl)hexadeca-9,15-dien-11,13-diynoic acid			C	90		C	500	CAT		1.0	1.795	False	False		False	True
+7EI4	PDBJ	2021	X-RAY DIFFRACTION	1.66	J3U	(6S,7R,9E)-6,7-bis(oxidanyl)hexadeca-9,15-dien-11,13-diynoic acid			D	90		D	500	CAT		1.0	1.806	False	False		False	True
+7EO8	PDBJ	2021	X-RAY DIFFRACTION	2.28085164536	FNO	2-[(1R)-4-methyl-1-oxidanyl-pent-3-enyl]-5,8-bis(oxidanyl)naphthalene-1,4-dione			A	145		A	401	C19		1.0	1.768	False	False		False	True
+7V29	PDBJ	2021	X-RAY DIFFRACTION	1.983	5JR	N-[2-[[3-(3,5-dimethoxyphenyl)-2-oxidanylidene-1-[3-(4-propanoylpiperazin-1-yl)propyl]-4H-			A	477		A	801	C33		1.0	1.825	False	False		True	True
+7VLO	PDBJ	2021	X-RAY DIFFRACTION	2.0227	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.766	False	False		False	True
+7VLO	PDBJ	2021	X-RAY DIFFRACTION	2.0227	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.765	False	False		False	True
+7VLP	PDBJ	2021	X-RAY DIFFRACTION	1.50251932385	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.765	False	False		False	True
+7VLP	PDBJ	2021	X-RAY DIFFRACTION	1.50251932385	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.763	False	False		False	True
+7VLQ	PDBJ	2021	X-RAY DIFFRACTION	1.93910601486	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.766	False	False		False	True
+7VLQ	PDBJ	2021	X-RAY DIFFRACTION	1.93910601486	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.767	False	False		False	True
+7VTC	PDBJ	2021	X-RAY DIFFRACTION	2.53865625155	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	148		A	401	C3		1.0	1.761	False	False		False	False
+7VVT	PDBJ	2021	X-RAY DIFFRACTION	2.51	80X	N-(3-chlorophenyl)-2-[(2R)-1-ethanoyl-3-oxidanylidene-piperazin-2-yl]ethanamide			A	145		A	401	C14		1.0	1.767	False	False		False	False
+7VVT	PDBJ	2021	X-RAY DIFFRACTION	2.51	80X	N-(3-chlorophenyl)-2-[(2R)-1-ethanoyl-3-oxidanylidene-piperazin-2-yl]ethanamide			B	145		B	401	C14		1.0	1.766	False	False		False	False
+7W9T	PDBJ	2021	ELECTRON MICROSCOPY	3.0	PCW	1,2-DIOLEOYL-SN-GLYCERO-3-PHOSPHOCHOLINE			A	1328		A	2013	C28		1.0	1.653	False	False		False	False
+7WCT	PDBJ	2021	X-RAY DIFFRACTION	2.106	90F	~{N}-[2-[[5-[(1~{R})-1-[3,5-bis(chloranyl)pyridin-4-yl]ethoxy]-1~{H}-indazol-3-yl]amino]-3			A	552		A	801	CBS		1.0	1.627	False	False		False	False
+7WCW	PDBJ	2021	X-RAY DIFFRACTION	2.317	90F	~{N}-[2-[[5-[(1~{R})-1-[3,5-bis(chloranyl)pyridin-4-yl]ethoxy]-1~{H}-indazol-3-yl]amino]-3			A	552		A	801	CBS		1.0	1.651	False	False		False	False
+7WCX	PDBJ	2021	X-RAY DIFFRACTION	2.175	90F	~{N}-[2-[[5-[(1~{R})-1-[3,5-bis(chloranyl)pyridin-4-yl]ethoxy]-1~{H}-indazol-3-yl]amino]-3			A	552		A	801	CBS		1.0	1.643	False	False		False	False
+7XB4	PDBJ	2022	X-RAY DIFFRACTION	2.07	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.766	False	False		False	True
+7XB4	PDBJ	2022	X-RAY DIFFRACTION	2.07	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.767	False	False		False	True
+7YCC	PDBJ	2022	X-RAY DIFFRACTION	1.79	IQC	1-[7-[6-chloranyl-8-fluoranyl-7-(5-methyl-1~{H}-indazol-4-yl)-2-[(1-methylpiperidin-4-yl)a			A	12		A	203	C36		1.0	1.818	False	False		False	True
+7YCC	PDBJ	2022	X-RAY DIFFRACTION	1.79	IQC	1-[7-[6-chloranyl-8-fluoranyl-7-(5-methyl-1~{H}-indazol-4-yl)-2-[(1-methylpiperidin-4-yl)a			B	12		B	203	C36		1.0	1.818	False	False		False	True
+7YCC	PDBJ	2022	X-RAY DIFFRACTION	1.79	IQC	1-[7-[6-chloranyl-8-fluoranyl-7-(5-methyl-1~{H}-indazol-4-yl)-2-[(1-methylpiperidin-4-yl)a			C	12		C	203	C36		1.0	1.815	False	False		False	True
+7YCE	PDBJ	2022	X-RAY DIFFRACTION	1.8	IQN	1-[7-[6-chloranyl-2-(1-ethylpiperidin-4-yl)oxy-8-fluoranyl-7-(5-methyl-1~{H}-indazol-4-yl)			A	12		A	204	C31		1.0	1.837	False	False		False	True
+7YRZ	PDBJ	2022	X-RAY DIFFRACTION	1.79	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	144		A	401	C3		1.0	1.765	False	False		False	True
+7YRZ	PDBJ	2022	X-RAY DIFFRACTION	1.79	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	144		B	401	C3		1.0	1.768	False	False		False	True
+8HHQ	PDBJ	2022	X-RAY DIFFRACTION	2.4	GOA	GLYCOLIC ACID			A	285		A	501	CA		1.0	1.615	False	False		False	False
+8HHQ	PDBJ	2022	X-RAY DIFFRACTION	2.4	GOA	GLYCOLIC ACID			B	285		B	501	CA		1.0	1.655	False	False		False	False
+8HVK	PDBJ	2022	X-RAY DIFFRACTION	1.63	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.763	False	False		False	True
+8HVK	PDBJ	2022	X-RAY DIFFRACTION	1.63	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.761	False	False		False	True
+8HVL	PDBJ	2022	X-RAY DIFFRACTION	1.45	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.764	False	False		False	True
+8HVL	PDBJ	2022	X-RAY DIFFRACTION	1.45	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.763	False	False		False	True
+8HVM	PDBJ	2022	X-RAY DIFFRACTION	1.48	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.764	False	False		False	True
+8HVM	PDBJ	2022	X-RAY DIFFRACTION	1.48	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.761	False	False		False	True
+8HVN	PDBJ	2022	X-RAY DIFFRACTION	1.9	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.768	False	False		False	True
+8HVN	PDBJ	2022	X-RAY DIFFRACTION	1.9	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.765	False	False		False	True
+8HVO	PDBJ	2022	X-RAY DIFFRACTION	1.65	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.766	False	False		False	True
+8HVO	PDBJ	2022	X-RAY DIFFRACTION	1.65	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	401	C3		1.0	1.765	False	False		False	True
+8HZR	PDBJ	2023	X-RAY DIFFRACTION	1.92	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	B	145		B	301	C3		1.0	1.77	False	False		False	True
+8I01	PDBJ	2023	X-RAY DIFFRACTION	2.15	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			A	588		A	705	C6		1.0	1.771	False	False		False	True
+8I01	PDBJ	2023	X-RAY DIFFRACTION	2.15	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			B	588		B	705	C6		1.0	1.771	False	False		False	True
+8I01	PDBJ	2023	X-RAY DIFFRACTION	2.15	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			C	588		C	704	C6		1.0	1.77	False	False		False	True
+8I01	PDBJ	2023	X-RAY DIFFRACTION	2.15	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			D	588		D	705	C6		1.0	1.77	False	False		False	True
+8I01	PDBJ	2023	X-RAY DIFFRACTION	2.15	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			E	588		E	705	C6		1.0	1.769	False	False		False	True
+8I01	PDBJ	2023	X-RAY DIFFRACTION	2.15	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			F	588		F	704	C6		1.0	1.77	False	False		False	True
+8I05	PDBJ	2023	X-RAY DIFFRACTION	2.09	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			A	588		A	705	C6		1.0	1.769	False	False		False	True
+8I05	PDBJ	2023	X-RAY DIFFRACTION	2.09	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			B	588		B	705	C6		1.0	1.769	False	False		False	True
+8I05	PDBJ	2023	X-RAY DIFFRACTION	2.09	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			C	588		C	705	C6		1.0	1.769	False	False		False	True
+8I05	PDBJ	2023	X-RAY DIFFRACTION	2.09	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			D	588		D	705	C6		1.0	1.765	False	False		False	True
+8I05	PDBJ	2023	X-RAY DIFFRACTION	2.09	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			E	588		E	704	C6		1.0	1.77	False	False		False	True
+8I05	PDBJ	2023	X-RAY DIFFRACTION	2.09	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			F	588		F	704	C6		1.0	1.768	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			A	491		A	706	C6		1.0	1.776	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			B	491		B	706	C6		1.0	1.776	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			B	588		B	705	C6		1.0	1.767	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			C	491		C	706	C6		1.0	1.774	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			C	588		C	704	C6		1.0	1.765	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			D	491		D	706	C6		1.0	1.773	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			D	588		D	704	C6		1.0	1.767	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			E	491		E	601	C6		1.0	1.773	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			E	588		E	605	C6		1.0	1.765	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			F	491		F	601	C6		1.0	1.771	False	False		False	True
+8I08	PDBJ	2023	X-RAY DIFFRACTION	1.91	UQ0	2,3-DIMETHOXY-5-METHYL-1,4-BENZOQUINONE			F	588		F	605	C6		1.0	1.768	False	False		False	True
+8IFQ	PDBJ	2023	X-RAY DIFFRACTION	1.96	I1Z	(1R,2S,5S)-3-[N-(tert-butylcarbamoyl)-3-methyl-L-valyl]-N-{(1Z,2S)-1-imino-3-[(3S)-2-oxopy			A	145		A	401	C1		1.0	1.768	False	False		False	True
+8IGY	PDBJ	2023	X-RAY DIFFRACTION	1.96	4WI	(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-	nirmatrelvir (bound form)	SARS-CoV-2 Mpro	A	145		A	401	C3		1.0	1.846	False	False		False	True
+8JN9	PDBJ	2023	X-RAY DIFFRACTION	2.724	UJ0	N-[(1R)-1-[3,5-bis(fluoranyl)phenyl]-2-(cyclopentylamino)-2-oxidanylidene-ethyl]-N-cyclopr			A	280		A	601	C25		1.0	1.759	False	False		False	False
+8JVE	PDBJ	2023	X-RAY DIFFRACTION	1.76	V6C	1-(3-methoxyphenyl)-1,2,3,4-tetrazole			A	86		A	201	C07		1.0	1.761	False	False		False	True
+8JVL	PDBJ	2023	X-RAY DIFFRACTION	2.06	V5L	1-(4-methoxyphenyl)-1,2,3,4-tetrazole			A	86		A	201	C13		1.0	1.765	False	False		False	True
+8X6R	PDBJ	2023	X-RAY DIFFRACTION	1.85	Y9D	1-[7-[6-ethenyl-8-ethoxy-7-(5-methyl-1~{H}-indazol-4-yl)-2-(1-methylpiperidin-4-yl)oxy-qui			A	12		A	203	C46		1.0	1.805	False	False		False	True
+8X6R	PDBJ	2023	X-RAY DIFFRACTION	1.85	Y9D	1-[7-[6-ethenyl-8-ethoxy-7-(5-methyl-1~{H}-indazol-4-yl)-2-(1-methylpiperidin-4-yl)oxy-qui			B	12		B	203	C46		1.0	1.784	False	False		False	True
+8X6R	PDBJ	2023	X-RAY DIFFRACTION	1.85	Y9D	1-[7-[6-ethenyl-8-ethoxy-7-(5-methyl-1~{H}-indazol-4-yl)-2-(1-methylpiperidin-4-yl)oxy-qui			C	12		C	203	C46		1.0	1.808	False	False		False	True
+8X6R	PDBJ	2023	X-RAY DIFFRACTION	1.85	Y9D	1-[7-[6-ethenyl-8-ethoxy-7-(5-methyl-1~{H}-indazol-4-yl)-2-(1-methylpiperidin-4-yl)oxy-qui			D	12		D	203	C46		1.0	1.793	False	False		False	True
+8X6R	PDBJ	2023	X-RAY DIFFRACTION	1.85	Y9D	1-[7-[6-ethenyl-8-ethoxy-7-(5-methyl-1~{H}-indazol-4-yl)-2-(1-methylpiperidin-4-yl)oxy-qui			E	12		E	203	C46		1.0	1.81	False	False		False	True
+8X6R	PDBJ	2023	X-RAY DIFFRACTION	1.85	Y9D	1-[7-[6-ethenyl-8-ethoxy-7-(5-methyl-1~{H}-indazol-4-yl)-2-(1-methylpiperidin-4-yl)oxy-qui			F	12		F	203	C46		1.0	1.791	False	False		False	True
+8XCB	PDBJ	2023	X-RAY DIFFRACTION	1.83	A1LUZ	2-[2,4-bis(oxidanylidene)-1,3-thiazolidin-5-ylidene]ethanoic acid			B	182		B	301	C4		1.0	1.637	False	False		False	False
+8XCB	PDBJ	2023	X-RAY DIFFRACTION	1.83	A1LUZ	2-[2,4-bis(oxidanylidene)-1,3-thiazolidin-5-ylidene]ethanoic acid			D	182		D	301	C4		1.0	1.637	False	False		False	False
+9IR2	PDBJ	2024	X-RAY DIFFRACTION	1.31	DCM	2'-DEOXYCYTIDINE-5'-MONOPHOSPHATE			A	163		A	302	C6		1.0	1.783	False	False		False	True
+9K7L	PDBJ	2024	X-RAY DIFFRACTION	1.59	GLU	GLUTAMIC ACID			A	100		A	301	CD		1.0	1.739	False	False		False	True
+9K7L	PDBJ	2024	X-RAY DIFFRACTION	1.59	GLU	GLUTAMIC ACID			B	100		B	301	CD		1.0	1.683	False	False		False	False
+1ME3	RCSB	2002	X-RAY DIFFRACTION	1.2	P10	[1-(3-HYDROXY-2-OXO-1-PHENETHYL-PROPYLCARBAMOYL)2-PHENYL-ETHYL]-CARBAMIC ACID PYRIDIN-4-YL			A	25		A	300	C2		1.0	1.996	False	False		False	False
+1ME4	RCSB	2002	X-RAY DIFFRACTION	1.2	T10	[1-(1-BENZYL-3-HYDROXY-2-OXO-PROPYLCARBAMOYL)-2-PHENYL-ETHYL]-CARBAMIC ACID BENZYL ESTER			A	25		A	300	C6		1.0	1.98	False	False		False	False
+2O2Q	RCSB	2006	X-RAY DIFFRACTION	2.0	NAP	NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE			A	707	B	A	903	C4N		0.9	1.641	False	False		False	False
+2O2Q	RCSB	2006	X-RAY DIFFRACTION	2.0	NAP	NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE			B	707	B	B	903	C4N		0.9	1.633	False	False		False	False
+2O2Q	RCSB	2006	X-RAY DIFFRACTION	2.0	NAP	NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE			C	707	B	C	903	C4N		0.9	1.649	False	False		False	False
+2O2Q	RCSB	2006	X-RAY DIFFRACTION	2.0	NAP	NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE			D	707	B	D	903	C4N		0.9	1.655	False	False		False	False
+2O9A	RCSB	2006	X-RAY DIFFRACTION	1.8	PYR	PYRUVIC ACID			A	128		A	905	CA		1.0	1.905	False	False		False	False
+2O9A	RCSB	2006	X-RAY DIFFRACTION	1.8	PYR	PYRUVIC ACID			B	128		B	906	CA		1.0	1.973	False	False		False	False
+2O9A	RCSB	2006	X-RAY DIFFRACTION	1.8	PYR	PYRUVIC ACID			C	128		C	907	CA		1.0	1.917	False	False		False	False
+2O9A	RCSB	2006	X-RAY DIFFRACTION	1.8	PYR	PYRUVIC ACID			D	128		D	908	CA		1.0	1.921	False	False		False	False
+2PRE	RCSB	2007	X-RAY DIFFRACTION	2.7	E64	N-[N-[1-HYDROXYCARBOXYETHYL-CARBONYL]LEUCYLAMINO-BUTYL]-GUANIDINE			A	25		A	302	C2		1.0	1.819	False	False		False	False
+2PRE	RCSB	2007	X-RAY DIFFRACTION	2.7	E64	N-[N-[1-HYDROXYCARBOXYETHYL-CARBONYL]LEUCYLAMINO-BUTYL]-GUANIDINE			B	25		B	301	C2		1.0	1.822	False	False		False	False
+2QE0	RCSB	2007	X-RAY DIFFRACTION	2.19	G3H	GLYCERALDEHYDE-3-PHOSPHATE			A	284	A	A	800	C1		0.66	1.874	False	False		False	False
+2QE0	RCSB	2007	X-RAY DIFFRACTION	2.19	G3H	GLYCERALDEHYDE-3-PHOSPHATE			B	284	A	B	800	C1		0.57	1.849	False	False		False	False
+2QE0	RCSB	2007	X-RAY DIFFRACTION	2.19	G3H	GLYCERALDEHYDE-3-PHOSPHATE			C	284	A	C	800	C1		0.6	1.855	False	False		False	False
+2QE0	RCSB	2007	X-RAY DIFFRACTION	2.19	G3H	GLYCERALDEHYDE-3-PHOSPHATE			D	284	A	D	800	C1		0.59	1.836	False	False		False	False
+2R9C	RCSB	2007	X-RAY DIFFRACTION	1.8	GRD	benzyl (S)-1-((2S,3S)-1-(3-(6-amino-9H-purin-9-yl)propylamino)-2-hydroxy-1-oxopentan-3-yla			A	115		A	1	CBU		1.0	1.981	False	False		False	False
+3BY4	RCSB	2008	X-RAY DIFFRACTION	1.55	3CN	3-AMINOPROPANE			A	120		B	77	CA		1.0	1.797	False	False		True	True
+3C0R	RCSB	2008	X-RAY DIFFRACTION	2.315	3CN	3-AMINOPROPANE			A	120		B	76	CA		1.0	1.788	False	False		True	True
+3C0R	RCSB	2008	X-RAY DIFFRACTION	2.315	3CN	3-AMINOPROPANE			C	120		D	76	CA		1.0	1.818	False	False		True	True
+3GJR	RCSB	2009	X-RAY DIFFRACTION	2.2	DZE	methyl (3S)-3-[(tert-butoxycarbonyl)amino]-4-oxopentanoate			C	163		C	2	C1		1.0	1.921	False	False		False	True
+3I3T	RCSB	2009	X-RAY DIFFRACTION	2.59	NEH	ETHANAMINE			A	221		B	76	CB		1.0	1.832	False	False		True	False
+3I3T	RCSB	2009	X-RAY DIFFRACTION	2.59	NEH	ETHANAMINE			C	221		D	76	CB		1.0	1.796	False	False		True	False
+3I3T	RCSB	2009	X-RAY DIFFRACTION	2.59	NEH	ETHANAMINE			E	221		F	76	CB		1.0	1.804	False	False		True	False
+3I3T	RCSB	2009	X-RAY DIFFRACTION	2.59	NEH	ETHANAMINE			G	221		H	76	CB		1.0	1.854	False	False		True	False
+3IFW	RCSB	2009	X-RAY DIFFRACTION	2.4	GVE	METHYL 4-AMINOBUTANOATE			A	90		B	76	CB		1.0	1.803	False	False		True	True
+3N3G	RCSB	2010	X-RAY DIFFRACTION	1.6	935	(E)-1-(6-{4-[3-(4-methylpiperazin-1-yl)propoxy]-3-(trifluoromethyl)phenyl}pyridin-2-yl)met			B	25		B	221	C18		0.75	1.721	False	False		False	True
+3O0U	RCSB	2010	X-RAY DIFFRACTION	1.8	O47	3-{2-[(E)-iminomethyl]-6-propylpyrimidin-4-yl}-N,N-dimethyl-5-(trifluoromethyl)benzamide			A	25		A	216	C25		1.0	1.95	False	False		False	True
+3QZQ	RCSB	2011	X-RAY DIFFRACTION	1.7001	AG7	4-{2-(4-FLUORO-BENZYL)-6-METHYL-5-[(5-METHYL-ISOXAZOLE-3-CARBONYL)-AMINO]-4-OXO-HEPTANOYLA			A	147		A	501	C19		1.0	1.977	False	False		False	False
+3QZQ	RCSB	2011	X-RAY DIFFRACTION	1.7001	AG7	4-{2-(4-FLUORO-BENZYL)-6-METHYL-5-[(5-METHYL-ISOXAZOLE-3-CARBONYL)-AMINO]-4-OXO-HEPTANOYLA			B	147		B	501	C19		1.0	1.991	False	False		False	False
+3QZQ	RCSB	2011	X-RAY DIFFRACTION	1.7001	AG7	4-{2-(4-FLUORO-BENZYL)-6-METHYL-5-[(5-METHYL-ISOXAZOLE-3-CARBONYL)-AMINO]-4-OXO-HEPTANOYLA			C	147		C	501	C19		1.0	1.958	False	False		False	False
+3QZR	RCSB	2011	X-RAY DIFFRACTION	1.039	AG7	4-{2-(4-FLUORO-BENZYL)-6-METHYL-5-[(5-METHYL-ISOXAZOLE-3-CARBONYL)-AMINO]-4-OXO-HEPTANOYLA			A	147		A	501	C19		1.0	1.894	False	False		False	True
+3QZR	RCSB	2011	X-RAY DIFFRACTION	1.039	AG7	4-{2-(4-FLUORO-BENZYL)-6-METHYL-5-[(5-METHYL-ISOXAZOLE-3-CARBONYL)-AMINO]-4-OXO-HEPTANOYLA			B	147		B	501	C19		1.0	1.874	False	False		False	True
+3R0F	RCSB	2011	X-RAY DIFFRACTION	1.3083	AG7	4-{2-(4-FLUORO-BENZYL)-6-METHYL-5-[(5-METHYL-ISOXAZOLE-3-CARBONYL)-AMINO]-4-OXO-HEPTANOYLA			A	147		A	501	C19		1.0	1.946	False	False		False	True
+3R0F	RCSB	2011	X-RAY DIFFRACTION	1.3083	AG7	4-{2-(4-FLUORO-BENZYL)-6-METHYL-5-[(5-METHYL-ISOXAZOLE-3-CARBONYL)-AMINO]-4-OXO-HEPTANOYLA			B	147		B	501	C19		1.0	1.981	False	False		False	False
+4EZ8	RCSB	2012	X-RAY DIFFRACTION	1.17	NOH	2'-deoxy-N-hydroxycytidine 5'-(dihydrogen phosphate)			A	189		A	401	C6		1.0	1.872	False	False		False	True
+4LI5	RCSB	2013	X-RAY DIFFRACTION	2.64	1WY	N-(3-{[5-chloro-4-(1H-indol-3-yl)pyrimidin-2-yl]amino}-4-methoxyphenyl)propanamide			A	797		A	1101	C20		1.0	1.821	False	False		False	False
+6MGU	RCSB	2018	X-RAY DIFFRACTION	1.54	JQS	5-[(Z)-(aminomethylidene)amino]-1-(5-O-phosphono-beta-D-ribofuranosyl)-1H-imidazole-4-carb			A	308		A	500	C10		1.0	1.949	False	False		False	True
+6MGU	RCSB	2018	X-RAY DIFFRACTION	1.54	JQS	5-[(Z)-(aminomethylidene)amino]-1-(5-O-phosphono-beta-D-ribofuranosyl)-1H-imidazole-4-carb			B	308		B	500	C10		1.0	1.94	False	False		False	True
+6P4E	RCSB	2019	X-RAY DIFFRACTION	1.35	GES	3-tert-butyl-N-[(2S)-1-(2-cyano-1,2-dimethylhydrazinyl)-4-methyl-1-oxopentan-2-yl]-1-methy			A	26		A	306	C15	B	0.42	1.763	False	False		False	True
+6P4E	RCSB	2019	X-RAY DIFFRACTION	1.35	GES	3-tert-butyl-N-[(2S)-1-(2-cyano-1,2-dimethylhydrazinyl)-4-methyl-1-oxopentan-2-yl]-1-methy			B	26		B	307	C15	A	0.57	1.763	False	False		False	True
+6WSB	RCSB	2020	X-RAY DIFFRACTION	1.55	NAD	NICOTINAMIDE-ADENINE-DINUCLEOTIDE			A	285		A	501	C3N		1.0	1.793	False	False		False	True
+6WSB	RCSB	2020	X-RAY DIFFRACTION	1.55	NAD	NICOTINAMIDE-ADENINE-DINUCLEOTIDE			B	285		B	501	C3N		1.0	1.836	False	False		False	True
+7FQJ	RCSB	2022	X-RAY DIFFRACTION	1.7	WSN	N-[(2R)-4-amino-1-imino-4-oxobutan-2-yl]-1-(1-{4-[(2,4-difluorophenyl)methoxy]phenyl}cyclo			A	189		A	502	C6		1.0	1.647	False	False		False	False
+7FQJ	RCSB	2022	X-RAY DIFFRACTION	1.7	WSN	N-[(2R)-4-amino-1-imino-4-oxobutan-2-yl]-1-(1-{4-[(2,4-difluorophenyl)methoxy]phenyl}cyclo			B	189		B	501	C6		1.0	1.674	False	False		False	False
+7FQJ	RCSB	2022	X-RAY DIFFRACTION	1.7	WSN	N-[(2R)-4-amino-1-imino-4-oxobutan-2-yl]-1-(1-{4-[(2,4-difluorophenyl)methoxy]phenyl}cyclo			C	189		C	502	C6		1.0	1.674	False	False		False	False
+7JX1	RCSB	2020	X-RAY DIFFRACTION	1.82	VLD	(2S)-2-({4-[({(6R)-2,4-diamino-5-[(1-{(2R,4S,5R)-4-hydroxy-5-[(phosphonooxy)methyl]tetrahy			B	146	A	B	301	C6	A	0.49	1.977	False	False		False	False
+7MJ1	RCSB	2021	X-RAY DIFFRACTION	3.402	NAI	1,4-DIHYDRONICOTINAMIDE ADENINE DINUCLEOTIDE			F	221		E	302	C4N		1.0	1.788	False	False		False	False
+7RP3	RCSB	2021	X-RAY DIFFRACTION	2.0	MKZ	1-[4-[6-chloranyl-7-(5-methyl-1~{H}-indazol-4-yl)quinazolin-4-yl]piperazin-1-yl]propan-1-o			A	12		A	201	C		1.0	1.839	False	False		False	True
+7RP4	RCSB	2021	X-RAY DIFFRACTION	2.15	MKZ	1-[4-[6-chloranyl-7-(5-methyl-1~{H}-indazol-4-yl)quinazolin-4-yl]piperazin-1-yl]propan-1-o			A	12		A	201	C		1.0	1.814	False	False		False	True
+7RP4	RCSB	2021	X-RAY DIFFRACTION	2.15	MKZ	1-[4-[6-chloranyl-7-(5-methyl-1~{H}-indazol-4-yl)quinazolin-4-yl]piperazin-1-yl]propan-1-o			B	12		B	201	C		1.0	1.824	False	False		False	True
+8D6L	RCSB	2022	X-RAY DIFFRACTION	1.69	RH6	(2E)-3-[7-(diethylamino)-2-oxo-2H-1-benzopyran-3-yl]prop-2-enal, bound form			A	51		A	405	C14		1.0	1.941	False	False		True	True

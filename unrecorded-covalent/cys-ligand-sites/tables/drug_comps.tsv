@@ -1,0 +1,20 @@
+comp_id	drug	class
+MOV	sotorasib (AMG 510, bound form)	KRAS G12C
+A1B7W	adagrasib	KRAS G12C
+M1X	MRTX849/adagrasib (6UT0 ligand)	KRAS G12C
+91S	ARS-1620	KRAS G12C
+5UT	ARS-853	KRAS G12C
+A1AWR	divarasib (bound form)	KRAS G12C
+1E8	ibrutinib	BTK
+8E8	ibrutinib (bound form)	BTK
+A1H14	ibrutinib (unbound form)	BTK
+XQQ	acalabrutinib	BTK
+BA0	zanubrutinib	BTK
+0WM	afatinib	EGFR/HER
+0WN	afatinib (bound form)	EGFR/HER
+YY3	osimertinib	EGFR/HER
+HKI	neratinib (bound form)	EGFR/HER
+1C9	dacomitinib	EGFR/HER
+4WI	nirmatrelvir (bound form)	SARS-CoV-2 Mpro
+ZGW	nirmatrelvir	SARS-CoV-2 Mpro
+OW1	nirmatrelvir (reacted form)	SARS-CoV-2 Mpro
