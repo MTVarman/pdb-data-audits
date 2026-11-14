@@ -7,7 +7,7 @@ date-released: 2026-11-11
 title: "PDB data audits: unrecorded covalent bonds, benchmark label conflicts, and silent mutation misclassification"
 authors:
   - family-names: Varman
-    given-names: Michael Theodore
+    given-names: Michael T.
     orcid: "https://orcid.org/0009-0001-9453-0226"
     affiliation: "Independent; Morphogenesis Analytics"
 repository-code: "https://github.com/MTVarman/pdb-data-audits"
@@ -27,6 +27,6 @@ references:
     title: "Silent Mutation Misclassification and Unrecorded Covalent Bonds in the Protein Data Bank"
     authors:
       - family-names: Varman
-        given-names: Michael Theodore
+        given-names: Michael T.
     doi: 10.5281/zenodo.23380304
     year: 2026
