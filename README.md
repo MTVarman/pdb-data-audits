@@ -66,6 +66,7 @@ Every table carries its source URL, snapshot or commit, and SHA-256 where a file
 | Nov 2026 | *Protein Data Bank entries whose primary citation has been retracted* (technical note) | [Zenodo 10.5281/zenodo.24211651](https://doi.org/10.5281/zenodo.24211651) |
 | Nov 2026 | *Unrecorded covalent bonds to cysteine concentrate by wwPDB processing site* (dataset; `unrecorded-covalent/cys-ligand-sites/`) | [Zenodo 10.5281/zenodo.24223029](https://doi.org/10.5281/zenodo.24223029) |
 | Nov 2026 | *Missing covalent-bond records in the Protein Data Bank follow the ligand code* (technical note) | [Zenodo 10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353) |
+| Nov 2026 | *Protein–ligand bond records in the Protein Data Bank follow a distance table in its processing software* (technical note) | [Zenodo 10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881) |
 
 ## Cite
 
