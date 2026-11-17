@@ -59,6 +59,13 @@ Every table carries its source URL, snapshot or commit, and SHA-256 where a file
 | Oct 2026 | Identical ligand on the same protein labelled both covalent and non-covalent, 11 entries | [THGLab/LP-PDBBind #8](https://github.com/THGLab/LP-PDBBind/issues/8) |
 | Oct 2026 | Mutation status defaults to wildtype when the mutated residue isn't modeled (38 chains, mostly KRAS Q61H) | [mitch-parker/rascore #2](https://github.com/mitch-parker/rascore/issues/2) |
 | Oct 2026 | *Silent Mutation Misclassification and Unrecorded Covalent Bonds in the Protein Data Bank* (preprint) | [Zenodo 10.5281/zenodo.23380304](https://doi.org/10.5281/zenodo.23380304) |
+| Oct 2026 | *Co-folding models execute covalent bonds they do not propose, and pose RMSD certifies the difference away* (preprint) | [Zenodo 10.5281/zenodo.23763023](https://doi.org/10.5281/zenodo.23763023) |
+| Nov 2026 | *Two default metal restraints in cctbx/PHENIX and their exact-value fingerprints in the Protein Data Bank* (technical note) | [Zenodo 10.5281/zenodo.24150338](https://doi.org/10.5281/zenodo.24150338) |
+| Nov 2026 | *Anchor bonds of heme c and light-sensing pigments that are missing from Protein Data Bank connectivity records* (technical note) | [Zenodo 10.5281/zenodo.24153068](https://doi.org/10.5281/zenodo.24153068) |
+| Nov 2026 | *Undeclared substitutions in PDB entries do not track source organism; reference curation does* (preprint) | [Zenodo 10.5281/zenodo.24194208](https://doi.org/10.5281/zenodo.24194208) |
+| Nov 2026 | *Protein Data Bank entries whose primary citation has been retracted* (technical note) | [Zenodo 10.5281/zenodo.24211651](https://doi.org/10.5281/zenodo.24211651) |
+| Nov 2026 | *Unrecorded covalent bonds to cysteine concentrate by wwPDB processing site* (dataset; `unrecorded-covalent/cys-ligand-sites/`) | [Zenodo 10.5281/zenodo.24223029](https://doi.org/10.5281/zenodo.24223029) |
+| Nov 2026 | *Missing covalent-bond records in the Protein Data Bank follow the ligand code* (technical note) | [Zenodo 10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353) |
 
 ## Cite
 
