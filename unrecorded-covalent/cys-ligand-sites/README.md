@@ -2,7 +2,7 @@
 
 A scan of 24,144 PDB entries for cysteine–ligand contacts at covalent bond length, and whether `_struct_conn` records them. This is the ligand and drug counterpart of `../two-rulers/`, which measured the same two lines archive-wide on the validator side.
 
-Full archive, with every contact table and `verify_counts.py`: [10.5281/zenodo.24223030](https://doi.org/10.5281/zenodo.24223030). Follow-up note on the ligand code (archive-wide count, leritrelvir pair, carry-forward): [10.5281/zenodo.24285354](https://doi.org/10.5281/zenodo.24285354).
+Full archive, with every contact table and `verify_counts.py`: [10.5281/zenodo.24223030](https://doi.org/10.5281/zenodo.24223030). Follow-up note on in-window misses and the ligand code (leritrelvir pair, carry-forward): [10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353).
 
 ![Recorded fraction by distance and by processing site](cys_covalent_two_rulers.png)
 
