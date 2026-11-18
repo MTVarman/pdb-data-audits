@@ -57,6 +57,10 @@ Kept in sync with the table on [github.com/MTVarman](https://github.com/MTVarman
 
 | Date | What | Where |
 |---|---|---|
+| Nov 2026 | *Protein–ligand bond records in the Protein Data Bank follow a distance table in its processing software* (technical note) | [Zenodo 10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881) |
+| Nov 2026 | *Bonds inside the processing distance window that the Protein Data Bank still leaves unrecorded, and how much of them the ligand code's history predicts* (technical note, v1.1) | [Zenodo 10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353) |
+| Nov 2026 | *Unrecorded covalent bonds to cysteine concentrate by wwPDB processing site* (dataset; `unrecorded-covalent/cys-ligand-sites/`) | [Zenodo 10.5281/zenodo.24223029](https://doi.org/10.5281/zenodo.24223029) |
+| Nov 2026 | *Protein Data Bank entries whose primary citation has been retracted* (technical note) | [Zenodo 10.5281/zenodo.24211651](https://doi.org/10.5281/zenodo.24211651) |
 | Nov 2026 | *Undeclared substitutions in PDB entries do not track source organism; reference curation does* (preprint): across 44,607 entities from eight organisms, undeclared point substitutions do not track organism, but 70% of pig, 37% of dog, 20% of cat and 5% of horse entities have no same-species reviewed UniProt record to check a wildtype label against | [Zenodo 10.5281/zenodo.24194208](https://doi.org/10.5281/zenodo.24194208) |
 | Nov 2026 | *Anchor bonds of heme c and light-sensing pigments that are missing from Protein Data Bank connectivity records, and the 2.0 Å line that decides most of them* (technical note): 1,049 of 9,251 heme c and 3,885 of 13,972 phycobilin anchor bonds have no bond record, including 999 of the 1,004 heme c bonds modelled at 2.0 Å or more | [Zenodo 10.5281/zenodo.24153068](https://doi.org/10.5281/zenodo.24153068) |
 | Nov 2026 | At default settings, cctbx gives a lysine NZ within 2.20 Å of an ATP oxygen a bond restraint at 1.297 Å, sigma 0.01 (fragments, script and output) | [pdb-data-audits: n-o-link](https://github.com/MTVarman/pdb-data-audits/tree/main/release-audit/default-values/n-o-link) |
@@ -75,14 +79,6 @@ Kept in sync with the table on [github.com/MTVarman](https://github.com/MTVarman
 | Oct 2026 | Identical ligand on the same protein labelled both covalent and non-covalent, 11 entries | [THGLab/LP-PDBBind #8](https://github.com/THGLab/LP-PDBBind/issues/8) |
 | Oct 2026 | Mutation status defaults to wildtype when the mutated residue isn't modeled (38 chains, mostly KRAS Q61H) | [mitch-parker/rascore #2](https://github.com/mitch-parker/rascore/issues/2) |
 | Oct 2026 | *Silent Mutation Misclassification and Unrecorded Covalent Bonds in the Protein Data Bank* (preprint) | [Zenodo 10.5281/zenodo.23380304](https://doi.org/10.5281/zenodo.23380304) |
-| Oct 2026 | *Co-folding models execute covalent bonds they do not propose, and pose RMSD certifies the difference away* (preprint) | [Zenodo 10.5281/zenodo.23763023](https://doi.org/10.5281/zenodo.23763023) |
-| Nov 2026 | *Two default metal restraints in cctbx/PHENIX and their exact-value fingerprints in the Protein Data Bank* (technical note) | [Zenodo 10.5281/zenodo.24150338](https://doi.org/10.5281/zenodo.24150338) |
-| Nov 2026 | *Anchor bonds of heme c and light-sensing pigments that are missing from Protein Data Bank connectivity records* (technical note) | [Zenodo 10.5281/zenodo.24153068](https://doi.org/10.5281/zenodo.24153068) |
-| Nov 2026 | *Undeclared substitutions in PDB entries do not track source organism; reference curation does* (preprint) | [Zenodo 10.5281/zenodo.24194208](https://doi.org/10.5281/zenodo.24194208) |
-| Nov 2026 | *Protein Data Bank entries whose primary citation has been retracted* (technical note) | [Zenodo 10.5281/zenodo.24211651](https://doi.org/10.5281/zenodo.24211651) |
-| Nov 2026 | *Unrecorded covalent bonds to cysteine concentrate by wwPDB processing site* (dataset; `unrecorded-covalent/cys-ligand-sites/`) | [Zenodo 10.5281/zenodo.24223029](https://doi.org/10.5281/zenodo.24223029) |
-| Nov 2026 | *Bonds inside the processing distance window that the Protein Data Bank still leaves unrecorded, and how much of them the ligand code's history predicts* (technical note, v1.1) | [Zenodo 10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353) |
-| Nov 2026 | *Protein–ligand bond records in the Protein Data Bank follow a distance table in its processing software* (technical note) | [Zenodo 10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881) |
 
 ## Verify
 
