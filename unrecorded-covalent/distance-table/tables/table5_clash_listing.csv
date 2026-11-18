@@ -1,0 +1,6 @@
+unrecorded_contacts,clash,n_in_report,close_contact,close_contact_under_2.195,n_under_2.195
+"inside the validator line, all pairs",0,500,476,476,476
+past the line: cysteine,460,470,309,309,309
+"past the line: other residues, pairs without boron",85,86,80,80,80
+past the line: serine to boron,0,68,68,68,68
+recorded contacts past the line (for comparison),0,136,0,0,130

@@ -1,0 +1,142 @@
+set	subset	design	stat	n	fm	fr
+orig	all	step-3 GLM first_miss	OR 14.23 (4.28-47.38) p=1.5e-05	1703.0		
+orig	all	step-3 GLM same_lab[T.True]	OR 0.48 (0.21-1.11) p=0.087	1703.0		
+orig	all	"step-3 GLM C(site, Treatment(""RCSB""))[T.PDBJ]"	OR 5.58 (2.84-10.98) p=6.2e-07	1703.0		
+orig	all	step-3 GLM other-lab only first_miss	OR 8.71 (2.27-33.39) p=0.0016	1329.0		
+orig	strict	same code, other lab	OR 8.5 (4.3-16.5), Fisher p=4.8e-08		15/40 (38%)	86/1289 (7%)
+orig	strict	same code, other lab + other site	OR 3.2 (1.1-9.3), Fisher p=0.075		4/19 (21%)	58/693 (8%)
+orig	strict	lab after first miss: same code			22/49 (45%)	
+orig	strict	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+orig	strict	lab after first miss: other code, different drug			68/599 (11%)	
+orig	strict	baseline labs			87/2578 (3%)	
+orig	strict	joint GLM same_lab[T.True]	OR 0.45 (0.19-1.05) p=0.066	1703.0		
+orig	strict	joint GLM c_first_miss	OR 10.22 (2.74-38.13) p=0.00054	1703.0		
+orig	strict	joint GLM lab_prior_miss_other	OR 2.94 (1.22-7.09) p=0.016	1703.0		
+orig	strict	joint GLM pdbj	OR 5.71 (3.01-10.85) p=9.8e-08	1703.0		
+orig	strict	joint GLM yearc	OR 0.97 (0.93-1.00) p=0.054	1703.0		
+orig	drop HUR/80I	same code, other lab	OR 4.6 (2.1-10.4), Fisher p=0.0015		8/33 (24%)	86/1289 (7%)
+orig	drop HUR/80I	same code, other lab + other site	OR 3.2 (1.1-9.3), Fisher p=0.075		4/19 (21%)	58/693 (8%)
+orig	drop HUR/80I	lab after first miss: same code			22/49 (45%)	
+orig	drop HUR/80I	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+orig	drop HUR/80I	lab after first miss: other code, different drug			54/585 (9%)	
+orig	drop HUR/80I	baseline labs			87/2578 (3%)	
+orig	drop HUR/80I	joint GLM same_lab[T.True]	OR 0.36 (0.15-0.90) p=0.029	1690.0		
+orig	drop HUR/80I	joint GLM c_first_miss	OR 6.98 (1.75-27.78) p=0.0058	1690.0		
+orig	drop HUR/80I	joint GLM lab_prior_miss_other	OR 1.65 (0.79-3.46) p=0.18	1690.0		
+orig	drop HUR/80I	joint GLM pdbj	OR 5.00 (2.46-10.18) p=8.8e-06	1690.0		
+orig	drop HUR/80I	joint GLM yearc	OR 0.97 (0.94-1.00) p=0.078	1690.0		
+orig	drop Li J. lab	same code, other lab	OR 5.8 (2.7-12.6), Fisher p=0.0002		9/34 (26%)	75/1248 (6%)
+orig	drop Li J. lab	same code, other lab + other site	OR 3.7 (1.2-11.0), Fisher p=0.049		4/19 (21%)	47/653 (7%)
+orig	drop Li J. lab	lab after first miss: same code			14/41 (34%)	
+orig	drop Li J. lab	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+orig	drop Li J. lab	lab after first miss: other code, different drug			52/553 (9%)	
+orig	drop Li J. lab	baseline labs			86/2575 (3%)	
+orig	drop Li J. lab	joint GLM same_lab[T.True]	OR 0.38 (0.15-0.94) p=0.036	1650.0		
+orig	drop Li J. lab	joint GLM c_first_miss	OR 7.28 (1.87-28.37) p=0.0042	1650.0		
+orig	drop Li J. lab	joint GLM lab_prior_miss_other	OR 2.29 (0.97-5.38) p=0.057	1650.0		
+orig	drop Li J. lab	joint GLM pdbj	OR 4.75 (2.66-8.49) p=1.4e-07	1650.0		
+orig	drop Li J. lab	joint GLM yearc	OR 0.96 (0.93-1.00) p=0.031	1650.0		
+orig	drop PDBj	same code, other lab	OR 10.0 (4.0-24.6), Fisher p=5.6e-05		7/26 (27%)	36/982 (4%)
+orig	drop PDBj	same code, other lab + other site	OR 10.2 (3.0-34.3), Fisher p=0.0028		4/15 (27%)	13/363 (4%)
+orig	drop PDBj	lab after first miss: same code			8/20 (40%)	
+orig	drop PDBj	lab after first miss: other code, same drug	NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/3 (0%)	
+orig	drop PDBj	lab after first miss: other code, different drug			19/473 (4%)	
+orig	drop PDBj	baseline labs			57/2324 (2%)	
+orig	drop PDBj	joint GLM same_lab[T.True]	OR 0.47 (0.18-1.21) p=0.12	1347.0		
+orig	drop PDBj	joint GLM c_first_miss	OR 12.53 (3.59-43.70) p=7.3e-05	1347.0		
+orig	drop PDBj	joint GLM lab_prior_miss_other	OR 0.75 (0.20-2.82) p=0.67	1347.0		
+orig	drop PDBj	joint GLM yearc	OR 0.95 (0.92-0.99) p=0.022	1347.0		
+win	all	step-3 GLM first_miss	OR 16.65 (5.11-54.29) p=3.1e-06	1813.0		
+win	all	step-3 GLM same_lab[T.True]	OR 0.56 (0.24-1.34) p=0.2	1813.0		
+win	all	"step-3 GLM C(site, Treatment(""RCSB""))[T.PDBJ]"	OR 6.12 (3.00-12.48) p=6.3e-07	1813.0		
+win	all	step-3 GLM other-lab only first_miss	OR 10.46 (2.64-41.40) p=0.00083	1410.0		
+win	strict	same code, other lab	OR 10.3 (5.3-20.1), Fisher p=4.4e-09		15/41 (37%)	73/1369 (5%)
+win	strict	same code, other lab + other site	OR 4.2 (1.4-12.7), Fisher p=0.034		4/18 (22%)	50/738 (7%)
+win	strict	lab after first miss: same code			20/43 (47%)	
+win	strict	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+win	strict	lab after first miss: other code, different drug			67/583 (11%)	
+win	strict	baseline labs			82/2773 (3%)	
+win	strict	joint GLM same_lab[T.True]	OR 0.54 (0.23-1.27) p=0.16	1813.0		
+win	strict	joint GLM c_first_miss	OR 10.59 (2.77-40.51) p=0.00057	1813.0		
+win	strict	joint GLM lab_prior_miss_other	OR 3.50 (1.32-9.26) p=0.012	1813.0		
+win	strict	joint GLM pdbj	OR 7.29 (3.67-14.46) p=1.4e-08	1813.0		
+win	strict	joint GLM yearc	OR 0.97 (0.93-1.01) p=0.1	1813.0		
+win	drop HUR/80I	same code, other lab	OR 5.0 (2.1-11.6), Fisher p=0.0019		7/33 (21%)	73/1369 (5%)
+win	drop HUR/80I	same code, other lab + other site	OR 4.2 (1.4-12.7), Fisher p=0.034		4/18 (22%)	50/738 (7%)
+win	drop HUR/80I	lab after first miss: same code			20/43 (47%)	
+win	drop HUR/80I	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+win	drop HUR/80I	lab after first miss: other code, different drug			51/567 (9%)	
+win	drop HUR/80I	baseline labs			82/2773 (3%)	
+win	drop HUR/80I	joint GLM same_lab[T.True]	OR 0.41 (0.16-1.04) p=0.06	1798.0		
+win	drop HUR/80I	joint GLM c_first_miss	OR 6.74 (1.59-28.51) p=0.0095	1798.0		
+win	drop HUR/80I	joint GLM lab_prior_miss_other	OR 1.79 (0.79-4.08) p=0.17	1798.0		
+win	drop HUR/80I	joint GLM pdbj	OR 6.33 (3.01-13.34) p=1.2e-06	1798.0		
+win	drop HUR/80I	joint GLM yearc	OR 0.97 (0.93-1.01) p=0.16	1798.0		
+win	drop Li J. lab	same code, other lab	OR 6.7 (3.0-15.2), Fisher p=0.00017		8/33 (24%)	62/1324 (5%)
+win	drop Li J. lab	same code, other lab + other site	OR 5.2 (1.7-15.6), Fisher p=0.019		4/18 (22%)	39/695 (6%)
+win	drop Li J. lab	lab after first miss: same code			12/35 (34%)	
+win	drop Li J. lab	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+win	drop Li J. lab	lab after first miss: other code, different drug			49/530 (9%)	
+win	drop Li J. lab	baseline labs			81/2770 (3%)	
+win	drop Li J. lab	joint GLM same_lab[T.True]	OR 0.43 (0.17-1.10) p=0.077	1753.0		
+win	drop Li J. lab	joint GLM c_first_miss	OR 7.79 (1.78-34.03) p=0.0063	1753.0		
+win	drop Li J. lab	joint GLM lab_prior_miss_other	OR 2.88 (1.12-7.44) p=0.028	1753.0		
+win	drop Li J. lab	joint GLM pdbj	OR 6.33 (3.36-11.93) p=1.1e-08	1753.0		
+win	drop Li J. lab	joint GLM yearc	OR 0.96 (0.92-1.00) p=0.075	1753.0		
+win	drop PDBj	same code, other lab	OR 12.3 (4.7-32.4), Fisher p=6.3e-05		6/25 (24%)	27/1044 (3%)
+win	drop PDBj	same code, other lab + other site	OR 15.5 (4.4-54.9), Fisher p=0.00075		4/14 (29%)	10/390 (3%)
+win	drop PDBj	lab after first miss: same code			6/15 (40%)	
+win	drop PDBj	lab after first miss: other code, same drug	NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/3 (0%)	
+win	drop PDBj	lab after first miss: other code, different drug			16/445 (4%)	
+win	drop PDBj	baseline labs			53/2502 (2%)	
+win	drop PDBj	joint GLM same_lab[T.True]	OR 0.55 (0.21-1.44) p=0.23	1436.0		
+win	drop PDBj	joint GLM c_first_miss	OR 15.19 (3.82-60.32) p=0.00011	1436.0		
+win	drop PDBj	joint GLM lab_prior_miss_other	OR 0.62 (0.11-3.59) p=0.59	1436.0		
+win	drop PDBj	joint GLM yearc	OR 0.96 (0.92-1.01) p=0.11	1436.0		
+win+bondlike	all	step-3 GLM first_miss	OR 17.82 (5.12-61.96) p=5.9e-06	1685.0		
+win+bondlike	all	step-3 GLM same_lab[T.True]	OR 0.49 (0.20-1.23) p=0.13	1685.0		
+win+bondlike	all	"step-3 GLM C(site, Treatment(""RCSB""))[T.PDBJ]"	OR 6.52 (3.17-13.42) p=3.5e-07	1685.0		
+win+bondlike	all	step-3 GLM other-lab only first_miss	OR 11.35 (2.74-47.05) p=0.00081	1314.0		
+win+bondlike	strict	same code, other lab	OR 10.0 (5.0-19.9), Fisher p=2.1e-08		14/38 (37%)	71/1276 (6%)
+win+bondlike	strict	same code, other lab + other site	OR 3.9 (1.3-11.7), Fisher p=0.042		4/18 (22%)	50/686 (7%)
+win+bondlike	strict	lab after first miss: same code			20/43 (47%)	
+win+bondlike	strict	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+win+bondlike	strict	lab after first miss: other code, different drug			62/549 (11%)	
+win+bondlike	strict	baseline labs			78/2606 (3%)	
+win+bondlike	strict	joint GLM same_lab[T.True]	OR 0.47 (0.19-1.17) p=0.1	1685.0		
+win+bondlike	strict	joint GLM c_first_miss	OR 11.21 (2.65-47.35) p=0.001	1685.0		
+win+bondlike	strict	joint GLM lab_prior_miss_other	OR 3.74 (1.39-10.05) p=0.009	1685.0		
+win+bondlike	strict	joint GLM pdbj	OR 7.92 (3.95-15.87) p=5.5e-09	1685.0		
+win+bondlike	strict	joint GLM yearc	OR 0.96 (0.92-1.01) p=0.097	1685.0		
+win+bondlike	drop HUR/80I	same code, other lab	OR 5.2 (2.2-12.1), Fisher p=0.0017		7/31 (23%)	71/1276 (6%)
+win+bondlike	drop HUR/80I	same code, other lab + other site	OR 3.9 (1.3-11.7), Fisher p=0.042		4/18 (22%)	50/686 (7%)
+win+bondlike	drop HUR/80I	lab after first miss: same code			20/43 (47%)	
+win+bondlike	drop HUR/80I	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+win+bondlike	drop HUR/80I	lab after first miss: other code, different drug			48/535 (9%)	
+win+bondlike	drop HUR/80I	baseline labs			78/2606 (3%)	
+win+bondlike	drop HUR/80I	joint GLM same_lab[T.True]	OR 0.36 (0.13-0.99) p=0.047	1672.0		
+win+bondlike	drop HUR/80I	joint GLM c_first_miss	OR 7.65 (1.61-36.39) p=0.011	1672.0		
+win+bondlike	drop HUR/80I	joint GLM lab_prior_miss_other	OR 1.97 (0.86-4.50) p=0.11	1672.0		
+win+bondlike	drop HUR/80I	joint GLM pdbj	OR 6.98 (3.28-14.84) p=4.4e-07	1672.0		
+win+bondlike	drop HUR/80I	joint GLM yearc	OR 0.97 (0.93-1.01) p=0.16	1672.0		
+win+bondlike	drop Li J. lab	same code, other lab	OR 6.7 (3.0-15.3), Fisher p=0.00017		8/32 (25%)	60/1235 (5%)
+win+bondlike	drop Li J. lab	same code, other lab + other site	OR 4.8 (1.6-14.4), Fisher p=0.024		4/18 (22%)	39/646 (6%)
+win+bondlike	drop Li J. lab	lab after first miss: same code			12/35 (34%)	
+win+bondlike	drop Li J. lab	lab after first miss: other code, same drug	1FM->WNT 8YP4 miss=0;J3U->3KI 7FEA miss=0;NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/5 (0%)	
+win+bondlike	drop Li J. lab	lab after first miss: other code, different drug			46/503 (9%)	
+win+bondlike	drop Li J. lab	baseline labs			77/2603 (3%)	
+win+bondlike	drop Li J. lab	joint GLM same_lab[T.True]	OR 0.38 (0.14-1.05) p=0.061	1632.0		
+win+bondlike	drop Li J. lab	joint GLM c_first_miss	OR 8.00 (1.72-37.24) p=0.008	1632.0		
+win+bondlike	drop Li J. lab	joint GLM lab_prior_miss_other	OR 3.02 (1.15-7.91) p=0.025	1632.0		
+win+bondlike	drop Li J. lab	joint GLM pdbj	OR 6.83 (3.61-12.91) p=3.4e-09	1632.0		
+win+bondlike	drop Li J. lab	joint GLM yearc	OR 0.96 (0.92-1.00) p=0.068	1632.0		
+win+bondlike	drop PDBj	same code, other lab	OR 13.1 (4.9-34.7), Fisher p=5e-05		6/24 (25%)	25/973 (3%)
+win+bondlike	drop PDBj	same code, other lab + other site	OR 15.9 (4.4-57.0), Fisher p=0.00073		4/14 (29%)	9/360 (2%)
+win+bondlike	drop PDBj	lab after first miss: same code			6/15 (40%)	
+win+bondlike	drop PDBj	lab after first miss: other code, same drug	NOH->7K8 5M4Z miss=0;O2F->MER 8RWS miss=0;O2F->MER 9HPW miss=0		0/3 (0%)	
+win+bondlike	drop PDBj	lab after first miss: other code, different drug			15/425 (4%)	
+win+bondlike	drop PDBj	baseline labs			50/2352 (2%)	
+win+bondlike	drop PDBj	joint GLM same_lab[T.True]	OR 0.49 (0.18-1.35) p=0.17	1333.0		
+win+bondlike	drop PDBj	joint GLM c_first_miss	OR 16.15 (3.86-67.61) p=0.00014	1333.0		
+win+bondlike	drop PDBj	joint GLM lab_prior_miss_other	OR 0.66 (0.10-4.13) p=0.65	1333.0		
+win+bondlike	drop PDBj	joint GLM yearc	OR 0.96 (0.91-1.01) p=0.079	1333.0		

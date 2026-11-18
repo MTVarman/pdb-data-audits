@@ -1,0 +1,29 @@
+test	subset	feature	miss_with	miss_without	OR	p
+fisher	all	CCD attachment atom in pre-reaction form	102/1389	134/2746	1.54	0.0017
+fisher	non-PDBj	CCD attachment atom in pre-reaction form	34/1081	71/2493	1.11	0.67
+fisher	PDBj	CCD attachment atom in pre-reaction form	68/308	63/253	0.85	0.48
+fisher	all	CCD attachment atom in post-reaction form	111/2634	125/1501	0.48	9e-08
+fisher	non-PDBj	CCD attachment atom in post-reaction form	58/2405	47/1169	0.59	0.011
+fisher	PDBj	CCD attachment atom in post-reaction form	53/229	78/332	0.98	1
+fisher	all	CCD defines any leaving atom	52/1199	184/2936	0.68	0.015
+fisher	non-PDBj	CCD defines any leaving atom	23/1078	82/2496	0.64	0.066
+fisher	PDBj	CCD defines any leaving atom	29/121	102/440	1.04	0.9
+fisher	all	leaving atom on attachment atom	8/986	228/3149	0.1	7.3e-19
+fisher	non-PDBj	leaving atom on attachment atom	8/910	97/2664	0.23	3.6e-06
+fisher	PDBj	leaving atom on attachment atom	0/76	131/485	0.0	6.3e-10
+fisher	all	code first defined by this entry	81/2523	155/1612	0.31	1.7e-17
+fisher	non-PDBj	code first defined by this entry	34/2239	71/1335	0.27	2.3e-10
+fisher	PDBj	code first defined by this entry	47/284	84/277	0.46	0.00014
+fisher	all	code created on/after deposition date	93/2773	143/1362	0.3	3.4e-19
+fisher	non-PDBj	code created on/after deposition date	43/2480	62/1094	0.29	1.1e-09
+fisher	PDBj	code created on/after deposition date	50/293	81/268	0.48	0.0003
+fisher	all	CCD has no PCM annotation (circular)	142/156	94/3979	419.2	8.8e-181
+fisher	non-PDBj	CCD has no PCM annotation (circular)	70/79	35/3495	768.89	7.4e-110
+fisher	PDBj	CCD has no PCM annotation (circular)	72/77	59/484	103.73	8.9e-48
+Mantel-Haenszel by site	all	CCD attachment atom in pre-reaction form			0.98	0.89
+Mantel-Haenszel by site	all	CCD attachment atom in post-reaction form			0.75	0.037
+Mantel-Haenszel by site	all	CCD defines any leaving atom			0.85	0.33
+Mantel-Haenszel by site	all	leaving atom on attachment atom			0.15	3.4e-10
+Mantel-Haenszel by site	all	code first defined by this entry			0.38	1.1e-11
+Mantel-Haenszel by site	all	code created on/after deposition date			0.41	9e-11
+Mantel-Haenszel by site	all	CCD has no PCM annotation (circular)			208.61	0

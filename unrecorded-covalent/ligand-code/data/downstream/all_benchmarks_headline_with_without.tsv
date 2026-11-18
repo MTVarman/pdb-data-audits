@@ -1,0 +1,28 @@
+benchmark	scope	method	n	rate_pct	removed	successes_removed	rate_without_pct	delta_pp	maxshift_pp	source
+Runs N' Poses	all	AlphaFold3	2311	71.571	4	3	71.565	-0.006	0.124	out/rnp_headline_with_without.tsv
+Runs N' Poses	all	Protenix	2311	63.695	4	2	63.719	0.024	0.11	out/rnp_headline_with_without.tsv
+Runs N' Poses	all	Chai-1	2311	65.599	4	3	65.583	-0.016	0.114	out/rnp_headline_with_without.tsv
+Runs N' Poses	all	Boltz-1	2311	65.383	4	3	65.366	-0.017	0.113	out/rnp_headline_with_without.tsv
+Runs N' Poses	per_method_all_available	AlphaFold3	2729	71.015	5	3	71.035	0.02	0.13	out/rnp_headline_with_without.tsv
+Runs N' Poses	per_method_all_available	Protenix	2627	63.418	5	3	63.425	0.007	0.121	out/rnp_headline_with_without.tsv
+Runs N' Poses	per_method_all_available	Chai-1	2592	65.162	4	3	65.147	-0.015	0.101	out/rnp_headline_with_without.tsv
+Runs N' Poses	per_method_all_available	Boltz-1	2404	64.601	4	3	64.583	-0.017	0.108	out/rnp_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	DiffDock	303	29.043	2	0	29.236	0.193	0.471	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	DiffDock	303	29.043	3	0	29.333	0.29	0.71	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	DynamicBind	303	33.003	2	0	33.223	0.219	0.445	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	DynamicBind	303	33.003	3	0	33.333	0.33	0.67	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	Glide	266	14.662	2	0	14.773	0.111	0.647	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	Glide	266	14.662	3	0	14.829	0.167	0.973	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	Glide IFD	270	19.63	2	0	19.776	0.146	0.6	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	Glide IFD	270	19.63	3	0	19.85	0.221	0.903	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	Gnina	295	19.322	2	0	19.454	0.132	0.551	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	Gnina	295	19.322	3	0	19.521	0.199	0.829	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	TankBind	303	8.911	2	0	8.97	0.059	0.605	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	TankBind	303	8.911	3	0	9.0	0.089	0.911	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	Vina	300	6.667	2	0	6.711	0.045	0.626	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	Vina	300	6.667	3	0	6.734	0.067	0.943	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X	Vina Flex	300	2.0	2	0	2.013	0.013	0.658	out/pdbbind_timesplit_headline_with_without.tsv
+PDBbind time split (DynamicBind re-run)	6S9W+6S9X+6I9A	Vina Flex	300	2.0	3	0	2.02	0.02	0.99	out/pdbbind_timesplit_headline_with_without.tsv
+DiffDock paper (holo, n=363)	6S9W+6S9X	DiffDock	363	38.2	2	unknown	37.858-38.412	unknown	0.342	out/diffdock_paper_headline_bound.tsv
+DiffDock paper (holo, n=363)	6S9W+6S9X+6I9A	DiffDock	363	38.2	3	unknown	37.685-38.518	unknown	0.515	out/diffdock_paper_headline_bound.tsv
+LP-PDBBind test	2PRE,3O0U,3WZU,5Z1D,6JZ0	all	2171	n/a (affinity)	0	0	unchanged	0	0.0	out/lp_pdbbind_test_summary.tsv (none in scored CL2 test)

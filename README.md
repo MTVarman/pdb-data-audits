@@ -42,10 +42,15 @@ unrecorded-covalent/
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
   two-rulers/                the 2.01 Å validator line and the 2.0 Å record line, archive-wide; 132 density-supported Cys adducts past 2 Å
   cys-ligand-sites/          the same two lines for drugs and substrates on cysteine, 24,144 entries; the PDBj concentration, per-depositor counts, two matched cases
+  ligand-code/               ligand-code carry-forward of in-window unrecorded bonds; scripts and small tables, 10.5281/zenodo.24285353
+  distance-table/            MAXIT distance windows for protein–ligand bond records; scripts and small tables, 10.5281/zenodo.24295881
+  antenna-anchors/           heme c and light-sensing pigment anchor bonds; scripts and small tables, 10.5281/zenodo.24153068
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
 rascore/                     KRAS switch-state table after correcting silent wildtype mislabels (issue #2)
 release-audit/               weekly audit of each PDB release: heme c parity, overlapping atoms, unrecorded contacts, software defaults
+metal-restraints/            default zinc and chlorophyll-magnesium restraints in cctbx/PHENIX; scripts and small tables, 10.5281/zenodo.24150338
+organism-annotation/         undeclared substitutions against source-organism references; scripts and small tables, 10.5281/zenodo.24194208
 priority/                    SHA-256 fingerprints of unpublished bundles, by date
 ```
 
@@ -57,10 +62,10 @@ Kept in sync with the table on [github.com/MTVarman](https://github.com/MTVarman
 
 | Date | What | Where |
 |---|---|---|
-| Nov 2026 | *Protein–ligand bond records in the Protein Data Bank follow a distance table in its processing software* (technical note) | [Zenodo 10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881) |
-| Nov 2026 | *Bonds inside the processing distance window that the Protein Data Bank still leaves unrecorded, and how much of them the ligand code's history predicts* (technical note, v1.1) | [Zenodo 10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353) |
-| Nov 2026 | *Unrecorded covalent bonds to cysteine concentrate by wwPDB processing site* (dataset; `unrecorded-covalent/cys-ligand-sites/`) | [Zenodo 10.5281/zenodo.24223029](https://doi.org/10.5281/zenodo.24223029) |
-| Nov 2026 | *Protein Data Bank entries whose primary citation has been retracted* (technical note) | [Zenodo 10.5281/zenodo.24211651](https://doi.org/10.5281/zenodo.24211651) |
+| Nov 2026 | *Protein–ligand bond records in the Protein Data Bank follow a distance table in its processing software, the bonds outside it are listed as close contacts, and the clash check gives boron a 0.20 Å radius* (technical note) | [Zenodo 10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881) |
+| Nov 2026 | *Bonds inside the processing distance window that the Protein Data Bank still leaves unrecorded, and how much of them the ligand code's history predicts* (technical note) | [Zenodo 10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353) |
+| Nov 2026 | *Unrecorded covalent bonds to cysteine concentrate by wwPDB processing site: a 24,144-entry scan of _struct_conn records, with two matched cases* (dataset; `unrecorded-covalent/cys-ligand-sites/`) | [Zenodo 10.5281/zenodo.24223029](https://doi.org/10.5281/zenodo.24223029) |
+| Nov 2026 | *Protein Data Bank entries whose primary citation has been retracted: which were obsoleted, which remain, and what the remaining entries record* (technical note) | [Zenodo 10.5281/zenodo.24211651](https://doi.org/10.5281/zenodo.24211651) |
 | Nov 2026 | *Undeclared substitutions in PDB entries do not track source organism; reference curation does* (preprint): across 44,607 entities from eight organisms, undeclared point substitutions do not track organism, but 70% of pig, 37% of dog, 20% of cat and 5% of horse entities have no same-species reviewed UniProt record to check a wildtype label against | [Zenodo 10.5281/zenodo.24194208](https://doi.org/10.5281/zenodo.24194208) |
 | Nov 2026 | *Anchor bonds of heme c and light-sensing pigments that are missing from Protein Data Bank connectivity records, and the 2.0 Å line that decides most of them* (technical note): 1,049 of 9,251 heme c and 3,885 of 13,972 phycobilin anchor bonds have no bond record, including 999 of the 1,004 heme c bonds modelled at 2.0 Å or more | [Zenodo 10.5281/zenodo.24153068](https://doi.org/10.5281/zenodo.24153068) |
 | Nov 2026 | At default settings, cctbx gives a lysine NZ within 2.20 Å of an ATP oxygen a bond restraint at 1.297 Å, sigma 0.01 (fragments, script and output) | [pdb-data-audits: n-o-link](https://github.com/MTVarman/pdb-data-audits/tree/main/release-audit/default-values/n-o-link) |

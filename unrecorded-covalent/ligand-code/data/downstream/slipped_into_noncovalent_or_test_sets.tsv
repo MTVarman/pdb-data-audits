@@ -1,0 +1,27 @@
+where	entry	ligand	cys	dist	site	label_in_set	source	band
+DiffDock time-split test (363)	6I9A	H8E	A477	2.004	PDBE	no label	full scan	2.00-2.40
+DiffDock time-split test (363)	6I9A	H8E	B477	2.025	PDBE	no label	full scan	2.00-2.40
+DiffDock time-split test (363)	6S9W	L1Z	A310	1.83	PDBE	no label	full scan	<2.00
+DiffDock time-split test (363)	6S9X	L1W	A310	1.827	PDBE	no label	full scan	<2.00
+LP-PDBBind test split	3KX1	KX1	A25	2.36	PDBJ	LP covalent=False	full scan	2.00-2.40
+LP-PDBBind test split	3OVZ	O96	A25	2.139	RCSB	LP covalent=False	full scan	2.00-2.40
+LP-PDBBind test split	3W55	1FM	A166	2.355	PDBJ	LP covalent=False	full scan	2.00-2.40
+LP-PDBBind test split	4HCT	18R	A442	2.022	RCSB	LP covalent=False	full scan	2.00-2.40
+LP-PDBBind test split	5AOL	UFV	A220	2.327	PDBE	LP covalent=False	full scan	2.00-2.40
+LP-PDBBind test split	2PRE	E64	A25	1.819	RCSB	LP covalent=False	full scan	<2.00
+LP-PDBBind test split	2PRE	E64	B25	1.822	RCSB	LP covalent=False	full scan	<2.00
+LP-PDBBind test split	3O0U	O47	A25	1.95	RCSB	LP covalent=False	full scan	<2.00
+LP-PDBBind test split	3WZU	1FM	A218	1.821	PDBJ	LP covalent=False	full scan	<2.00
+LP-PDBBind test split	5Z1D	95U	A218	1.878	PDBJ	LP covalent=False	full scan	<2.00
+LP-PDBBind test split	6JZ0	CKO	A797	1.932	PDBJ	LP covalent=False	full scan	<2.00
+PDBbind v2020 refined set (criterion: noncovalent)	1NWL	964	A47	2.379	RCSB	LP covalent=False	full scan	2.00-2.40
+PDBbind v2020 refined set (criterion: noncovalent)	3N3G	935	A25	2.179	RCSB	LP covalent=False	full scan	2.00-2.40
+PDBbind v2020 refined set (criterion: noncovalent)	5AOL	UFV	A220	2.327	PDBE	LP covalent=False	full scan	2.00-2.40
+PDBbind v2020 refined set (criterion: noncovalent)	3N3G	935	B25	1.721	RCSB	LP covalent=False	full scan	<2.00
+PDBbind v2020 refined set (criterion: noncovalent)	4KIF	HF2	A319	1.643	PDBJ	LP covalent=False	full scan	<2.00
+PDBbind v2020 refined set (criterion: noncovalent)	4KIF	HF2	B319	1.66	PDBJ	LP covalent=False	full scan	<2.00
+Runs N' Poses test set (excludes covalent)	7EI4	J3U	B90	1.814	PDBJ	n/a (non-covalent by construction)	prior PLINDER audit	<2.00
+Runs N' Poses test set (excludes covalent)	7VVT	80X	A145	1.767	PDBJ	n/a (non-covalent by construction)	prior PLINDER audit	<2.00
+Runs N' Poses test set (excludes covalent)	7YCC	IQC	A12	1.818	PDBJ	n/a (non-covalent by construction)	prior PLINDER audit	<2.00
+Runs N' Poses test set (excludes covalent)	7YCE	IQN	A12	1.837	PDBJ	n/a (non-covalent by construction)	prior PLINDER audit	<2.00
+Runs N' Poses test set (excludes covalent)	8X6R	Y9D	A12	1.805	PDBJ	n/a (non-covalent by construction)	prior PLINDER audit	<2.00

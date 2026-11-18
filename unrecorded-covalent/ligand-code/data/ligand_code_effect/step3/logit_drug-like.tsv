@@ -1,0 +1,10 @@
+subset	term	OR	lo	hi	p	n	codes
+drug-like	Intercept	0.06	0.04	0.08	1.7e-62	2813	741
+drug-like	"C(birth_batch, Treatment(""recorded""))[T.linked_other]"	2.18	0.81	5.89	0.12	2813	741
+drug-like	"C(birth_batch, Treatment(""recorded""))[T.missed]"	8.12	2.77	23.82	0.00014	2813	741
+drug-like	"C(birth_batch, Treatment(""recorded""))[T.mixed]"	2.17	0.22	21.56	0.51	2813	741
+drug-like	"C(birth_batch, Treatment(""recorded""))[T.unbonded]"	2.98	1.85	4.79	7.1e-06	2813	741
+drug-like	"C(site, Treatment(""RCSB""))[T.PDBC]"	2.74	1.12	6.68	0.027	2813	741
+drug-like	"C(site, Treatment(""RCSB""))[T.PDBE]"	0.74	0.46	1.19	0.22	2813	741
+drug-like	"C(site, Treatment(""RCSB""))[T.PDBJ]"	2.94	1.8	4.79	1.6e-05	2813	741
+drug-like	yearc	1.02	0.99	1.05	0.33	2813	741

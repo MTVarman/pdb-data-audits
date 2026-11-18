@@ -1,0 +1,30 @@
+lig_comp	type	n	pre_misses	post_n	post_recorded	first_entry	first_dep	last_miss_before	fix_entry	fix_dep	lag_days	pre_sites	fix_site	same_lab	pre_dist	fix_dist	birth	ccd_events_between	ccd_created	ccd_modified	name	sites
+3PE	fixed	8	2	6.0	6.0	6SLJ	2019-08-20	6SLN	8ESZ	2022-10-15	1152.0	PDBE	RCSB	False	1.76,1.77	1.30	unbonded	Modify synonyms@2021-03-01;Modify name@2021-05-26	2003-07-09	2021-05-26	1,2-Distearoyl-sn-glycerophosphoethanolamine	
+5GP	fixed	4	1	3.0	3.0	1P16	2003-04-11	1P16	4DWQ	2012-02-26	3243.0	RCSB	RCSB	False	1.49	1.79	unbonded	Modify descriptor@2011-06-04	1999-07-08	2026-06-15	GUANOSINE-5'-MONOPHOSPHATE	
+80I	never recorded	8	8																			PDBJ
+90F	never recorded	3	3																			PDBJ
+92V	fixed	3	1	2.0	2.0	5VBE	2017-03-29	5VBE	5VBM	2017-03-29	0.0	RCSB	RCSB	True	1.85	2.06	mixed		2017-03-30	2024-09-27	1-(4-methoxyphenyl)-N-(3-sulfanylpropyl)-5-(t	
+9JT	fixed	12	1	11.0	11.0	5O40	2017-05-25	5O40	6RRM	2019-05-20	725.0	PDBE	PDBE	False	1.87	2.23	missed	Create component@2017-05-26;Initial release@2018-06-13	2017-05-26	2024-09-27	N-phenyl-2-selanylbenzamide	
+A1EN0	never recorded	5	5																			PDBC
+AGS	never recorded	5	5																			PDBE,PDBJ,RCSB
+ALD	fixed	13	1	12.0	12.0	1BP4	1998-08-12	1BP4	7CUU	2020-08-24	8048.0	RCSB	PDBJ	False	1.76	1.80	missed	Create component@1999-07-08;Modify descriptor@2011-06-04;Modify subcomponent list@2012-01-31	1999-07-08	2024-09-27	N-[(benzyloxy)carbonyl]-L-leucyl-N-[(2S)-1-hy	
+BCR	fixed	6	1	5.0	4.0	2WSC	2009-09-04	2WSC	2WSE	2009-09-05	1.0	PDBE	PDBE	True	1.62	1.54	unbonded		2001-06-26	2011-06-04	BETA-CAROTENE	
+CLR	never recorded	5	5																			PDBE,PDBJ,RCSB
+CPR	never recorded	3	3																			RCSB
+CYZ	flip-flop	6	1	5.0	1.0	8FQH	2023-01-06	8FQH	9E4Z	2024-10-25	658.0	RCSB	RCSB	False	1.38	1.38	unbonded		2002-04-08	2025-06-09	CYCLOTHIAZIDE	
+EL6	flip-flop	3	2	1.0	1.0	6LOD	2020-01-05	6LOE	8K9E	2023-08-01	1304.0	PDBJ	PDBC	False	1.49,1.49	1.76	missed	Create component@2020-01-10;Initial release@2020-11-04	2020-01-10	2020-10-30	[(2S)-2-octadecanoyloxypropyl] octadecanoate	
+FFQ	fixed	6	1	5.0	5.0	1UAE	1996-09-30	1UAE	3KR6	2009-11-17	4796.0	RCSB	RCSB	False	1.86	1.81	missed		2011-02-18	2024-09-27	[(1R)-1-hydroxypropyl]phosphonic acid	
+FL3	fixed	3	1	2.0	2.0	7C8A	2020-05-29	7C8A	8HH0	2022-11-16	901.0	PDBJ	PDBJ	True	1.77	1.82	missed	Create component@2020-06-01;Initial release@2020-12-30	2020-06-01	2024-09-27	1-naphthalen-2-ylethanone	
+FZ4	never recorded	3	3																			RCSB
+FZS	never recorded	5	5																			RCSB
+GNP	never recorded	5	5																			PDBJ,RCSB
+HDS	fixed	4	2	2.0	2.0	1LPO	1995-01-13	1LPP	1EXW	2000-05-04	1938.0	RCSB	RCSB	False	1.47,1.49	1.77	unbonded	Create component@1999-07-08	1999-07-08	2024-09-27	1-HEXADECANOSULFONIC ACID	
+HEE	fixed	4	1	3.0	3.0	5TGL	1991-10-30	5TGL	1LBS	1995-07-11	1350.0	RCSB	RCSB	False	0.55	1.56	missed		1999-07-08	2024-09-27	N-HEXYLPHOSPHONATE ETHYL ESTER	
+HUR	never recorded	9	9																			PDBJ
+ISP	fixed	6	1	5.0	4.0	1NTP	1987-09-16	1NTP	1TRY	1994-03-07	2364.0	RCSB	RCSB	False	1.52	1.64	missed		1999-07-08	2024-09-27	PHOSPHORYLISOPROPANE	
+L0S	never recorded	3	3																			RCSB
+MKZ	never recorded	3	3																			PDBE,RCSB
+PCW	never recorded	3	3																			PDBJ,RCSB
+PGV	flip-flop	5	1	4.0	2.0	5Y5S	2017-08-09	5Y5S	6JUW	2019-04-15	614.0	PDBJ	PDBJ	False	1.50	1.38	unbonded		2003-12-02	2020-05-27	(1R)-2-{[{[(2S)-2,3-DIHYDROXYPROPYL]OXY}(HYDR	
+UHC	flip-flop	3	1	2.0	1.0	8JFG	2023-05-18	8JFG	8JFH	2023-05-18	0.0	PDBJ	PDBJ	True	1.33	1.60	mixed		2023-06-02	2024-09-27	~{S}-[2-[3-[[(2~{S})-3,3-dimethyl-2-oxidanyl-	
+WSN	never recorded	3	3																			RCSB

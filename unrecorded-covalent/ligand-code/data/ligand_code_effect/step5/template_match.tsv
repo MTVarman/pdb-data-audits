@@ -1,0 +1,8 @@
+field	later_units	match_own_first	match_era_site_baseline	excess	wilcoxon_p
+pair	1591	0.932			
+leaving	1591	0.999	0.617	0.381	5.3e-244
+prot_first	1591	0.956	0.949	0.007	2.4e-33
+value_order	1591	0.981	0.98	0.001	3.6e-55
+details	1591	0.997	0.99	0.007	2.8e-35
+covale_type	1591	1.0	1.0	0.0	nan
+n_pairs	1591	0.981	0.864	0.117	1.7e-146

@@ -1,0 +1,17 @@
+distance_A,recorded,residue_chain,listed_as_close_contact,close_contact_row,close_contact_dist
+1.53051,True,Asp94 E,False,,
+1.54386,True,Asp94 F,False,,
+1.54476,True,Asp94 B,False,,
+1.54748,True,Glu242 C,False,,
+1.54826,True,Asp94 M,False,,
+1.54897,True,Glu242 H,False,,
+1.54949,True,Asp94 N,False,,
+1.54999,True,Asp94 I,False,,
+1.55026,False,Asp94 J,True,1,1.55
+1.55066,False,Glu242 P,True,2,1.55
+1.55304,False,Asp94 A,True,3,1.55
+1.55698,False,Glu242 O,True,4,1.56
+1.55703,False,Glu242 D,True,5,1.56
+1.55768,False,Glu242 K,True,6,1.56
+1.56092,False,Glu242 L,True,7,1.56
+1.56164,False,Glu242 G,True,8,1.56
