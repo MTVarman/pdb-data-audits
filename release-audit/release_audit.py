@@ -451,7 +451,7 @@ def main():
         if failed:
             fh.write(f'{len(failed)} entries failed to parse.\n\n')
         for cat in ('PARITY', 'GEOMETRY', 'CONTACT', 'DEFAULT'):
-            rows = [f for f in findings if f[0] == cat][:15]
+            rows = [f for f in findings if f[0] == cat]
             if not rows:
                 continue
             fh.write(f'## {cat}\n\n')

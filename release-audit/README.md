@@ -68,6 +68,10 @@ map's.
 Both filed weeks were re-run on 11 Nov 2026 with the element-pair geometry
 rule and the full DEFAULT check; each brief says what changed.
 
+The briefs were re-issued on 18 Nov 2026 to list every row. Before that each
+brief stopped at the first 15 rows of a check without saying so; the CSVs were
+always complete and are unchanged.
+
 From the 2026-11-11 release on, CONTACT measures to the correct symmetry image of
 the ligand atom. Before that a contact made across a crystal symmetry
 operator was listed with the distance to the unmoved copy.
