@@ -1,0 +1,11 @@
+# pdb-data-audits: Python packages imported by the scripts in this repository.
+# verify_strict.py and verify_counts.py need only the Python standard library.
+#   pip install -r requirements.txt      (rdkit: pip install rdkit, or conda-forge)
+gemmi
+numpy
+rdkit
+requests
+
+# Optional, not installed by default:
+# cctbx-base   restraint reproductions in release-audit/default-values/ (conda install -c conda-forge cctbx-base)
+# chai_lab, torch, boltz, protenix   model re-runs under unrecorded-covalent/cofolding-kras-holdout, rnp-boltz2, rnp-chai1 (GPU)
