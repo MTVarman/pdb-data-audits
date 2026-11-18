@@ -1,0 +1,52 @@
+check,entry,detail,note,title
+GEOMETRY,9XNV,A:CYS573 SG - SF4 S4 1.843 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
+GEOMETRY,9XNV,a:CYS573 SG - SF4 S4 1.843 A,shorter than any real S-S bond (1.90 A floor); atoms overlap (unrecorded),Cryo-EM structure of a PSI supercomplex in the leaves of Hevea brasiliensis
+CONTACT,12IQ,A:SER48 OG - CXF A404 O9 2.135 A,no covale record; 2.0-2.3 A band,Horse liver alcohol dehydrogenase T178S in complex with NADH and N-cylcohexyl formamide
+CONTACT,22EO,A:THR13 OG1 - SEP B280 O1P 2.291 A,no covale record; 2.0-2.3 A band,Crystal structure of the SLF1 BRCT domain in complex with a RPB2 peptide containing pS280
+CONTACT,24NW,5:THR27 OG1 - GNP 5801 O2G 2.292 A,no covale record; 2.0-2.3 A band,tRNA bound M. smegmatis 70S ribosome in complex with EF-G1.
+CONTACT,24NW,5:THR65 OG1 - GNP 5801 O2G 2.213 A,no covale record; 2.0-2.3 A band,tRNA bound M. smegmatis 70S ribosome in complex with EF-G1.
+CONTACT,25UB,C:TYR167 OH - UV3 C301 O16 2.257 A,no covale record; 2.0-2.3 A band,Crystal structure of SktA in complex with 7-bromo-L-tryptophan and Fe2+
+CONTACT,25UB,D:TYR167 OH - UV3 D301 O15 2.168 A,no covale record; 2.0-2.3 A band,Crystal structure of SktA in complex with 7-bromo-L-tryptophan and Fe2+
+CONTACT,25UC,D:TYR167 OH - TRP D303 OXT 2.289 A,no covale record; 2.0-2.3 A band,Crystal structure of SktA in complex with L-tryptophan and Fe2+
+CONTACT,25UD,B:TYR167 OH - 67I B301 OXT 1.905 A,no covale record; <2.0 A band,"Crystal structure of SktA in complex with 5,7-dibromo-L-tryptophan and Fe2+"
+CONTACT,31FN,A:ASP8 OD2 - EDO A306 O1 2.278 A,no covale record; 2.0-2.3 A band,Crystal structure of carbonic anhydrase I with 4-{[2-(hydroxyimino)-2-phenylethyl]amino}benzenesulfonamide
+CONTACT,31FP,A:ARG257 NE - EDO A304 O2 2.048 A,no covale record; 2.0-2.3 A band,Crystal structure of carbonic anhydrase I with 4-[2-(ethylsulfanyl)-4-phenyl-1H-imidazol-1-yl]benzene-1-sulfonamide
+CONTACT,32YK,A:CYS321 SG - 5MC B49 C6 2.059 A,no covale record; 2.0-2.3 A band,CryoEM structure of NSUN2-C271S and the human tRNA Asp (GUC) - Non-crosslinked
+CONTACT,37AD,B:ASP30 OD1 - GNP B201 O2' 2.278 A,no covale record; 2.0-2.3 A band,KRAS G12V Mutant in Complex with GMPPNP and Compound 12.
+CONTACT,37AD,C:GLU62 OE1 - A1DMJ C203 C28 1.382 A,no covale record; <2.0 A band,KRAS G12V Mutant in Complex with GMPPNP and Compound 12.
+CONTACT,38EA,A:GLU336 OE2 - NAD A702 O2B 2.016 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of dimeric AIFM1-MIA40(1-45) fusion bound to TRX1
+CONTACT,38EA,D:GLU336 OE2 - NAD D702 O2B 2.017 A,no covale record; 2.0-2.3 A band,Cryo-EM structure of dimeric AIFM1-MIA40(1-45) fusion bound to TRX1
+CONTACT,9ONU,A:TYR309 OH - ZNZ A401 O41 1.919 A,no covale record; <2.0 A band,";Structure of a P-loop mutant PTP-like myo-inositol phosphatase from Selenomonas ruminantium in complex with myo-inositol-(1,2,4,5,6)-pentakisphosphate
+;"
+CONTACT,9ONU,B:SER252 OG - ZNZ B401 O33 2.274 A,no covale record; 2.0-2.3 A band,";Structure of a P-loop mutant PTP-like myo-inositol phosphatase from Selenomonas ruminantium in complex with myo-inositol-(1,2,4,5,6)-pentakisphosphate
+;"
+CONTACT,9ONU,B:TYR309 OH - ZNZ B401 O41 2.074 A,no covale record; 2.0-2.3 A band,";Structure of a P-loop mutant PTP-like myo-inositol phosphatase from Selenomonas ruminantium in complex with myo-inositol-(1,2,4,5,6)-pentakisphosphate
+;"
+CONTACT,9RF8,A:THR88 OG1 - MAN A412 C1 1.651 A,no covale record; <2.0 A band,Hyaluronate lyase from Purpureocillium lilacinum
+CONTACT,9RF8,A:THR92 OG1 - MAN A413 C1 1.656 A,no covale record; <2.0 A band,Hyaluronate lyase from Purpureocillium lilacinum
+CONTACT,9RF8,A:THR100 OG1 - MAN A414 C1 1.794 A,no covale record; <2.0 A band,Hyaluronate lyase from Purpureocillium lilacinum
+CONTACT,9RF8,A:ASN375 ND2 - NAG B1 C1 1.643 A,no covale record; <2.0 A band,Hyaluronate lyase from Purpureocillium lilacinum
+CONTACT,9RF9,A:THR92 OG1 - MAN A402 C1 1.685 A,no covale record; <2.0 A band,Hyaluronate lyase from Purpureocillium lilacinum in complex with hyaluronic acid disaccharide
+CONTACT,9RF9,A:THR100 OG1 - MAN A403 C1 1.771 A,no covale record; <2.0 A band,Hyaluronate lyase from Purpureocillium lilacinum in complex with hyaluronic acid disaccharide
+CONTACT,9RF9,A:ASN375 ND2 - NAG E1 C1 1.651 A,no covale record; <2.0 A band,Hyaluronate lyase from Purpureocillium lilacinum in complex with hyaluronic acid disaccharide
+CONTACT,9TCO,G:GLN86 NE2 - OMC V33 C5' 1.432 A,no covale record; <2.0 A band,";Structural characterization of hibernating ribosomes in the Gram-negative pathogen Klebsiella quasipneumoniae with E-site tRNA and no bS21
+;"
+CONTACT,9TCQ,G:GLN86 NE2 - OMC V33 C5' 1.431 A,no covale record; <2.0 A band,";Structural characterization of hibernating ribosomes in the Gram-negative pathogen Klebsiella quasipneumoniae with bS21 and E-site tRNA
+;"
+CONTACT,9XOV,B:ARG128 NH2 - PG4 B210 O5 2.151 A,no covale record; 2.0-2.3 A band,Ultra-high resolution Crystal structure of N-terminal deletion mutant of Staphylococcal Thiol Peroxidase
+CONTACT,9XPA,B:ASP348 OD2 - 2PE B402 O28 2.201 A,no covale record; 2.0-2.3 A band,Crystal structure of the SARS-CoV-2 Ubl1 domain in complex with the nucleocapsid protein
+CONTACT,9YH2,D:SER40 OG - PNS D401 P24 1.611 A,no covale record; <2.0 A band,holo-carrier bound/unbound type II thioesterase
+CONTACT,9YUK,B:TYR106 OH - A1DHO B201 O51 2.134 A,no covale record; 2.0-2.3 A band,human Siderocalin bound to 343HOPO-Ho
+CONTACT,9YUK,C:LYS125 NZ - A1DHO C201 O47 2.298 A,no covale record; 2.0-2.3 A band,human Siderocalin bound to 343HOPO-Ho
+CONTACT,9YUN,B:GLN23 NE2 - SO4 C204 O2 2.143 A,no covale record; 2.0-2.3 A band,human Siderocalin bound to 343HOPO-Nd
+CONTACT,9YVU,E:GLN23 NE2 - PIN E201 O3' 2.164 A,no covale record; 2.0-2.3 A band,human Siderocalin bound to 343HOPO-Tb
+DEFAULT,34OC,"ZN C904 [2 His, 0 Cys] C:HIS374 NE2 2.298 A; C:HIS378 NE2 2.298 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of human apo B0AT1-ACE2 complex
+DEFAULT,34OC,"ZN D904 [2 His, 0 Cys] D:HIS378 NE2 2.298 A; D:HIS374 NE2 2.299 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of human apo B0AT1-ACE2 complex
+DEFAULT,34OD,"ZN C904 [2 His, 0 Cys] C:HIS374 NE2 2.299 A; C:HIS378 NE2 2.300 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of occluded B0AT1-ACE2 complex bound to Alanine
+DEFAULT,34OD,"ZN D904 [2 His, 0 Cys] D:HIS374 NE2 2.298 A; D:HIS378 NE2 2.298 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of occluded B0AT1-ACE2 complex bound to Alanine
+DEFAULT,34OE,"ZN C904 [2 His, 0 Cys] C:HIS374 NE2 2.298 A; C:HIS378 NE2 2.299 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of occluded B0AT1-ACE2 complex bound to Leucine
+DEFAULT,34OE,"ZN D904 [2 His, 0 Cys] D:HIS374 NE2 2.298 A; D:HIS378 NE2 2.299 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of occluded B0AT1-ACE2 complex bound to Leucine
+DEFAULT,34OH,"ZN C904 [2 His, 0 Cys] C:HIS378 NE2 2.296 A; C:HIS374 NE2 2.299 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of occluded B0AT1-ACE2 complex bound to Tryptophan
+DEFAULT,34OH,"ZN D904 [2 His, 0 Cys] D:HIS378 NE2 2.297 A; D:HIS374 NE2 2.299 A",2 of 2 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),Structure of occluded B0AT1-ACE2 complex bound to Tryptophan
+DEFAULT,36BS,"ZN A301 [3 His, 0 Cys] A:HIS6 NE2 2.295 A; A:HIS33 ND1 2.298 A; A:HIS8 NE2 2.299 A",2 of 3 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),"De novo designed phosphatase, desB"
+DEFAULT,36BS,"ZN B301 [3 His, 0 Cys] B:HIS33 ND1 2.301 A; B:HIS8 NE2 2.301 A; B:HIS6 NE2 2.301 A",3 of 3 Zn-N(His) at 2.300 A: the default for zinc with fewer than four Cys/His ligands (high-resolution X-ray median 2.03 A),"De novo designed phosphatase, desB"
