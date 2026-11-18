@@ -1,0 +1,4 @@
+set	units	misses	first_day_units	first_day_misses	later_units_first_missed	later_misses_first_missed	codes_first_missed_with_later	later_units_first_recorded	later_misses_first_recorded	expected_if_first_recorded	excess	share_later_first_missed	share_excess	first_miss_OR	first day: misses at PDBj or PDBc	later, first recorded: misses at PDBj or PDBc	later, first missed: misses at PDBj or PDBc
+all in-window units	10777	552	4075	247	146	61	43	6556	244	6.9	54.1	0.111	0.098	OR 17.25 (7.78-38.26) p=2.4e-12	98	107	28
+drug-like in-window units	6179	356	3884	219	75	40	28	2220	97	5.0	35.0	0.112	0.098	OR 22.25 (8.28-59.78) p=7.6e-10	91	52	21
+in-window strict set	5611	299	3798	197	55	25	19	1758	77	4.2	20.8	0.084	0.07	OR 15.39 (4.85-48.82) p=3.5e-06	85	50	16

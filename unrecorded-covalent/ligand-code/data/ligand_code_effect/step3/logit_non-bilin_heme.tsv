@@ -1,0 +1,10 @@
+subset	term	OR	lo	hi	p	n	codes
+non-bilin/heme	Intercept	0.05	0.04	0.06	1.1e-119	6685	882
+non-bilin/heme	"C(birth_batch, Treatment(""recorded""))[T.linked_other]"	1.81	0.82	3.97	0.14	6685	882
+non-bilin/heme	"C(birth_batch, Treatment(""recorded""))[T.missed]"	9.63	3.72	24.9	3e-06	6685	882
+non-bilin/heme	"C(birth_batch, Treatment(""recorded""))[T.mixed]"	2.37	0.26	21.3	0.44	6685	882
+non-bilin/heme	"C(birth_batch, Treatment(""recorded""))[T.unbonded]"	4.24	2.7	6.66	3.7e-10	6685	882
+non-bilin/heme	"C(site, Treatment(""RCSB""))[T.PDBC]"	1.97	1.05	3.73	0.036	6685	882
+non-bilin/heme	"C(site, Treatment(""RCSB""))[T.PDBE]"	0.7	0.53	0.94	0.018	6685	882
+non-bilin/heme	"C(site, Treatment(""RCSB""))[T.PDBJ]"	2.08	1.42	3.04	0.00018	6685	882
+non-bilin/heme	yearc	1.05	1.02	1.08	0.00015	6685	882

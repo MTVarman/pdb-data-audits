@@ -1,0 +1,47 @@
+comp	drug	site	entries_with_comp	entries_with_cys145_contact	contacts_lt2	recorded_lt2	contacts_2.0-2.4	recorded_2.0-2.4	entries_with_unrec_lt2	entries_covale_row_to_comp	dist_range
+4WI	nirmatrelvir (bound, thioimidate)	PDBC	10	10	10	10	0	0	0	10	1.762-1.768
+4WI	nirmatrelvir (bound, thioimidate)	PDBE	2	2	2	2	0	0	0	2	1.771-1.811
+4WI	nirmatrelvir (bound, thioimidate)	PDBJ	15	15	24	6	1	0	10	5	1.761-2.007
+4WI	nirmatrelvir (bound, thioimidate)	RCSB	32	30	44	44	3	0	0	30	1.712-2.328
+7ON	leritrelvir (bound)	PDBC	14	14	27	27	1	1	0	14	1.611-2.193
+7YY	ensitrelvir (non-covalent control)	PDBC	14	0	0	0	0	0	0	0	
+7YY	ensitrelvir (non-covalent control)	PDBJ	2	0	0	0	0	0	0	0	
+7YY	ensitrelvir (non-covalent control)	RCSB	12	0	0	0	0	0	0	0	
+80I	lufotrelvir (PF-07304814)	PDBJ	7	7	11	0	1	0	6	0	1.777-2.256
+A1AA0	zevotrelvir/EDP-235 (bound)	RCSB	2	2	3	3	0	0	0	2	1.754-1.808
+A1BFE		RCSB	7	7	7	7	0	0	0	7	1.641-1.767
+A1EN0	leritrelvir (unreacted-form CCD)	PDBC	12	6	10	0	2	0	5	0	1.815-2.218
+ALD		PDBE	8	8	12	12	0	0	0	8	1.760-1.917
+ALD		PDBJ	3	3	4	4	0	0	0	3	1.766-1.832
+B1S		PDBJ	1	1	1	1	0	0	0	1	1.730-1.730
+B1S		RCSB	4	4	5	5	0	0	0	4	1.608-1.844
+FHR	bofutrelvir/11a	PDBC	5	4	6	6	0	0	0	4	1.770-1.771
+FHR	bofutrelvir/11a	PDBJ	4	3	4	4	1	0	0	4	1.769-2.244
+FHR	bofutrelvir/11a	RCSB	4	4	5	5	0	0	0	4	1.765-1.804
+HUR	YH-53	PDBJ	7	7	12	0	1	0	7	0	1.781-2.141
+K36	GC376 (bisulfite adduct)	PDBJ	5	5	7	7	0	0	0	5	1.612-1.828
+K36	GC376 (bisulfite adduct)	RCSB	15	14	19	19	0	0	0	15	1.637-1.865
+NNA	narlaprevir (bound)	PDBJ	1	1	1	1	0	0	0	1	1.768-1.768
+NNA	narlaprevir (bound)	RCSB	2	2	3	3	0	0	0	2	1.712-1.839
+O6K		PDBE	9	9	21	21	0	0	0	9	1.674-1.902
+OW1	nirmatrelvir (reacted form)	PDBE	1	1	1	1	0	0	0	1	1.789-1.789
+PQL	simnotrelvir (nitrile CCD)	PDBJ	1	1	1	0	0	0	1	0	1.718-1.718
+SV6	telaprevir (bound)	PDBC	8	6	6	6	0	0	0	6	1.767-1.774
+SV6	telaprevir (bound)	PDBE	2	2	2	2	0	0	0	2	1.802-1.805
+SV6	telaprevir (bound)	PDBJ	1	1	2	2	0	0	0	1	1.817-1.857
+SV6	telaprevir (bound)	RCSB	4	4	4	4	0	0	0	4	1.779-1.861
+U5G	boceprevir (bound)	PDBE	2	2	2	2	0	0	0	2	1.826-1.849
+U5G	boceprevir (bound)	PDBJ	3	3	5	5	0	0	0	3	1.766-1.861
+U5G	boceprevir (bound)	RCSB	3	3	3	3	0	0	0	3	1.805-1.912
+UED	GC376/GC373 (bound form)	PDBE	1	1	1	1	0	0	0	1	1.739-1.739
+UED	GC376/GC373 (bound form)	PDBJ	6	6	12	12	0	0	0	6	1.619-1.768
+UED	GC376/GC373 (bound form)	RCSB	12	12	14	14	0	0	0	12	1.765-1.867
+V2M	PF-00835231 (bound)	PDBJ	8	8	16	16	0	0	0	8	1.796-1.917
+V2M	PF-00835231 (bound)	RCSB	15	15	30	30	0	0	0	15	1.746-1.874
+VR4	GC376 alpha-ketoamide analog	RCSB	1	1	2	2	0	0	0	1	1.831-1.837
+YDL	ibuzatrelvir (bound)	PDBC	4	3	3	1	0	0	2	1	1.778-1.783
+YDL	ibuzatrelvir (bound)	RCSB	2	2	4	4	0	0	0	2	1.738-1.780
+ZGW	nirmatrelvir (nitrile)	PDBE	1	0	0	0	0	0	0	0	
+ZGW	nirmatrelvir (nitrile)	RCSB	1	0	0	0	0	0	0	0	
+ZQB	pomotrelvir (bound)	PDBC	11	7	13	13	0	0	0	8	1.765-1.769
+ZQB	pomotrelvir (bound)	RCSB	2	2	3	3	0	0	0	2	1.781-1.801

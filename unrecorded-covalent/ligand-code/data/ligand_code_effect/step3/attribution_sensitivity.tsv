@@ -1,0 +1,5 @@
+subset	units	misses	first_use_misses	unbonded_later_units	unbonded_later_misses	unbonded_excess	unbonded_OR	unbonded_CI	unbonded_p	missed_later_units	missed_later_misses	missed_excess	missed_OR	missed_CI	missed_p	recorded_later_units	recorded_later_misses	PDBJ_OR	PDBJ_p	codes
+drug-like	6583	571	270	622	115	69.1	2.98	1.85-4.80	7.1e-06	71	28	21.9	8.13	2.77-23.87	0.00014	2023	143	3.05	7.8e-06	733
+drug-like, specific codes (<=10 unbonded uses)	5934	467	267	294	38	14.6	1.77	1.01-3.10	0.046	69	26	19.9	7.4	2.57-21.30	0.00021	1720	121	3.95	1.6e-06	642
+drug-like, bond-like distance	5908	391	197	524	70	42.9	2.94	1.73-5.00	7.1e-05	56	25	21.3	13.77	4.43-42.86	6e-06	1788	88	3.24	5.7e-05	677
+drug-like, specific + bond-like	5355	334	195	258	22	6.3	1.47	0.67-3.21	0.33	55	24	19.7	11.51	3.73-35.56	2.2e-05	1516	82	4.95	7.2e-07	593

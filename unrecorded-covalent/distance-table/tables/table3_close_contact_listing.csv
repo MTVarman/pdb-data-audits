@@ -1,0 +1,7 @@
+set,pairs,n,listed_as_close_contact,notes
+"archive scan, all methods",a record joins the two atoms,37357,0,
+"archive scan, all methods","no record, under 2.195 A",8276,8137,42 in the symmetry-contact table; the rest have both atoms below full occupancy (data/unlisted_pairs_check.csv)
+"archive scan, all methods","no record, 2.195 A or more",5319,0,
+"evidence sample, full occupancy",a record joins the two atoms,8364,0,
+"evidence sample, full occupancy","no record, under 2.195 A",990,990,
+"evidence sample, full occupancy","no record, 2.195 A or more",812,0,

@@ -1,0 +1,11 @@
+entry,title,frame,chromophore_code,chain,cys,sg_to_chromophore_A,covale_record
+9DZA,high resolution cryo structure in the dark,dark,EL5,A,CYS13,1.766,NONE
+9DZA,high resolution cryo structure in the dark,dark,EL5,B,CYS13,1.767,NONE
+9DZ3,reference (dark) structure for the 3 ps time point,dark,3Q8,A,CYS13,1.767,NONE
+9DZ3,reference (dark) structure for the 3 ps time point,dark,3Q8,B,CYS13,1.766,NONE
+9DZP,reference (dark) structure for the 100 ps time point,dark,EL5,A,CYS13,1.767,NONE
+9DZP,reference (dark) structure for the 100 ps time point,dark,EL5,B,CYS13,1.768,NONE
+9MD9,3ps TR-SFX structure,light 3 ps,BLA,A,CYS13,1.766,recorded (1.766)
+9MD9,3ps TR-SFX structure,light 3 ps,BLA,B,CYS13,1.763,recorded (1.763)
+9MEB,100 ps structure,light 100 ps,BLA,A,CYS13,1.766,recorded (1.766)
+9MEB,100 ps structure,light 100 ps,BLA,B,CYS13,1.771,recorded (1.771)

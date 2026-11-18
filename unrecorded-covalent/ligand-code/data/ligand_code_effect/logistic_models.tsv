@@ -1,0 +1,55 @@
+model	term	OR	ci_lo	ci_hi	p	n	aic
+site+year	Intercept	0.02	0.02	0.04	1.6999999999999998e-69	4135	1544.2
+site+year	"C(site, Treatment(""RCSB""))[T.PDBC]"	4.27	1.28	14.21	0.018	4135	1544.2
+site+year	"C(site, Treatment(""RCSB""))[T.PDBE]"	1.29	0.67	2.5	0.45	4135	1544.2
+site+year	"C(site, Treatment(""RCSB""))[T.PDBJ]"	12.97	6.35	26.5	2.1e-12	4135	1544.2
+site+year	yearc	0.97	0.93	1.01	0.17	4135	1544.2
+site+year+unreacted	Intercept	0.02	0.01	0.04	4.2e-54	4135	1546.1
+site+year+unreacted	"C(site, Treatment(""RCSB""))[T.PDBC]"	4.27	1.28	14.26	0.018	4135	1546.1
+site+year+unreacted	"C(site, Treatment(""RCSB""))[T.PDBE]"	1.29	0.67	2.49	0.45	4135	1546.1
+site+year+unreacted	"C(site, Treatment(""RCSB""))[T.PDBJ]"	13.14	6.4	26.98	2.3e-12	4135	1546.1
+site+year+unreacted	yearc	0.97	0.93	1.01	0.18	4135	1546.1
+site+year+unreacted	unreacted	0.95	0.44	2.06	0.9	4135	1546.1
+site+year+leaving	Intercept	0.02	0.01	0.04	5e-48	4135	1545.7
+site+year+leaving	"C(site, Treatment(""RCSB""))[T.PDBC]"	4.17	1.28	13.55	0.018	4135	1545.7
+site+year+leaving	"C(site, Treatment(""RCSB""))[T.PDBE]"	1.28	0.66	2.48	0.47	4135	1545.7
+site+year+leaving	"C(site, Treatment(""RCSB""))[T.PDBJ]"	12.77	6.1	26.71	1.3e-11	4135	1545.7
+site+year+leaving	yearc	0.97	0.93	1.02	0.2	4135	1545.7
+site+year+leaving	leaving	0.88	0.37	2.12	0.78	4135	1545.7
+site+year+newcode	Intercept	0.04	0.02	0.07	3.4000000000000003e-32	4135	1497.0
+site+year+newcode	"C(site, Treatment(""RCSB""))[T.PDBC]"	3.38	0.97	11.79	0.057	4135	1497.0
+site+year+newcode	"C(site, Treatment(""RCSB""))[T.PDBE]"	1.37	0.7	2.65	0.36	4135	1497.0
+site+year+newcode	"C(site, Treatment(""RCSB""))[T.PDBJ]"	12.21	6.05	24.63	2.8e-12	4135	1497.0
+site+year+newcode	yearc	0.96	0.92	1.0	0.056	4135	1497.0
+site+year+newcode	newcode	0.36	0.2	0.64	0.00048	4135	1497.0
+site+year+all3	Intercept	0.05	0.03	0.08	2.2000000000000002e-27	4135	1494.4
+site+year+all3	"C(site, Treatment(""RCSB""))[T.PDBC]"	3.03	0.89	10.35	0.076	4135	1494.4
+site+year+all3	"C(site, Treatment(""RCSB""))[T.PDBE]"	1.32	0.68	2.58	0.41	4135	1494.4
+site+year+all3	"C(site, Treatment(""RCSB""))[T.PDBJ]"	11.67	5.48	24.82	1.8e-10	4135	1494.4
+site+year+all3	yearc	0.97	0.92	1.01	0.1	4135	1494.4
+site+year+all3	unreacted	1.05	0.47	2.35	0.9	4135	1494.4
+site+year+all3	leaving	0.64	0.26	1.57	0.33	4135	1494.4
+site+year+all3	newcode	0.33	0.18	0.59	0.00024	4135	1494.4
+site+year+all3+pcm	Intercept	0.02	0.01	0.06	1.1e-13	4135	746.5
+site+year+all3+pcm	"C(site, Treatment(""RCSB""))[T.PDBC]"	1.62	0.43	6.1	0.48	4135	746.5
+site+year+all3+pcm	"C(site, Treatment(""RCSB""))[T.PDBE]"	0.54	0.19	1.51	0.24	4135	746.5
+site+year+all3+pcm	"C(site, Treatment(""RCSB""))[T.PDBJ]"	10.46	3.13	34.99	0.00014	4135	746.5
+site+year+all3+pcm	yearc	0.92	0.86	0.98	0.011	4135	746.5
+site+year+all3+pcm	unreacted	0.83	0.18	3.84	0.81	4135	746.5
+site+year+all3+pcm	leaving	1.86	0.4	8.6	0.43	4135	746.5
+site+year+all3+pcm	newcode	0.11	0.03	0.4	0.00077	4135	746.5
+site+year+all3+pcm	pcm_blank	1491.85	190.57	11678.75	3.4e-12	4135	746.5
+site+year+leaving_at_attach	Intercept	0.03	0.02	0.05	1.3e-59	4135	1496.5
+site+year+leaving_at_attach	"C(site, Treatment(""RCSB""))[T.PDBC]"	3.29	0.97	11.16	0.056	4135	1496.5
+site+year+leaving_at_attach	"C(site, Treatment(""RCSB""))[T.PDBE]"	1.18	0.61	2.27	0.63	4135	1496.5
+site+year+leaving_at_attach	"C(site, Treatment(""RCSB""))[T.PDBJ]"	11.19	5.53	22.65	1.9e-11	4135	1496.5
+site+year+leaving_at_attach	yearc	0.98	0.93	1.03	0.37	4135	1496.5
+site+year+leaving_at_attach	leaving_at_attach	0.14	0.04	0.52	0.0033	4135	1496.5
+site+year+leaving_at_attach+unreacted+newcode	Intercept	0.05	0.03	0.09	1.2e-30	4135	1435.6
+site+year+leaving_at_attach+unreacted+newcode	"C(site, Treatment(""RCSB""))[T.PDBC]"	2.4	0.69	8.29	0.17	4135	1435.6
+site+year+leaving_at_attach+unreacted+newcode	"C(site, Treatment(""RCSB""))[T.PDBE]"	1.28	0.66	2.49	0.47	4135	1435.6
+site+year+leaving_at_attach+unreacted+newcode	"C(site, Treatment(""RCSB""))[T.PDBJ]"	10.42	4.98	21.81	5e-10	4135	1435.6
+site+year+leaving_at_attach+unreacted+newcode	yearc	0.97	0.93	1.02	0.25	4135	1435.6
+site+year+leaving_at_attach+unreacted+newcode	leaving_at_attach	0.11	0.03	0.43	0.0015	4135	1435.6
+site+year+leaving_at_attach+unreacted+newcode	unreacted	1.28	0.61	2.71	0.51	4135	1435.6
+site+year+leaving_at_attach+unreacted+newcode	newcode	0.31	0.17	0.54	5.6e-05	4135	1435.6

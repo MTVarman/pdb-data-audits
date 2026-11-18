@@ -1,0 +1,7 @@
+bucket	misses	units	expected_if_born_recorded	excess	share_of_all_misses	excess_share
+birth batch itself missed (first use)	276				0.271	
+later use, code born unbonded	450	2190.0	131.9	318.1	0.442	0.312
+later use, code born linked_other	25	216.0	14.8	10.2	0.025	0.01
+later use, code born missed	33	87.0	5.9	27.1	0.032	0.027
+later use, code born recorded	231	4176.0	231.0	-0.0	0.227	-0.0
+later use, code born mixed	3	16.0	1.5	1.5	0.003	0.001

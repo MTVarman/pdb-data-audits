@@ -42,10 +42,15 @@ unrecorded-covalent/
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
   two-rulers/                the 2.01 Å validator line and the 2.0 Å record line, archive-wide; 132 density-supported Cys adducts past 2 Å
   cys-ligand-sites/          the same two lines for drugs and substrates on cysteine, 24,144 entries; the PDBj concentration, per-depositor counts, two matched cases
+  ligand-code/               ligand-code carry-forward of in-window unrecorded bonds; scripts and small tables, 10.5281/zenodo.24285353
+  distance-table/            MAXIT distance windows for protein–ligand bond records; scripts and small tables, 10.5281/zenodo.24295881
+  antenna-anchors/           heme c and light-sensing pigment anchor bonds; scripts and small tables, 10.5281/zenodo.24153068
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
 rascore/                     KRAS switch-state table after correcting silent wildtype mislabels (issue #2)
 release-audit/               weekly audit of each PDB release: heme c parity, overlapping atoms, unrecorded contacts, software defaults
+metal-restraints/            default zinc and chlorophyll-magnesium restraints in cctbx/PHENIX; scripts and small tables, 10.5281/zenodo.24150338
+organism-annotation/         undeclared substitutions against source-organism references; scripts and small tables, 10.5281/zenodo.24194208
 priority/                    SHA-256 fingerprints of unpublished bundles, by date
 ```
 

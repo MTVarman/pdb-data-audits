@@ -1,0 +1,8 @@
+subset	miss_born_unlinked	miss_born_linked	OR	p	codes_born_unlinked	entries_born_unlinked
+all reused codes (defining entry earlier)	58/253	49/927	5.3	4.1e-15	57.0	110.0
+PDBC	10/10	2/113	inf	4.4e-13	1.0	5.0
+PDBE	6/88	5/185	2.6	0.18	19.0	35.0
+PDBJ	27/58	28/147	3.7	0.00011	21.0	37.0
+RCSB	15/97	14/482	6.1	8.7e-06	21.0	33.0
+non-PDBj	31/195	21/780	6.8	1.1e-10	40.0	73.0
+Mantel-Haenszel by site			5.3	0		

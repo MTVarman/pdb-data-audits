@@ -1,0 +1,10 @@
+subset	term	OR	lo	hi	p	n	codes
+all	Intercept	0.05	0.04	0.07	1.6e-112	8342	901
+all	"C(birth_batch, Treatment(""recorded""))[T.linked_other]"	1.63	0.74	3.6	0.23	8342	901
+all	"C(birth_batch, Treatment(""recorded""))[T.missed]"	8.8	3.37	22.97	9e-06	8342	901
+all	"C(birth_batch, Treatment(""recorded""))[T.mixed]"	0.33	0.23	0.47	2.1e-09	8342	901
+all	"C(birth_batch, Treatment(""recorded""))[T.unbonded]"	3.73	2.38	5.86	1e-08	8342	901
+all	"C(site, Treatment(""RCSB""))[T.PDBC]"	2.18	1.19	4.0	0.012	8342	901
+all	"C(site, Treatment(""RCSB""))[T.PDBE]"	0.71	0.53	0.95	0.021	8342	901
+all	"C(site, Treatment(""RCSB""))[T.PDBJ]"	2.11	1.48	3.0	3.4e-05	8342	901
+all	yearc	1.06	1.03	1.08	1.1e-05	8342	901
