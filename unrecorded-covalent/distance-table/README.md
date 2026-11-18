@@ -7,3 +7,5 @@ The scripts compare protein–ligand distances with the MAXIT processing windows
 Note (all versions): [10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881).
 
 Scripts and uncompressed tables at or under 1 MiB are copied byte-for-byte from `Varman_PDB_bond_records_v1.1_supplementary.zip` on Zenodo record 24295951, the latest version of the note. The gzipped archive scans stay in the zip.
+
+`verify_counts.py` needs the full bundle. Download `Varman_PDB_bond_records_v1.1_supplementary.zip` from the Zenodo record [10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881), unzip it, and run the script there. It crashes from this repository copy because the gzipped scans and `sources/` stayed in the zip.
