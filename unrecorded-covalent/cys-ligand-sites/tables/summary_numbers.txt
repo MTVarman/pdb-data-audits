@@ -1,0 +1,118 @@
+# Cys SG - ligand C contacts, nearest ligand per Cys, 1.60-2.40 A
+DRUGLIKE (other_ligand + named_drug): contacts 4249, entries 2516 | 1.60-<2.00: 3897/4094 (95.2%) | 2.00-<2.10: 27/69 (39.1%) | 2.10-2.40: 26/86 (30.2%)
+named_drug only: contacts 169, entries 104 | 1.60-<2.00: 141/164 (86.0%) | 2.00-<2.10: 0/2 (0.0%) | 2.10-2.40: 0/3 (0.0%)
+additive_or_thiol (C partner): contacts 141, entries 78 | 1.60-<2.00: 36/140 (25.7%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/1 (0.0%)
+lipid_acyl_coa: contacts 244, entries 41 | 1.60-<2.00: 208/244 (85.2%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+flavin: contacts 131, entries 79 | 1.60-<2.00: 114/120 (95.0%) | 2.00-<2.10: 2/8 (25.0%) | 2.10-2.40: 0/3 (0.0%)
+heme_porphyrin (in-sample control): contacts 3310, entries 290 | 1.60-<2.00: 3019/3019 (100.0%) | 2.00-<2.10: 0/136 (0.0%) | 2.10-2.40: 0/155 (0.0%)
+bilin (in-sample control): contacts 11273, entries 169 | 1.60-<2.00: 9133/10587 (86.3%) | 2.00-<2.10: 39/181 (21.5%) | 2.10-2.40: 34/505 (6.7%)
+pyp_chromophore: contacts 90, entries 84 | 1.60-<2.00: 89/90 (98.9%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  DRUGLIKE sensitivity [excl. bonded_elsewhere]: n=4235 | 1.60-<2.00: 3897/4080 (95.5%) | 2.00-<2.10: 27/69 (39.1%) | 2.10-2.40: 26/86 (30.2%)
+  DRUGLIKE sensitivity [X-ray only]: n=4111 | 1.60-<2.00: 3760/3956 (95.0%) | 2.00-<2.10: 27/69 (39.1%) | 2.10-2.40: 26/86 (30.2%)
+  DRUGLIKE sensitivity [full occupancy both]: n=3599 | 1.60-<2.00: 3291/3460 (95.1%) | 2.00-<2.10: 26/66 (39.4%) | 2.10-2.40: 24/73 (32.9%)
+  DRUGLIKE sensitivity [no altloc either]: n=3926 | 1.60-<2.00: 3603/3783 (95.2%) | 2.00-<2.10: 27/67 (40.3%) | 2.10-2.40: 26/76 (34.2%)
+  DRUGLIKE sensitivity [same asymmetric unit (sym_image 0)]: n=4249 | 1.60-<2.00: 3897/4094 (95.2%) | 2.00-<2.10: 27/69 (39.1%) | 2.10-2.40: 26/86 (30.2%)
+
+# DRUGLIKE 0.05 A bins (recorded/count)
+  [1.6, 1.65): 136/148  91.9%
+  [1.65, 1.7): 192/200  96.0%
+  [1.7, 1.75): 232/235  98.7%
+  [1.75, 1.8): 1445/1531  94.4%
+  [1.8, 1.85): 1473/1523  96.7%
+  [1.85, 1.9): 271/284  95.4%
+  [1.9, 1.95): 98/111  88.3%
+  [1.95, 2.0): 50/62  80.6%
+  [2.0, 2.05): 20/44  45.5%
+  [2.05, 2.1): 7/25  28.0%
+  [2.1, 2.15): 10/25  40.0%
+  [2.15, 2.2): 6/13  46.2%
+  [2.2, 2.25): 3/14  21.4%
+  [2.25, 2.3): 4/13  30.8%
+  [2.3, 2.35): 2/11  18.2%
+  [2.35, 2.4): 1/10  10.0%
+
+# DRUGLIKE 0.01 A bins around the line
+  [1.9, 1.91): 35/38
+  [1.91, 1.92): 24/26
+  [1.92, 1.93): 23/25
+  [1.93, 1.94): 7/9
+  [1.94, 1.95): 9/13
+  [1.95, 1.96): 13/15
+  [1.96, 1.97): 7/8
+  [1.97, 1.98): 12/15
+  [1.98, 1.99): 15/19
+  [1.99, 2.0): 3/5
+  [2.0, 2.01): 6/14
+  [2.01, 2.02): 7/14
+  [2.02, 2.03): 2/7
+  [2.03, 2.04): 3/5
+  [2.04, 2.05): 2/4
+  [2.05, 2.06): 1/3
+  [2.06, 2.07): 0/6
+  [2.07, 2.08): 2/4
+  [2.08, 2.09): 3/7
+  [2.09, 2.1): 1/5
+  exactly 2.000: 2/3 (66.7%) | 1.990-1.999: 3/5 (60.0%) | 2.001-2.010: 6/14 (42.9%)
+
+# DRUGLIKE by processing site
+  BNL: <2.0 23/24 (95.8%); >=2.0 0/0; share of all <2.0 contacts 0.6%; share of <2.0 misses 1/197
+  PDBC: <2.0 233/251 (92.8%); >=2.0 1/2 (50.0%); share of all <2.0 contacts 6.1%; share of <2.0 misses 18/197
+  PDBE: <2.0 1039/1068 (97.3%); >=2.0 10/30 (33.3%); share of all <2.0 contacts 26.1%; share of <2.0 misses 29/197
+  PDBJ: <2.0 429/526 (81.6%); >=2.0 2/22 (9.1%); share of all <2.0 contacts 12.8%; share of <2.0 misses 97/197
+  RCSB: <2.0 2173/2225 (97.7%); >=2.0 40/101 (39.6%); share of all <2.0 contacts 54.3%; share of <2.0 misses 52/197
+
+# heme_porphyrin (in-sample control) normal-length (<2.0) misses by site: total 0
+  BNL: <2.0 54/54 (100.0%); misses 0
+  PDBC: <2.0 2/2 (100.0%); misses 0
+  PDBE: <2.0 926/926 (100.0%); misses 0
+  PDBJ: <2.0 775/775 (100.0%); misses 0
+  RCSB: <2.0 1262/1262 (100.0%); misses 0
+
+# bilin (in-sample control) normal-length (<2.0) misses by site: total 1454
+  BNL: <2.0 23/23 (100.0%); misses 0
+  PDBC: <2.0 247/247 (100.0%); misses 0
+  PDBE: <2.0 457/457 (100.0%); misses 0
+  PDBJ: <2.0 7569/8992 (84.2%); misses 1423
+  RCSB: <2.0 837/868 (96.4%); misses 31
+
+# DRUGLIKE <2.0 recorded by deposition year group
+  <2000: 36/37 (97.3%)
+  2000-2009: 239/270 (88.5%)
+  2010-2014: 363/378 (96.0%)
+  2015-2019: 604/627 (96.3%)
+  2020-2022: 1173/1235 (95.0%)
+  2023-2026: 1482/1547 (95.8%)
+
+# DRUGLIKE >=2.0 recorded by deposition year group
+  <2010: 23/40 (57.5%)
+  2010-2019: 14/49 (28.6%)
+  2020-2026: 16/66 (24.2%)
+
+# Named drugs (all named-drug contacts, C partner, nearest, 1.6-2.4)
+  BTK | acalabrutinib (XQQ): n=1 entries=1 | 1.60-<2.00: 1/1 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  BTK | ibrutinib (1E8): n=4 entries=1 | 1.60-<2.00: 4/4 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  BTK | ibrutinib (bound form) (8E8): n=3 entries=3 | 1.60-<2.00: 3/3 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  BTK | zanubrutinib (BA0): n=1 entries=1 | 1.60-<2.00: 1/1 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  EGFR/HER | afatinib (bound form) (0WN): n=3 entries=3 | 1.60-<2.00: 3/3 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  EGFR/HER | dacomitinib (1C9): n=2 entries=1 | 1.60-<2.00: 2/2 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  EGFR/HER | neratinib (bound form) (HKI): n=3 entries=2 | 1.60-<2.00: 3/3 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  EGFR/HER | osimertinib (YY3): n=12 entries=8 | 1.60-<2.00: 11/11 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/1 (0.0%)
+  KRAS G12C | ARS-1620 (91S): n=6 entries=2 | 1.60-<2.00: 6/6 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  KRAS G12C | ARS-853 (5UT): n=1 entries=1 | 1.60-<2.00: 1/1 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  KRAS G12C | MRTX849/adagrasib (6UT0 ligand) (M1X): n=10 entries=3 | 1.60-<2.00: 10/10 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  KRAS G12C | divarasib (bound form) (A1AWR): n=7 entries=5 | 1.60-<2.00: 7/7 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  KRAS G12C | sotorasib (AMG 510, bound form) (MOV): n=7 entries=7 | 1.60-<2.00: 7/7 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+  SARS-CoV-2 Mpro | nirmatrelvir (bound form) (4WI): n=108 entries=65 | 1.60-<2.00: 81/104 (77.9%) | 2.00-<2.10: 0/2 (0.0%) | 2.10-2.40: 0/2 (0.0%)
+  SARS-CoV-2 Mpro | nirmatrelvir (reacted form) (OW1): n=1 entries=1 | 1.60-<2.00: 1/1 (100.0%) | 2.00-<2.10: 0/0 | 2.10-2.40: 0/0
+
+# Cys SG - ligand S (disulfide-type) contacts, nearest per Cys, by category
+  additive_or_thiol: n=318 | 1.60-<2.00: 26/51 (51.0%) | 2.00-<2.10: 129/183 (70.5%) | 2.10-2.40: 24/84 (28.6%)
+  lipid_acyl_coa: n=29 | 1.60-<2.00: 0/1 (0.0%) | 2.00-<2.10: 10/10 (100.0%) | 2.10-2.40: 17/18 (94.4%)
+  metal_containing: n=169 | 1.60-<2.00: 36/61 (59.0%) | 2.00-<2.10: 35/35 (100.0%) | 2.10-2.40: 14/73 (19.2%)
+  other_ligand: n=238 | 1.60-<2.00: 26/29 (89.7%) | 2.00-<2.10: 132/145 (91.0%) | 2.10-2.40: 24/64 (37.5%)
+  all S, finer: [1.6, 1.95): 30/67 (44.8%) | [1.95, 2.0): 58/75 (77.3%) | [2.0, 2.05): 204/249 (81.9%) | [2.05, 2.1): 102/124 (82.3%) | [2.1, 2.2): 62/93 (66.7%) | [2.2, 2.4): 17/146 (11.6%)
+
+# DRUGLIKE contacts below 1.6 A (not in window): 53/78 (67.9%)
+
+Entries scanned: 24144; with any SG contact <=2.6 A to a non-polymer non-metal atom: 3909; symmetry fallback (ASU only): 1
+Processing sites of scanned entries: {'RCSB': 11625, 'PDBE': 7915, 'PDBJ': 3830, 'PDBC': 443, 'BNL': 328, 'NDB': 3}

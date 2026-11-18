@@ -23,6 +23,8 @@ None of the 485 strict sites is reported as a steric-clash outlier in its wwPDB 
 
 135 of the 485 sites (88 entries) did have the bond recorded in an earlier release. A wwPDB revision removed it, mostly on 2024-12-25, 2025-09-17 or 2025-10-01, and nothing re-filed it in any linkage category; 98 of those 135 are density-supported. Details in `unrecorded-covalent/remediation-history/`.
 
+Whether the record is written at all also varies with where the entry was processed and who deposited it. In a 24,144-entry scan of cysteine–ligand contacts, PDBj-processed entries hold 13% of the contacts under 2.0 Å and 97 of the 197 with no bond record, mostly in 2021–2023 depositions; counted once per depositing group the odds ratio against the other sites is 3.6. Two cases hold the chemistry fixed: nirmatrelvir on SARS-CoV-2 Mpro Cys145 is recorded in all 41 entries processed elsewhere and in 6 of 24 contacts at PDBj, and ubiquinone-0 on glyoxylate carboligase Cys588 is recorded 6/6 in 8BEO (PDBe) and 0 of 23 in the three PDBj entries of the same enzyme. The depositing groups differ in both, so site and depositor are not separated. 55 of the 97 PDBj misses sit on cctbx's generic 1.766 Å carbon–sulfur link value, consistent with a link made in refinement that never reached the record. Details in `unrecorded-covalent/cys-ligand-sites/`.
+
 Removed bond records are not only cysteine. Across all 811 protein–ligand covalent sites removed by wwPDB revisions since May 2024 (archive-wide, from the Protenix training-set diff), 23 density-supported non-cysteine covalent sites on real drug targets lost their record, including a ligand bonded to the mutant Asp12 of KRAS G12D (8JHL), HIV-1 reverse transcriptase Lys102 and Tyr181, GSTP1 Tyr109 and 14-3-3σ Lys122. Details in `unrecorded-covalent/reactive-residues/`.
 
 ## Layout
@@ -39,6 +41,7 @@ unrecorded-covalent/
   reactive-residues/         811 archive-removed covalent sites classified; 23 non-Cys covalent sites on drug targets
   clash-misclassification/   why zero clash outliers: probe's distance-based bond perception
   two-rulers/                the 2.01 Å validator line and the 2.0 Å record line, archive-wide; 132 density-supported Cys adducts past 2 Å
+  cys-ligand-sites/          the same two lines for drugs and substrates on cysteine, 24,144 entries; the PDBj concentration, per-depositor counts, two matched cases
   validator-merge/           decision spec for merging resolution / occupancy / altloc gates into the triage
 lp-pdbbind-label-conflicts/  11 identical-ligand twins labelled both covalent and non-covalent (issue #8, as filed)
 rascore/                     KRAS switch-state table after correcting silent wildtype mislabels (issue #2)
@@ -72,6 +75,14 @@ Kept in sync with the table on [github.com/MTVarman](https://github.com/MTVarman
 | Oct 2026 | Identical ligand on the same protein labelled both covalent and non-covalent, 11 entries | [THGLab/LP-PDBBind #8](https://github.com/THGLab/LP-PDBBind/issues/8) |
 | Oct 2026 | Mutation status defaults to wildtype when the mutated residue isn't modeled (38 chains, mostly KRAS Q61H) | [mitch-parker/rascore #2](https://github.com/mitch-parker/rascore/issues/2) |
 | Oct 2026 | *Silent Mutation Misclassification and Unrecorded Covalent Bonds in the Protein Data Bank* (preprint) | [Zenodo 10.5281/zenodo.23380304](https://doi.org/10.5281/zenodo.23380304) |
+| Oct 2026 | *Co-folding models execute covalent bonds they do not propose, and pose RMSD certifies the difference away* (preprint) | [Zenodo 10.5281/zenodo.23763023](https://doi.org/10.5281/zenodo.23763023) |
+| Nov 2026 | *Two default metal restraints in cctbx/PHENIX and their exact-value fingerprints in the Protein Data Bank* (technical note) | [Zenodo 10.5281/zenodo.24150338](https://doi.org/10.5281/zenodo.24150338) |
+| Nov 2026 | *Anchor bonds of heme c and light-sensing pigments that are missing from Protein Data Bank connectivity records* (technical note) | [Zenodo 10.5281/zenodo.24153068](https://doi.org/10.5281/zenodo.24153068) |
+| Nov 2026 | *Undeclared substitutions in PDB entries do not track source organism; reference curation does* (preprint) | [Zenodo 10.5281/zenodo.24194208](https://doi.org/10.5281/zenodo.24194208) |
+| Nov 2026 | *Protein Data Bank entries whose primary citation has been retracted* (technical note) | [Zenodo 10.5281/zenodo.24211651](https://doi.org/10.5281/zenodo.24211651) |
+| Nov 2026 | *Unrecorded covalent bonds to cysteine concentrate by wwPDB processing site* (dataset; `unrecorded-covalent/cys-ligand-sites/`) | [Zenodo 10.5281/zenodo.24223029](https://doi.org/10.5281/zenodo.24223029) |
+| Nov 2026 | *Bonds inside the processing distance window that the Protein Data Bank still leaves unrecorded, and how much of them the ligand code's history predicts* (technical note, v1.1) | [Zenodo 10.5281/zenodo.24285353](https://doi.org/10.5281/zenodo.24285353) |
+| Nov 2026 | *Protein–ligand bond records in the Protein Data Bank follow a distance table in its processing software* (technical note) | [Zenodo 10.5281/zenodo.24295881](https://doi.org/10.5281/zenodo.24295881) |
 
 ## Verify
 
